@@ -193,6 +193,11 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
+  // --- ARREGLO: Mover helpers al inicio ---
+  const $ = sel => document.querySelector(sel);
+  const $$ = sel => [...document.querySelectorAll(sel)];
+  // --- FIN ARREGLO ---
+
   const LS_KEY = 'rafa_cnv_cards_v1';
   const STATS_KEY = 'rafa_cnv_stats_v1';
   const SESS_KEY = 'rafa_cnv_sessions_v1';
@@ -221,16 +226,19 @@ document.addEventListener('DOMContentLoaded', () => {
   async function tryLoadFromURL() {
       let loadedCount = 0;
       autoLoadStatus.innerHTML = 'Intentando carga automática...';
+      
+      let cardsLoaded = cards.length > 0;
+      let distractorsLoaded = distPool.length > 0;
 
       for (const file of filesToLoad) {
           // Si el array ya tiene datos, saltamos la carga
-          if (file.target.length > 0) {
-              autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Datos ya cargados en el navegador.</span>`;
+          if ((file.key === LS_KEY && cardsLoaded) || (file.key === DIST_KEY && distractorsLoaded)) {
               continue;
           }
 
           try {
-              const response = await fetch(file.url);
+              // Añadir un parámetro 'cache-bust' para evitar la caché de GitHub Pages
+              const response = await fetch(`${file.url}?t=${new Date().getTime()}`);
               if (response.ok) {
                   const data = await response.json();
                   if (Array.isArray(data) && data.length > 0) {
@@ -248,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       
       if (loadedCount > 0) {
-          autoLoadStatus.innerHTML = `<span style="color:var(--accent)">&#9888; Carga automática de ${loadedCount} archivo(s) exitosa.</span>`;
+          autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Carga automática de ${loadedCount} archivo(s) exitosa.</span>`;
       } else if (cards.length > 0 || distPool.length > 0) {
           autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Datos de sesión cargados.</span>`;
       } else {
@@ -263,10 +271,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Iniciar la carga al cargar la página
   tryLoadFromURL();
 
-
-  // UI helpers
-  const $ = sel => document.querySelector(sel);
-  const $$ = sel => [...document.querySelectorAll(sel)];
+  // --- UI helpers (YA ESTÁN ARRIBA) ---
+  // const $ = sel => document.querySelector(sel);
+  // const $$ = sel => [...document.querySelectorAll(sel)];
 
   // Tabs
   $$('.tab').forEach(t=>t.addEventListener('click',()=>{
