@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rafa Entrenador CNV</title>
+<style>
+  :root{
+    --bg:#0b1020; --panel:#121833; --muted:#9aa4bf; --text:#eaf0ff; --accent:#7bdcf5; --good:#38d39f; --bad:#ff7b7b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background:linear-gradient(180deg,#0b1020,#090d1a 40%,#0b1020); color:var(--text); min-height:100vh;}
+  header{display:flex; gap:12px; align-items:center; padding:16px 20px; position:sticky; top:0; background:#0b1020e6; backdrop-filter:blur(6px); border-bottom:1px solid #1f2747; z-index: 10;}
+  header h1{font-size:18px; margin:0; letter-spacing:.3px}
+  .caps{padding:6px 10px; background:#0d1430; border:1px solid #1f2747; border-radius:10px; color:var(--muted); font-size:12px}
+  main{max-width:980px; margin:22px auto; padding:0 16px 40px 16px}
+  .tabs{display:flex; gap:8px; flex-wrap:wrap}
+  .tab{cursor:pointer; padding:10px 14px; border-radius:999px; background:#0e1533; border:1px solid #1f2747; color:var(--muted); user-select:none; transition: all .15s ease;}
+  .tab:hover{background:var(--panel); border-color:#2a3460}
+  .tab.active{background:var(--accent); color:#0b1020; border-color:var(--accent); font-weight:600;}
+  section{display:none; margin-top:16px; background:var(--panel); border:1px solid #1f2747; border-radius:16px; padding:18px}
+  section.active{display:block}
+  textarea,input,select,button{font:inherit}
+  textarea{width:100%; min-height:180px; background:#0e1430; color:var(--text); border:1px solid #2a3460; border-radius:12px; padding:12px; resize:vertical}
+  .row{display:flex; gap:12px; flex-wrap:wrap; align-items:center}
+  .pill{padding:8px 12px; border-radius:999px; border:1px solid #2a3460; background:#0e1533; color:var(--text)}
+  .btn{cursor:pointer; padding:10px 14px; border-radius:12px; background:#0e88ff; border:none; color:white; font-weight:600; box-shadow:0 8px 20px #0e88ff33; transition: all .15s ease;}
+  .btn:hover{filter:brightness(1.2)}
+  .btn:active{transform:scale(.97)}
+  .btn.secondary{background:#23305e; box-shadow:none}
+  .btn.ghost{background:transparent; border:1px solid #2a3460; color:var(--muted)}
+  .btn.good{background:var(--good); color:#0b1020; box-shadow:0 8px 20px #38d39f33} .btn.bad{background:var(--bad); color:#0b1020; box-shadow:0 8px 20px #ff7b7b33}
+  .grid{display:grid; gap:14px}
+  .two{grid-template-columns:1fr 1fr}
+  .card{background:#0e1430; border:1px solid #2a3460; border-radius:14px; padding:14px}
+  .q{font-size:20px; line-height:1.35; color:var(--accent);}
+  .a{margin-top:10px; padding:10px 12px; border-radius:10px; background:#0b112b; border:1px dashed #32407a}
+  .muted{color:var(--muted); font-size:13px}
+  .mono{font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;}
+  .chips{display:flex; gap:8px; flex-wrap:wrap}
+  .chip{font-size:12px; padding:6px 10px; border-radius:999px; background:#0b112b; border:1px solid #293668; color:#cfe1ff}
+  .stats{display:flex; gap:16px; flex-wrap:wrap}
+  .stat{padding:10px 12px; border-radius:12px; background:#0b112b; border:1px solid #293668}
+  .hidden{display:none}
+  .opt{display:block;margin:6px 0;padding:10px 12px;border-radius:10px;border:1px solid #2a3460;background:#0b112b}
+  .btn.opt{display:block;width:100%;text-align:left;margin:6px 0; background:#0e1533; border:1px solid #2a3460; box-shadow:none; color:var(--text)}
+  .btn.opt:hover{background:var(--panel); border:1px solid var(--accent)}
+  .btn.opt:disabled{background:var(--panel); border-color:#2a3460; opacity: 0.8;}
+  input[type="file"]{font-size:12px; background:#0b112b; border-color:#293668; color:var(--muted);}
+  
+  /* --- REGLA RESPONSIVE (Goal 2) --- */
+  @media(max-width: 600px){
+    .two{grid-template-columns:1fr}
+    .tabs{justify-content:center}
+    header h1{font-size:16px;}
+    .row{justify-content:center;}
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Rafa Entrenador CNV</h1>
+    <span class="caps">archivo único – offline</span>
+  </header>
+  <main>
+    <div class="tabs">
+      <div class="tab active" data-tab="preguntas">Preguntas</div>
+      <div class="tab" data-tab="entrenar">Entrenar</div>
+      <div class="tab" data-tab="examen">Examen (Multiple Choice)</div>
+      <div class="tab" data-tab="quiz">Quiz Rápido</div>
+      <div class="tab" data-tab="estadisticas">Estadísticas</div>
+    </div>
+
+    <section id="preguntas" class="active">
+      <div class="grid two">
+        <div class="card">
+          <h3 style="margin-top:0">Cargar banco</h3>
+          <p class="muted">Pega una lista con el formato <span class="mono">Pregunta | Respuesta</span> (una por línea).</p>
+          <textarea id="bulk" placeholder="Pregunta 1 | Respuesta 1&#10;Pregunta 2 | Respuesta 2..."></textarea>
+          <div class="row" style="margin-top:10px; gap:8px;">
+            <button class="btn" id="parse">Agregar</button>
+            <button class="btn ghost" id="clear">Vaciar todo</button>
+          </div>
+           <hr style="border-color:#1f2747; margin: 16px 0 12px;">
+           <p class="muted" style="margin:0 0 8px 0">Carga por archivo (para el caso de que la carga automática haya fallado).</p>
+           <div class="row" style="gap:8px;">
+            <label class="pill" title="Cargar banco_preguntas.json">Preguntas
+              <input type="file" id="importFile" accept="application/json" style="margin-left:8px;" />
+            </label>
+            <label class="pill" title="Cargar distractores.json">Distractores
+              <input type="file" id="importDistractors" accept="application/json" style="margin-left:8px;" />
+            </label>
+          </div>
+           <p id="autoLoadStatus" class="muted" style="margin-top:16px;"></p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Resumen</h3>
+          <div class="stats">
+            <div class="stat">Tarjetas: <b id="count">0</b></div>
+            <div class="stat">Distractores: <b id="distCount">0</b></div>
+            <div class="stat">Repasos hoy: <b id="today">0</b></div>
+            <div class="stat">Aciertos: <b id="hits">0</b></div>
+            <div class="stat">Errores: <b id="miss">0</b></div>
+          </div>
+          <p class="muted" style="margin-top:10px">Los datos se guardan SÓLO en este navegador. Usá Backup para mover tu progreso.</p>
+          <div id="preview" class="chips" style="margin-top:10px"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="entrenar">
+      <div class="row" style="justify-content:space-between">
+        <div class="chips">
+          <span class="chip">Aleatorio ponderado (SRS light)</span>
+          <span class="chip">Mostrar respuesta con clic</span>
+        </div>
+        <div class="chips">
+          <button class="btn secondary" id="skip">Saltar</button>
+          <button class="btn ghost" id="resetSRS">Reiniciar pesos</button>
+        </div>
+      </div>
+      <div class="card" style="margin-top:12px; cursor:pointer;" id="flashcard">
+        <div class="q" id="qText">Cargá preguntas en la pestaña “Preguntas” 🙂</div>
+        <div class="a hidden" id="aBox">
+          <div id="aText"></div>
+          <div class="row" style="margin-top:10px; justify-content:flex-end;">
+            <button class="btn good" id="good">¡Bien!</button>
+            <button class="btn bad" id="again">Más práctica</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="examen">
+      <div class="row">
+        <label class="pill"># de preguntas
+          <select id="examCount" style="margin-left:8px; background:transparent; border:none; color:var(--text)">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <label class="pill">Opciones por pregunta
+          <select id="optCount" style="margin-left:8px; background:transparent; border:none; color:var(--text)">
+            <option value="3">3</option>
+            <option value="4" selected>4</option>
+            <option value="5">5</option>
+          </select>
+        </label>
+        <button class="btn" id="startExam">Iniciar Examen</button>
+      </div>
+      <p class="muted" style="margin:8px 0 0">Las opciones incorrectas se generan a partir de los "Distractores".</p>
+      <div id="examBox" class="hidden" style="margin-top:12px; background:transparent; border:none; padding:0;"></div>
+      <div id="examResult" class="card hidden" style="margin-top:12px"></div>
+    </section>
+
+    <section id="quiz">
+      <div class="row">
+        <button class="btn" id="startQuick">Comenzar Quiz (1 min)</button>
+        <div id="quickTimer" class="pill hidden" style="font-size: 1.1em; color:var(--accent); min-width:60px; text-align:center;">01:00</div>
+        <div class="pill">Puntaje: <b id="quickScore">0</b></div>
+      </div>
+      <div id="quickBox" class="card" style="margin-top:12px">
+        <div class="muted">Se te harán preguntas al azar una por vez. ¡Responde lo más rápido posible!</div>
+      </div>
+    </section>
+
+    <section id="estadisticas">
+      <div class="grid two">
+        <div class="card">
+          <h3 style="margin-top:0">Progreso</h3>
+          <p class="muted">Historial simple de aciertos/errores y sesiones de examen.</p>
+          <div id="log" class="mono" style="white-space:pre-wrap; font-size:12px; max-height: 200px; overflow-y:auto; background:#0b112b; padding: 8px; border-radius: 8px;"></div>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Backup (Importante)</h3>
+          <p class="muted">El banco de preguntas y tu progreso se guardan SÓLO en este navegador. Exportá un backup para no perderlo o moverlo a otra compu.</p>
+          <div class="row">
+            <button class="btn secondary" id="backup">Exportar todo (.json)</button>
+            <label class="pill" title="Restaurar backup">Restaurar
+              <input type="file" id="restore" accept="application/json" style="margin-left:8px;" />
+            </label>
+          </div>
+          <hr style="border-color:#1f2747; margin: 16px 0 12px;">
+          <h3 style="margin-top:0">Resetear</h3>
+          <p class="muted">Esto borra solo el historial de exámenes. No borra las preguntas.</p>
+          <button class="btn bad" id="resetExamStats">Resetear Estadísticas Examen</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  const LS_KEY = 'rafa_cnv_cards_v1';
+  const STATS_KEY = 'rafa_cnv_stats_v1';
+  const SESS_KEY = 'rafa_cnv_sessions_v1';
+  const DIST_KEY = 'rafa_cnv_dist_pool_v1';
+
+  let cards = load(LS_KEY, []);
+  let stats = load(STATS_KEY, {hits:0, miss:0, today:0, lastReset: new Date().toDateString()});
+  let sessions = load(SESS_KEY, []);
+  let distPool = load(DIST_KEY, []);
+  let current = null; // index
+  
+  // Resetea "repasos hoy" si es un nuevo día
+  if(stats.lastReset !== new Date().toDateString()){
+    stats.today = 0;
+    stats.lastReset = new Date().toDateString();
+    save(STATS_KEY, stats);
+  }
+
+  // --- LÓGICA DE CARGA AUTOMÁTICA (Goal: LLAMAR A ARCHIVOS) ---
+  const autoLoadStatus = $('#autoLoadStatus');
+  const filesToLoad = [
+      { key: LS_KEY, url: 'banco_preguntas.json', name: 'Preguntas', target: cards },
+      { key: DIST_KEY, url: 'distractores.json', name: 'Distractores', target: distPool }
+  ];
+
+  async function tryLoadFromURL() {
+      let loadedCount = 0;
+      autoLoadStatus.innerHTML = 'Intentando carga automática...';
+
+      for (const file of filesToLoad) {
+          // Si el array ya tiene datos, saltamos la carga
+          if (file.target.length > 0) {
+              autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Datos ya cargados en el navegador.</span>`;
+              continue;
+          }
+
+          try {
+              const response = await fetch(file.url);
+              if (response.ok) {
+                  const data = await response.json();
+                  if (Array.isArray(data) && data.length > 0) {
+                      localStorage.setItem(file.key, JSON.stringify(data));
+                      // Actualizar las variables globales con la data cargada
+                      if (file.key === LS_KEY) cards = data;
+                      if (file.key === DIST_KEY) distPool = data;
+                      loadedCount++;
+                      console.log(`${file.name} cargados desde URL.`);
+                  }
+              }
+          } catch (error) {
+              console.warn(`No se pudo cargar ${file.url}. Asegúrate de que exista y sea un JSON válido.`, error);
+          }
+      }
+      
+      if (loadedCount > 0) {
+          autoLoadStatus.innerHTML = `<span style="color:var(--accent)">&#9888; Carga automática de ${loadedCount} archivo(s) exitosa.</span>`;
+      } else if (cards.length > 0 || distPool.length > 0) {
+          autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Datos de sesión cargados.</span>`;
+      } else {
+          autoLoadStatus.innerHTML = `<span style="color:var(--bad)">&#10007; Archivos no encontrados o vacíos. Usá la carga manual (o pegá texto).</span>`;
+      }
+
+      // Volver a renderizar después de la carga
+      renderBank();
+      pick();
+  }
+  
+  // Iniciar la carga al cargar la página
+  tryLoadFromURL();
+
+
+  // UI helpers
+  const $ = sel => document.querySelector(sel);
+  const $$ = sel => [...document.querySelectorAll(sel)];
+
+  // Tabs
+  $$('.tab').forEach(t=>t.addEventListener('click',()=>{
+    $$('.tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    const id = t.dataset.tab; 
+    $$('section').forEach(s=>s.classList.remove('active'));
+    $('#'+id).classList.add('active');
+  }));
+
+  // --- BANCO ---
+  function renderBank(){
+    $('#count').textContent = cards.length; 
+    $('#distCount').textContent = distPool.length || 0;
+    $('#hits').textContent = stats.hits; 
+    $('#miss').textContent = stats.miss; 
+    $('#today').textContent = stats.today;
+    const prev = $('#preview'); prev.innerHTML='';
+    cards.slice(-12).reverse().forEach(c=>{
+      const div = document.createElement('div');
+      div.className='chip';
+      div.textContent = c.q.slice(0,80);
+      prev.appendChild(div);
+    })
+  }
+
+  $('#parse').addEventListener('click',()=>{
+    const raw = $('#bulk').value.trim();
+    if(!raw) return;
+    const lines = raw.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+    const newCards = [];
+    let added = 0;
+    for(const ln of lines){
+      const [q,a] = ln.split(/\s*[|;]\s*/);
+      if(q && a){ 
+        if(!cards.find(c => c.q === q)){ // Evitar duplicados
+          newCards.push({q,a, w:1}); 
+          added++;
+        }
+      }
+    }
+    if(!newCards.length){ alert('No se encontraron nuevos pares "Pregunta | Respuesta" válidos.'); return; }
+    cards = cards.concat(newCards);
+    save(LS_KEY,cards); $('#bulk').value=''; renderBank();
+    alert(`¡Se agregaron ${added} tarjetas nuevas!`);
+  });
+
+  $('#clear').addEventListener('click',()=>{
+    if(confirm('¿Estás seguro de que querés borrar TODAS las tarjetas, distractores y estadísticas? Esta acción no se puede deshacer.')){ 
+      cards=[]; save(LS_KEY,cards); 
+      distPool=[]; save(DIST_KEY, distPool);
+      stats={hits:0, miss:0, today:0, lastReset: new Date().toDateString()}; save(STATS_KEY, stats);
+      sessions=[]; save(SESS_KEY, sessions);
+      renderBank(); 
+      renderLog();
+      alert('Todo reseteado. Recargá la página para intentar la carga automática de archivos.');
+    }
+  });
+
+  $('#importFile').addEventListener('change',e=>{
+    const f=e.target.files[0]; if(!f) return; const r=new FileReader();
+    r.onload=()=>{ try{ 
+      const newCards = JSON.parse(r.result);
+      if (!Array.isArray(newCards)) throw new Error('El JSON debe ser un array');
+      cards=newCards; 
+      save(LS_KEY,cards); 
+      renderBank(); 
+      alert(`Banco de ${cards.length} preguntas cargado.`);
+    }catch(err){alert('JSON inválido. Error: ' + err.message)} };
+    r.readAsText(f);
+    e.target.value = null; // Permite recargar el mismo archivo
+  });
+  
+  $('#importDistractors').addEventListener('change',e=>{
+    const f=e.target.files[0]; if(!f) return; const r=new FileReader();
+    r.onload=()=>{ try{ 
+      const arr=JSON.parse(r.result); 
+      if(Array.isArray(arr)){ 
+        distPool = arr.filter(x=>typeof x==='string'); 
+        save(DIST_KEY,distPool); 
+        renderBank(); 
+        alert(`Pool de ${distPool.length} distractores cargado.`);
+      } else { alert('El archivo de distractores debe ser un array de textos.'); } 
+    }catch(err){alert('JSON inválido. Error: ' + err.message)} };
+    r.readAsText(f);
+    e.target.value = null;
+  });
+
+  // --- ENTRENAR (Flashcards) ---
+  function pick(){
+    if(!cards.length || cards[0].q === '¡Datos no cargados!'){ $('#qText').textContent='Cargá preguntas en "Preguntas" o revisá el script.'; return; }
+    const weights = cards.map(c=>Math.max(1, 11 - (c.w||1))); 
+    const sum = weights.reduce((a,b)=>a+b,0);
+    let r = Math.random()*sum; let idx=0;
+    for(let i=0;i<weights.length;i++){ r-=weights[i]; if(r<=0){ idx=i; break; } }
+    current = idx;
+    $('#qText').textContent = cards[idx].q;
+    $('#aText').textContent = cards[idx].a;
+    $('#aBox').classList.add('hidden');
+  }
+
+  $('#flashcard').addEventListener('click',(e)=>{
+    if(e.target.closest('button')) return;
+    $('#aBox').classList.toggle('hidden');
+  });
+  $('#skip').addEventListener('click',pick);
+  $('#resetSRS').addEventListener('click',()=>{ 
+    if(confirm('¿Reiniciar el progreso de todas las tarjetas? Volverán a aparecer más seguido.')){
+      cards.forEach(c=>c.w=1); save(LS_KEY,cards); alert('Pesos reiniciados'); 
+      renderBank();
+      pick();
+    }
+  });
+
+  $('#good').addEventListener('click',()=>{
+    if(current==null) return; 
+    cards[current].w = Math.min(10,(cards[current].w||1)+1);
+    stats.hits++; stats.today++; saveAll(); pick();
+  });
+  $('#again').addEventListener('click',()=>{
+    if(current==null) return; 
+    cards[current].w = Math.max(1,(cards[current].w||1)-1);
+    stats.miss++; stats.today++; saveAll(); pick();
+  });
+
+  // --- EXAMEN (Multiple Choice) ---
+  let examState=null;
+  $('#startExam').addEventListener('click',()=>{
+    const n = Math.min(parseInt($('#examCount').value||20,10), cards.length);
+    const optN = Math.max(2, parseInt($('#optCount').value||4,10));
+    
+    const uniqueAnswers = new Set(cards.map(c=>c.a));
+    const distPoolSize = (distPool && distPool.length > 1) ? distPool.length : uniqueAnswers.size;
+
+    if(!n || !cards.length || cards[0].q === '¡Datos no cargados!' || distPoolSize < optN) {
+      return alert(`No hay suficientes preguntas o distractores. (Necesitas ${n} preguntas y al menos ${optN} respuestas únicas o un pool de ${optN} distractores). Cargá los archivos.`);
+    }
+
+    const idxs = shuffle([...cards.keys()]).slice(0,n);
+    examState = idxs.map(i=>{
+      const correct = cards[i].a;
+      const options = [correct, ...buildDistractors(correct, optN-1)];
+      return {i, q:cards[i].q, a:correct, options: shuffle(options), pick:null};
+    });
+    renderExam();
+  });
+
+  function buildDistractors(correct, k){
+    let pool = (distPool && distPool.length > 1) ? distPool.slice() : cards.map(c=>c.a);
+    const bad = /^(verdadero|falso|si|no)$/i;
+    pool = pool.filter(x=>{
+      if(!x) return false; const t = x.trim();
+      const n = normalize(t);
+      if(n===normalize(correct)) return false; 
+      if(bad.test(t)) return false; 
+      if(/[?¿]$/.test(t)) return false; 
+      if(/^[-•●▪◦]/.test(t)) return false; 
+      if(t.length<5 || t.length>220) return false; 
+      return true;
+    });
+    
+    const base = normalize(correct).split(' ').filter(w=>w.length>4);
+    const scored = pool.map(p=>{
+      const pn = normalize(p);
+      const overlap = base.filter(w=>pn.includes(w)).length;
+      const lenratio = Math.min(p.length, correct.length)/Math.max(p.length, correct.length);
+      return {p, score: overlap*2 + lenratio}; 
+    }).sort((a,b)=>b.score-a.score);
+    
+    return shuffle(scored.slice(0,200).map(x=>x.p)).slice(0,k);
+  }
+  
+  function renderExam(){
+    $('#examBox').classList.remove('hidden'); $('#examResult').classList.add('hidden');
+    $('#examBox').innerHTML = examState.map((e,ix)=>{
+      const opts = e.options.map((o,k)=>`<label class=\"opt\"><input type=\"radio\" name=\"q${ix}\" value=\"${escapeHtml(o)}\"> ${escapeHtml(o)}</label>`).join('');
+      return `<div class=\"card\" style=\"margin:10px 0\">
+        <div class=\"q\"><b>${ix+1}.</b> ${escapeHtml(e.q)}</div>
+        <div style="margin-top:12px">${opts}</div>
+      </div>`;
+    }).join('') + `<div class=\"row\" style=\"justify-content:flex-end; padding:10px 0;\"><button class=\"btn\" id=\"finishExam\">Finalizar y Corregir</button></div>`;
+    $('#finishExam').addEventListener('click', finishExam);
+  }
+
+  function finishExam(){
+    examState.forEach((e,ix)=>{
+      const sel = document.querySelector(`input[name=\"q${ix}\"]:checked`);
+      e.pick = sel ? sel.value : null;
+    });
+    let ok=0; 
+    examState.forEach(e=>{ 
+      if(smartCompare(e.pick, e.a)) ok++; 
+      // Actualizar pesos SRS
+      const card = cards[e.i];
+      if(smartCompare(e.pick, e.a)){
+        card.w = Math.min(10,(card.w||1)+1); stats.hits++;
+      } else {
+        card.w = Math.max(1,(card.w||1)-1); stats.miss++;
+      }
+    });
+    stats.today += examState.length;
+    saveAll(); renderBank();
+
+    const score = Math.round((ok/examState.length)*100);
+    const review = examState.map((e,ix)=>{
+      const corr = smartCompare(e.pick, e.a);
+      return `<div class=\"card\" style=\"margin:8px 0; border: 1px solid ${corr?'var(--good)':'var(--bad)'};\">
+        <div style="font-weight:bold;"><b>${ix+1}.</b> ${escapeHtml(e.q)}</div>
+        <div class=\"muted\" style="margin-top:8px; padding: 4px 8px; border-radius:4px; background:${corr?'#193c2e':'#3c1919'}">Tu opción: ${escapeHtml(e.pick||'—')}</div>
+        ${corr ? '' : `<div style="margin-top:4px; padding: 4px 8px; border-radius:4px; background:#193c2e;">Correcta: <span class=\"mono\">${escapeHtml(e.a)}</span></div>`}
+      </div>`;
+    }).join('');
+    
+    $('#examBox').classList.add('hidden');
+    $('#examResult').classList.remove('hidden');
+    $('#examResult').innerHTML = `<h3 style=\"margin:0 0 6px 0\">Resultado: ${score}%</h3>
+      <p class=\"muted\">Aciertos ${ok}/${examState.length}</p>
+      ${review}
+      <div class=\"row\" style=\"justify-content:flex-end; margin-top:10px\">
+        <button class=\"btn\" id=\"retryExam\">Otra tanda al azar</button>
+      </div>`;
+    $('#retryExam').addEventListener('click',()=>$('#startExam').click());
+    sessions.push({ts:Date.now(), n:examState.length, score}); save(SESS_KEY,sessions); renderLog();
+    window.scrollTo(0,0);
+  }
+
+  // --- QUIZ RÁPIDO ---
+  let quickTimer=null, quickLeft=60, quickScore=0, quickQ=null;
+
+  function endQuick(){ 
+    $('#quickBox').innerHTML = `<b>¡Tiempo!</b> Puntaje final: ${quickScore}.`; 
+    $('#quickTimer').classList.add('hidden');
+    $('#startQuick').classList.remove('hidden');
+  }
+
+  function renderQuickQuestion() {
+    if (!quickQ) return;
+    const opts = quickQ.options.map(o => 
+      `<button class="btn opt quick-opt" data-answer="${escapeHtml(o)}">${escapeHtml(o)}</button>`
+    ).join('');
+    $('#quickBox').innerHTML = `
+      <div class="q">${escapeHtml(quickQ.q)}</div>
+      <div class="grid two" style="margin-top:12px">${opts}</div>`;
+    
+    $$('.quick-opt').forEach(btn => btn.addEventListener('click', handleQuickAnswer));
+  }
+
+  function handleQuickAnswer(e) {
+    if (!quickQ || quickLeft <= 0) return;
+    const picked = e.target.dataset.answer;
+    
+    $$('.quick-opt').forEach(btn => btn.disabled = true);
+
+    if (smartCompare(picked, quickQ.a)) {
+      quickScore++;
+      $('#quickScore').textContent = quickScore;
+      e.target.style.background = 'var(--good)';
+      e.target.style.color = '#0b1020';
+    } else {
+      e.target.style.background = 'var(--bad)';
+      e.target.style.color = '#0b1020';
+      const correctBtn = $(`button[data-answer="${escapeHtml(quickQ.a)}"]`);
+      if(correctBtn) {
+        correctBtn.style.background = 'var(--good)';
+        correctBtn.style.color = '#0b1020';
+      }
+    }
+    
+    setTimeout(nextQuick, 400); 
+  }
+
+  function nextQuick(){
+    if (quickLeft <= 0) {
+        if(quickTimer) clearInterval(quickTimer); 
+        endQuick(); 
+        return; 
+    }
+    
+    const i = Math.floor(Math.random()*cards.length);
+    const correct = cards[i].a; const q = cards[i].q;
+    const opts = shuffle([correct, ...buildDistractors(correct, 3)]);
+    quickQ = {q, a:correct, options: opts};
+    renderQuickQuestion();
+  }
+  
+  function tickQuick(){ 
+    const m=Math.floor(quickLeft/60).toString().padStart(2,'0'); 
+    const r=(quickLeft%60).toString().padStart(2,'0'); 
+    $('#quickTimer').textContent=`${m}:${r}`; 
+  }
+  
+  $('#startQuick').addEventListener('click',()=>{
+    const distPoolSize = (distPool && distPool.length > 1) ? distPool.length : new Set(cards.map(c=>c.a)).size;
+    if(cards.length<4 || cards[0].q === '¡Datos no cargados!' || distPoolSize < 4) {
+      return alert('Cargá al menos 4 preguntas y 4 respuestas únicas (o un pool de 4 distractores).');
+    }
+    
+    quickLeft=60; quickScore=0; $('#quickScore').textContent=quickScore; 
+    $('#quickTimer').classList.remove('hidden');
+    $('#startQuick').classList.add('hidden');
+    $('#quickBox').innerHTML = ''; 
+    
+    clearInterval(quickTimer); 
+    tickQuick(); 
+    quickTimer=setInterval(()=>{ 
+      quickLeft--; 
+      tickQuick(); 
+      if(quickLeft<=0){ 
+        clearInterval(quickTimer); 
+        quickLeft=0; 
+        endQuick(); 
+      } 
+    }, 1000);
+    
+    nextQuick();
+  });
+
+
+  // --- ESTADÍSTICAS ---
+  function renderLog(){
+    const lines = [
+      `Tarjetas: ${cards.length} | Distractores: ${distPool.length}`,
+      `Repasos Hoy: ${stats.today} | Total Aciertos: ${stats.hits} | Total Errores: ${stats.miss}`,
+      '--- Historial de Exámenes ---',
+      ...sessions.slice(-20).reverse().map(s=>{
+        const d = new Date(s.ts); 
+        const dd = d.toLocaleDateString()+ ' ' + d.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        return `• ${dd} – ${s.n} preg. – ${s.score}%`;
+      })
+    ];
+    $('#log').textContent = lines.join('\n');
+  }
+
+  $('#backup').addEventListener('click',()=>{
+    const blob = {cards, stats, sessions, distPool};
+    downloadJSON('backup_rafa_cnv_completo.json', blob);
+  });
+  
+  $('#restore').addEventListener('change',e=>{
+    const f=e.target.files[0]; if(!f) return; const r=new FileReader();
+    r.onload=()=>{ try{ 
+      const blob=JSON.parse(r.result); 
+      if(blob.cards){cards=blob.cards;} 
+      if(blob.stats){stats=blob.stats} 
+      if(blob.sessions){sessions=blob.sessions}
+      if(blob.distPool){distPool=blob.distPool}
+      saveAll(); 
+      renderBank(); 
+      renderLog(); 
+      alert('Backup restaurado exitosamente.'); 
+    }catch(err){alert('JSON inválido')} };
+    r.readAsText(f);
+    e.target.value = null;
+  });
+  
+  // --- BOTÓN RESET STATS (Goal 3) ---
+  $('#resetExamStats').addEventListener('click',()=>{
+    if(confirm('¿Borrar todas las estadísticas de exámenes? (Los contadores de Aciertos/Errores y las preguntas NO se borrarán).')){
+      sessions = [];
+      save(SESS_KEY, sessions);
+      renderLog();
+      alert('Estadísticas de exámenes reseteadas.');
+    }
+  });
+
+  // --- Utils ---
+  function load(k,def){ try{ return JSON.parse(localStorage.getItem(k)) ?? def; }catch(_){ return def; } }
+  function save(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); } catch(e){ console.warn("Error guardando en localStorage", e); }}
+  function saveAll(){ save(LS_KEY,cards); save(STATS_KEY,stats); save(SESS_KEY,sessions); save(DIST_KEY, distPool); }
+  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+  function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
+  function downloadJSON(name, obj){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([JSON.stringify(obj,null,2)],{type:'application/json'})); a.download=name; a.click(); URL.revokeObjectURL(a.href); }
+  function normalize(str){ return (str||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim(); }
+  function smartCompare(user, correct){
+    const u=normalize(user), c=normalize(correct);
+    if(!u) return false;
+    if(c.length<=6) return u===c; 
+    if (u === c) return true;
+    
+    if (c.includes('/')) {
+        const correctOptions = c.split('/').map(opt => normalize(opt.trim()));
+        if (correctOptions.includes(u)) return true;
+    }
+    
+    const cw=c.split(' '), uw=u.split(' ');
+    let matched=0; cw.forEach(w=>{ if(uw.includes(w)) matched++; });
+    return (matched/cw.length)>=0.6; 
+  }
+
+});
+</script>
+</body>
+</html>
