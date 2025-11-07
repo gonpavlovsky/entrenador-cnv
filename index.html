@@ -48,7 +48,6 @@
   .btn.opt:disabled{background:var(--panel); border-color:#2a3460; opacity: 0.8;}
   input[type="file"]{font-size:12px; background:#0b112b; border-color:#293668; color:var(--muted);}
   
-  /* --- REGLA RESPONSIVE (Goal 2) --- */
   @media(max-width: 600px){
     .two{grid-template-columns:1fr}
     .tabs{justify-content:center}
@@ -74,21 +73,18 @@
     <section id="preguntas" class="active">
       <div class="grid two">
         <div class="card">
-          <h3 style="margin-top:0">Cargar banco</h3>
-          <p class="muted">Pega una lista con el formato <span class="mono">Pregunta | Respuesta</span> (una por línea).</p>
+          <h3 style="margin-top:0">Cargar banco de Preguntas</h3>
+          <p class="muted">Este modo de carga manual **no** soporta opciones incorrectas. Para eso, modificá y cargá el archivo JSON.</p>
           <textarea id="bulk" placeholder="Pregunta 1 | Respuesta 1&#10;Pregunta 2 | Respuesta 2..."></textarea>
           <div class="row" style="margin-top:10px; gap:8px;">
-            <button class="btn" id="parse">Agregar</button>
+            <button class="btn" id="parse">Agregar (modo simple)</button>
             <button class="btn ghost" id="clear">Vaciar todo</button>
           </div>
            <hr style="border-color:#1f2747; margin: 16px 0 12px;">
            <p class="muted" style="margin:0 0 8px 0">Carga por archivo (para el caso de que la carga automática haya fallado).</p>
            <div class="row" style="gap:8px;">
-            <label class="pill" title="Cargar banco_preguntas.json">Preguntas
+            <label class="pill" title="Cargar banco_preguntas.json">Preguntas (JSON Nuevo)
               <input type="file" id="importFile" accept="application/json" style="margin-left:8px;" />
-            </label>
-            <label class="pill" title="Cargar distractores.json">Distractores
-              <input type="file" id="importDistractors" accept="application/json" style="margin-left:8px;" />
             </label>
           </div>
            <p id="autoLoadStatus" class="muted" style="margin-top:16px;"></p>
@@ -97,7 +93,6 @@
           <h3 style="margin-top:0">Resumen</h3>
           <div class="stats">
             <div class="stat">Tarjetas: <b id="count">0</b></div>
-            <div class="stat">Distractores: <b id="distCount">0</b></div>
             <div class="stat">Repasos hoy: <b id="today">0</b></div>
             <div class="stat">Aciertos: <b id="hits">0</b></div>
             <div class="stat">Errores: <b id="miss">0</b></div>
@@ -149,7 +144,7 @@
         </label>
         <button class="btn" id="startExam">Iniciar Examen</button>
       </div>
-      <p class="muted" style="margin:8px 0 0">Las opciones incorrectas se generan a partir de los "Distractores".</p>
+      <p class="muted" style="margin:8px 0 0">Las opciones incorrectas se toman del archivo JSON de preguntas.</p>
       <div id="examBox" class="hidden" style="margin-top:12px; background:transparent; border:none; padding:0;"></div>
       <div id="examResult" class="card hidden" style="margin-top:12px"></div>
     </section>
@@ -193,20 +188,18 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
-  // --- ARREGLO: Mover helpers al inicio ---
+  // --- UI helpers ---
   const $ = sel => document.querySelector(sel);
   const $$ = sel => [...document.querySelectorAll(sel)];
-  // --- FIN ARREGLO ---
-
-  const LS_KEY = 'rafa_cnv_cards_v1';
-  const STATS_KEY = 'rafa_cnv_stats_v1';
-  const SESS_KEY = 'rafa_cnv_sessions_v1';
-  const DIST_KEY = 'rafa_cnv_dist_pool_v1';
+  
+  const LS_KEY = 'rafa_cnv_cards_v2_mc'; // Cambié la versión de la key
+  const STATS_KEY = 'rafa_cnv_stats_v2_mc';
+  const SESS_KEY = 'rafa_cnv_sessions_v2_mc';
+  // Ya no necesitamos DIST_KEY
 
   let cards = load(LS_KEY, []);
   let stats = load(STATS_KEY, {hits:0, miss:0, today:0, lastReset: new Date().toDateString()});
   let sessions = load(SESS_KEY, []);
-  let distPool = load(DIST_KEY, []);
   let current = null; // index
   
   // Resetea "repasos hoy" si es un nuevo día
@@ -216,51 +209,37 @@ document.addEventListener('DOMContentLoaded', () => {
     save(STATS_KEY, stats);
   }
 
-  // --- LÓGICA DE CARGA AUTOMÁTICA (Goal: LLAMAR A ARCHIVOS) ---
+  // --- LÓGICA DE CARGA AUTOMÁTICA ---
   const autoLoadStatus = $('#autoLoadStatus');
-  const filesToLoad = [
-      { key: LS_KEY, url: 'banco_preguntas.json', name: 'Preguntas', target: cards },
-      { key: DIST_KEY, url: 'distractores.json', name: 'Distractores', target: distPool }
-  ];
 
   async function tryLoadFromURL() {
-      let loadedCount = 0;
-      autoLoadStatus.innerHTML = 'Intentando carga automática...';
-      
-      let cardsLoaded = cards.length > 0;
-      let distractorsLoaded = distPool.length > 0;
-
-      for (const file of filesToLoad) {
-          // Si el array ya tiene datos, saltamos la carga
-          if ((file.key === LS_KEY && cardsLoaded) || (file.key === DIST_KEY && distractorsLoaded)) {
-              continue;
-          }
-
-          try {
-              // Añadir un parámetro 'cache-bust' para evitar la caché de GitHub Pages
-              const response = await fetch(`${file.url}?t=${new Date().getTime()}`);
-              if (response.ok) {
-                  const data = await response.json();
-                  if (Array.isArray(data) && data.length > 0) {
-                      localStorage.setItem(file.key, JSON.stringify(data));
-                      // Actualizar las variables globales con la data cargada
-                      if (file.key === LS_KEY) cards = data;
-                      if (file.key === DIST_KEY) distPool = data;
-                      loadedCount++;
-                      console.log(`${file.name} cargados desde URL.`);
-                  }
-              }
-          } catch (error) {
-              console.warn(`No se pudo cargar ${file.url}. Asegúrate de que exista y sea un JSON válido.`, error);
-          }
+      // Si ya hay tarjetas, no hacer nada
+      if (cards.length > 0) {
+          autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Datos ya cargados en el navegador.</span>`;
+          renderBank();
+          pick();
+          return;
       }
       
-      if (loadedCount > 0) {
-          autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Carga automática de ${loadedCount} archivo(s) exitosa.</span>`;
-      } else if (cards.length > 0 || distPool.length > 0) {
-          autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Datos de sesión cargados.</span>`;
-      } else {
-          autoLoadStatus.innerHTML = `<span style="color:var(--bad)">&#10007; Archivos no encontrados o vacíos. Usá la carga manual (o pegá texto).</span>`;
+      autoLoadStatus.innerHTML = 'Intentando carga automática de `banco_preguntas.json`...';
+      
+      try {
+          const response = await fetch(`banco_preguntas.json?t=${new Date().getTime()}`);
+          if (response.ok) {
+              const data = await response.json();
+              if (Array.isArray(data) && data.length > 0) {
+                  cards = data;
+                  save(LS_KEY, cards); // Guardar en localStorage
+                  autoLoadStatus.innerHTML = `<span style="color:var(--good)">&#10003; Carga automática de ${cards.length} preguntas exitosa.</span>`;
+              } else {
+                  throw new Error("El JSON está vacío o no es un array.");
+              }
+          } else {
+              throw new Error(`Error ${response.status}: No se encontró el archivo.`);
+          }
+      } catch (error) {
+          console.warn(`No se pudo cargar 'banco_preguntas.json'.`, error);
+          autoLoadStatus.innerHTML = `<span style="color:var(--bad)">&#10007; 'banco_preguntas.json' no encontrado. Usá la carga manual.</span>`;
       }
 
       // Volver a renderizar después de la carga
@@ -271,11 +250,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Iniciar la carga al cargar la página
   tryLoadFromURL();
 
-  // --- UI helpers (YA ESTÁN ARRIBA) ---
-  // const $ = sel => document.querySelector(sel);
-  // const $$ = sel => [...document.querySelectorAll(sel)];
 
-  // Tabs
+  // --- Tabs ---
   $$('.tab').forEach(t=>t.addEventListener('click',()=>{
     $$('.tab').forEach(x=>x.classList.remove('active'));
     t.classList.add('active');
@@ -287,10 +263,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- BANCO ---
   function renderBank(){
     $('#count').textContent = cards.length; 
-    $('#distCount').textContent = distPool.length || 0;
     $('#hits').textContent = stats.hits; 
     $('#miss').textContent = stats.miss; 
     $('#today').textContent = stats.today;
+    
+    // Ya no mostramos distractores
+    const distractorStat = $('#distCount');
+    if(distractorStat) distractorStat.closest('.stat').style.display = 'none';
+
     const prev = $('#preview'); prev.innerHTML='';
     cards.slice(-12).reverse().forEach(c=>{
       const div = document.createElement('div');
@@ -310,7 +290,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const [q,a] = ln.split(/\s*[|;]\s*/);
       if(q && a){ 
         if(!cards.find(c => c.q === q)){ // Evitar duplicados
-          newCards.push({q,a, w:1}); 
+          // Agrega en formato simple, sin opciones incorrectas
+          newCards.push({q, a, w:1, inc: []}); 
           added++;
         }
       }
@@ -318,13 +299,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if(!newCards.length){ alert('No se encontraron nuevos pares "Pregunta | Respuesta" válidos.'); return; }
     cards = cards.concat(newCards);
     save(LS_KEY,cards); $('#bulk').value=''; renderBank();
-    alert(`¡Se agregaron ${added} tarjetas nuevas!`);
+    alert(`¡Se agregaron ${added} tarjetas nuevas! (Modo simple, sin opciones incorrectas)`);
   });
 
   $('#clear').addEventListener('click',()=>{
-    if(confirm('¿Estás seguro de que querés borrar TODAS las tarjetas, distractores y estadísticas? Esta acción no se puede deshacer.')){ 
+    if(confirm('¿Estás seguro de que querés borrar TODAS las tarjetas y estadísticas? Esta acción no se puede deshacer.')){ 
       cards=[]; save(LS_KEY,cards); 
-      distPool=[]; save(DIST_KEY, distPool);
       stats={hits:0, miss:0, today:0, lastReset: new Date().toDateString()}; save(STATS_KEY, stats);
       sessions=[]; save(SESS_KEY, sessions);
       renderBank(); 
@@ -344,27 +324,20 @@ document.addEventListener('DOMContentLoaded', () => {
       alert(`Banco de ${cards.length} preguntas cargado.`);
     }catch(err){alert('JSON inválido. Error: ' + err.message)} };
     r.readAsText(f);
-    e.target.value = null; // Permite recargar el mismo archivo
+    e.target.value = null; 
   });
   
-  $('#importDistractors').addEventListener('change',e=>{
-    const f=e.target.files[0]; if(!f) return; const r=new FileReader();
-    r.onload=()=>{ try{ 
-      const arr=JSON.parse(r.result); 
-      if(Array.isArray(arr)){ 
-        distPool = arr.filter(x=>typeof x==='string'); 
-        save(DIST_KEY,distPool); 
-        renderBank(); 
-        alert(`Pool de ${distPool.length} distractores cargado.`);
-      } else { alert('El archivo de distractores debe ser un array de textos.'); } 
-    }catch(err){alert('JSON inválido. Error: ' + err.message)} };
-    r.readAsText(f);
-    e.target.value = null;
-  });
+  // Borramos el listener del importador de distractores
+  const importDistractors = $('#importDistractors');
+  if (importDistractors) importDistractors.closest('label').style.display = 'none';
+
 
   // --- ENTRENAR (Flashcards) ---
   function pick(){
-    if(!cards.length || cards[0].q === '¡Datos no cargados!'){ $('#qText').textContent='Cargá preguntas en "Preguntas" o revisá el script.'; return; }
+    if(!cards.length || (cards.length > 0 && cards[0].q === '¡Datos no cargados!')){ 
+        $('#qText').textContent='Cargando preguntas... Si esto persiste, usá el botón "Cargar banco" en la pestaña Preguntas.'; 
+        return; 
+    }
     const weights = cards.map(c=>Math.max(1, 11 - (c.w||1))); 
     const sum = weights.reduce((a,b)=>a+b,0);
     let r = Math.random()*sum; let idx=0;
@@ -399,52 +372,34 @@ document.addEventListener('DOMContentLoaded', () => {
     stats.miss++; stats.today++; saveAll(); pick();
   });
 
-  // --- EXAMEN (Multiple Choice) ---
+  // --- LÓGICA DE EXAMEN ACTUALIZADA ---
   let examState=null;
   $('#startExam').addEventListener('click',()=>{
-    const n = Math.min(parseInt($('#examCount').value||20,10), cards.length);
     const optN = Math.max(2, parseInt($('#optCount').value||4,10));
     
-    const uniqueAnswers = new Set(cards.map(c=>c.a));
-    const distPoolSize = (distPool && distPool.length > 1) ? distPool.length : uniqueAnswers.size;
+    // Filtrar preguntas que tengan suficientes opciones incorrectas
+    const qualifiedCards = cards.map((card, index) => ({ card, index }))
+                                .filter(item => item.card.inc && item.card.inc.length >= (optN - 1));
 
-    if(!n || !cards.length || cards[0].q === '¡Datos no cargados!' || distPoolSize < optN) {
-      return alert(`No hay suficientes preguntas o distractores. (Necesitas ${n} preguntas y al menos ${optN} respuestas únicas o un pool de ${optN} distractores). Cargá los archivos.`);
+    const n = Math.min(parseInt($('#examCount').value||20,10), qualifiedCards.length);
+
+    if (n === 0 || qualifiedCards.length < n) {
+      return alert(`No hay suficientes preguntas con opciones predefinidas. (Necesitas ${n} preguntas que tengan al menos ${optN - 1} opciones incorrectas cada una en el JSON).`);
     }
 
-    const idxs = shuffle([...cards.keys()]).slice(0,n);
-    examState = idxs.map(i=>{
-      const correct = cards[i].a;
-      const options = [correct, ...buildDistractors(correct, optN-1)];
-      return {i, q:cards[i].q, a:correct, options: shuffle(options), pick:null};
+    const selectedQuestions = shuffle(qualifiedCards).slice(0, n);
+    
+    examState = selectedQuestions.map(item => {
+        const { card, index } = item;
+        const correct = card.a;
+        // Tomar k-1 incorrectas al azar de la lista de la pregunta
+        const incorrectOptions = shuffle(card.inc).slice(0, optN - 1);
+        const options = shuffle([correct, ...incorrectOptions]);
+        return { i: index, q: card.q, a: correct, options: options, pick: null };
     });
+    
     renderExam();
   });
-
-  function buildDistractors(correct, k){
-    let pool = (distPool && distPool.length > 1) ? distPool.slice() : cards.map(c=>c.a);
-    const bad = /^(verdadero|falso|si|no)$/i;
-    pool = pool.filter(x=>{
-      if(!x) return false; const t = x.trim();
-      const n = normalize(t);
-      if(n===normalize(correct)) return false; 
-      if(bad.test(t)) return false; 
-      if(/[?¿]$/.test(t)) return false; 
-      if(/^[-•●▪◦]/.test(t)) return false; 
-      if(t.length<5 || t.length>220) return false; 
-      return true;
-    });
-    
-    const base = normalize(correct).split(' ').filter(w=>w.length>4);
-    const scored = pool.map(p=>{
-      const pn = normalize(p);
-      const overlap = base.filter(w=>pn.includes(w)).length;
-      const lenratio = Math.min(p.length, correct.length)/Math.max(p.length, correct.length);
-      return {p, score: overlap*2 + lenratio}; 
-    }).sort((a,b)=>b.score-a.score);
-    
-    return shuffle(scored.slice(0,200).map(x=>x.p)).slice(0,k);
-  }
   
   function renderExam(){
     $('#examBox').classList.remove('hidden'); $('#examResult').classList.add('hidden');
@@ -465,10 +420,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     let ok=0; 
     examState.forEach(e=>{ 
-      if(smartCompare(e.pick, e.a)) ok++; 
+      const isCorrect = smartCompare(e.pick, e.a);
+      if(isCorrect) ok++; 
+      
       // Actualizar pesos SRS
       const card = cards[e.i];
-      if(smartCompare(e.pick, e.a)){
+      if(isCorrect){
         card.w = Math.min(10,(card.w||1)+1); stats.hits++;
       } else {
         card.w = Math.max(1,(card.w||1)-1); stats.miss++;
@@ -500,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo(0,0);
   }
 
-  // --- QUIZ RÁPIDO ---
+  // --- LÓGICA DE QUIZ RÁPIDO ACTUALIZADA ---
   let quickTimer=null, quickLeft=60, quickScore=0, quickQ=null;
 
   function endQuick(){ 
@@ -552,10 +509,23 @@ document.addEventListener('DOMContentLoaded', () => {
         return; 
     }
     
-    const i = Math.floor(Math.random()*cards.length);
-    const correct = cards[i].a; const q = cards[i].q;
-    const opts = shuffle([correct, ...buildDistractors(correct, 3)]);
-    quickQ = {q, a:correct, options: opts};
+    // Filtrar preguntas que tengan suficientes opciones incorrectas (al menos 3)
+    const qualifiedCards = cards.map((card, index) => ({ card, index }))
+                                .filter(item => item.card.inc && item.card.inc.length >= 3);
+    
+    if(qualifiedCards.length < 4){
+        endQuick();
+        return alert("No hay suficientes preguntas con opciones para el Quiz Rápido.");
+    }
+    
+    const i = Math.floor(Math.random()*qualifiedCards.length);
+    const { card, index } = qualifiedCards[i];
+    
+    const correct = card.a;
+    const incorrectOptions = shuffle(card.inc).slice(0, 3); // 3 incorrectas
+    const options = shuffle([correct, ...incorrectOptions]);
+    
+    quickQ = {q: card.q, a: correct, options: options};
     renderQuickQuestion();
   }
   
@@ -566,9 +536,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   $('#startQuick').addEventListener('click',()=>{
-    const distPoolSize = (distPool && distPool.length > 1) ? distPool.length : new Set(cards.map(c=>c.a)).size;
-    if(cards.length<4 || cards[0].q === '¡Datos no cargados!' || distPoolSize < 4) {
-      return alert('Cargá al menos 4 preguntas y 4 respuestas únicas (o un pool de 4 distractores).');
+    const qualifiedCards = cards.filter(card => card.inc && card.inc.length >= 3);
+
+    if(qualifiedCards.length < 4 || (cards.length > 0 && cards[0].q === '¡Datos no cargados!')) {
+      return alert('Cargá al menos 4 preguntas con 3 opciones incorrectas cada una en el JSON.');
     }
     
     quickLeft=60; quickScore=0; $('#quickScore').textContent=quickScore; 
@@ -595,7 +566,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- ESTADÍSTICAS ---
   function renderLog(){
     const lines = [
-      `Tarjetas: ${cards.length} | Distractores: ${distPool.length}`,
+      `Tarjetas: ${cards.length}`,
       `Repasos Hoy: ${stats.today} | Total Aciertos: ${stats.hits} | Total Errores: ${stats.miss}`,
       '--- Historial de Exámenes ---',
       ...sessions.slice(-20).reverse().map(s=>{
@@ -608,7 +579,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   $('#backup').addEventListener('click',()=>{
-    const blob = {cards, stats, sessions, distPool};
+    const blob = {cards, stats, sessions}; // Ya no exportamos distPool
     downloadJSON('backup_rafa_cnv_completo.json', blob);
   });
   
@@ -619,8 +590,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if(blob.cards){cards=blob.cards;} 
       if(blob.stats){stats=blob.stats} 
       if(blob.sessions){sessions=blob.sessions}
-      if(blob.distPool){distPool=blob.distPool}
-      saveAll(); 
+      // Ya no importamos distPool
+      save(LS_KEY, cards);
+      save(STATS_KEY, stats);
+      save(SESS_KEY, sessions);
       renderBank(); 
       renderLog(); 
       alert('Backup restaurado exitosamente.'); 
@@ -629,7 +602,6 @@ document.addEventListener('DOMContentLoaded', () => {
     e.target.value = null;
   });
   
-  // --- BOTÓN RESET STATS (Goal 3) ---
   $('#resetExamStats').addEventListener('click',()=>{
     if(confirm('¿Borrar todas las estadísticas de exámenes? (Los contadores de Aciertos/Errores y las preguntas NO se borrarán).')){
       sessions = [];
@@ -642,25 +614,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Utils ---
   function load(k,def){ try{ return JSON.parse(localStorage.getItem(k)) ?? def; }catch(_){ return def; } }
   function save(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); } catch(e){ console.warn("Error guardando en localStorage", e); }}
-  function saveAll(){ save(LS_KEY,cards); save(STATS_KEY,stats); save(SESS_KEY,sessions); save(DIST_KEY, distPool); }
+  function saveAll(){ save(LS_KEY,cards); save(STATS_KEY,stats); save(SESS_KEY,sessions); }
   function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
   function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
   function downloadJSON(name, obj){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([JSON.stringify(obj,null,2)],{type:'application/json'})); a.download=name; a.click(); URL.revokeObjectURL(a.href); }
   function normalize(str){ return (str||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim(); }
   function smartCompare(user, correct){
-    const u=normalize(user), c=normalize(correct);
-    if(!u) return false;
-    if(c.length<=6) return u===c; 
-    if (u === c) return true;
-    
-    if (c.includes('/')) {
-        const correctOptions = c.split('/').map(opt => normalize(opt.trim()));
-        if (correctOptions.includes(u)) return true;
-    }
-    
-    const cw=c.split(' '), uw=u.split(' ');
-    let matched=0; cw.forEach(w=>{ if(uw.includes(w)) matched++; });
-    return (matched/cw.length)>=0.6; 
+    // Ahora que las opciones son predefinidas, la comparación debe ser exacta.
+    return user === correct;
   }
 
 });
