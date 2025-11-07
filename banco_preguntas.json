@@ -1,2132 +1,3879 @@
 [
+
   {
+
     "q": "La CNV tiene la capacidad para supervisar, regular, inspeccionar, fiscalizar y sancionar a...",
+
     "a": "Todas las personas humanas y/o jurídicas en forma directa e inmediata.",
+
+    "inc": [
+
+      "Solo a los agentes registrados ante la CNV.",
+
+      "Únicamente a las sociedades anónimas emisoras.",
+
+      "Exclusivamente a los mercados autorizados.",
+
+      "Solo a personas jurídicas bajo control del BCRA."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "Llevar el registro, otorgar, suspender y revocar la autorización de oferta pública de valores negociables y otros instrumentos y operaciones.",
-    "a": "La CNV tiene la capacidad para supervisar, regular, inspeccionar, fiscalizar y sancionar a...",
-    "w": 1
-  },
-  {
+
     "q": "Se considera oferta pública irregular a...",
+
     "a": "Todo ofrecimiento relacionado con valores negociables realizado por personas humanas/jurídicas sin autorización de la CNV.",
+
+    "inc": [
+
+      "Una oferta efectuada a través de medios digitales.",
+
+      "La compra-venta entre dos inversores calificados.",
+
+      "Una operación bursátil con valores listados.",
+
+      "Una suscripción aprobada por la CNV."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "Pueden efectuar una invitación al público en general, para comprar y vender valores negociables:",
+
+    "q": "Pueden efectuar una invitación al público en general para comprar y vender valores negociables:",
+
     "a": "Solo aquellas personas humanas y jurídicas debidamente registradas y habilitadas por CNV, como agentes de negociación y emisores registrados.",
+
+    "inc": [
+
+      "Cualquier persona con conocimientos financieros.",
+
+      "Empresas privadas con autorización municipal.",
+
+      "Intermediarios del exterior sin registro local.",
+
+      "Personas físicas que operen en nombre propio."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "La CNV tiene las siguientes atribuciones...",
-    "a": "Recabar indirectamente el auxilio de la fuerza pública.",
+
+    "q": "La ley del mercado de capitales por la que actúa la CNV es la número...",
+
+    "a": "26.831.",
+
+    "inc": [
+
+      "25.246.",
+
+      "27.440.",
+
+      "19.550.",
+
+      "26.994."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "A los efectos de la determinación de la sanción referida al abuso de la información privilegiada y manipulación y engaño, la CNV considerará como agravante si la conducta sancionada fuese realizada por...",
-    "a": "Administradores, gerentes, síndicos de las personas sujetas a fiscalización de la CNV.",
+    "q": "Una empresa... ¿qué tipos de instrumentos puede emitir, que requieran autorización de la CNV para oferta pública?",
+    "a": "Obligaciones negociables y acciones.",
+    "inc": [
+      "Un préstamo bancario sindicado.",
+      "Un acuerdo de cuenta corriente comercial.",
+      "Financiación directa de proveedores.",
+      "Un mutuo privado con otra empresa."
+    ],
+    
     "w": 1
+
   },
+
   {
-    "q": "El recurso directo interpuesto contra una sanción impuesta por CNV se concederá...",
-    "a": "Con efecto devolutivo.",
+
+    "q": "El secreto de las operaciones dispuesto en el art. 53 de la ley 26.831 se levanta por:",
+
+    "a": "Por decisión judicial dictada en cuestiones de familia y en procesos criminales vinculados a tales operaciones o a terceros relacionados con ellas.",
+
+    "inc": [
+
+      "Por pedido del mercado interviniente.",
+
+      "Por solicitud del emisor o su agente de custodia.",
+
+      "Por resolución administrativa de la CNV sin causa.",
+
+      "Por requerimiento de una cámara compensadora."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "El término «emisoras» corresponde a...",
-    "a": "Entidades autorizadas solo para efectuar pública de valores negociables.",
+
+    "q": "Entre los derechos fundamentales de los accionistas, se debe amparar y facilitar el ejercicio del derecho a...",
+
+    "a": "Obtener información relevante y sustantiva sobre la sociedad en forma puntual y periódica.",
+
+    "inc": [
+
+      "Vender libremente sus acciones sin informar a la CNV.",
+
+      "Acceder a beneficios fiscales por tenencia accionaria.",
+
+      "Percibir dividendos fijos anuales garantizados.",
+
+      "Participar directamente en la gestión del directorio."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "Las personas jurídicas privadas que pueden realizar oferta pública de valores representativos de deuda (VRD) son...",
-    "a": "Sociedades anónimas, cooperativas y sociedades de responsabilidad limitada.",
+
+    "q": "La CNV no autoriza el ingreso a la oferta pública a aquellas sociedades con...",
+
+    "a": "Patrimonio neto negativo.",
+
+    "inc": [
+
+      "Directorio incompleto.",
+
+      "Capital social superior al promedio del mercado.",
+
+      "Socios extranjeros.",
+
+      "Estados contables auditados por terceros."
+
+    ],
+
     "w": 1
+
   },
+
   {
-    "q": "La negociación de un pagaré requiere:",
-    "a": "Del cumplimiento de los montos y plazos mínimos que fija la CNV.",
+
+    "q": "El artículo 45 de la ley 26.831 trata sobre...",
+
+    "a": "Fondo de garantía para los mercados.",
+
+    "inc": [
+
+      "Obligaciones negociables subordinadas.",
+
+      "Auditorías externas de emisoras.",
+
+      "Sistemas de liquidación y compensación.",
+
+      "Régimen informativo de emisores."
+
+    ],
+
     "w": 1
+
   },
+
+  {
+
+    "q": "Una sociedad con patrimonio neto negativo me consulta si la CNV le otorgará la autorización para el ingreso al régimen de oferta pública para emitir acciones. Yo debo responder:",
+
+    "a": "La CNV no autoriza el ingreso a la oferta pública a aquellas sociedades con patrimonio neto negativo.",
+
+    "inc": [
+
+      "La CNV autoriza siempre que la empresa demuestre solvencia futura.",
+
+      "Puede ingresar si presenta garantías adicionales.",
+
+      "Depende de la decisión del mercado en el que opere.",
+
+      "Solo requiere presentar los estados contables actualizados."
+
+    ],
+
+    "w": 1
+
+  },
+
   {
     "q": "Los sujetos que ofrezcan, compren, vendan o realicen cualquier operación sobre valores negociables por cuenta y orden de terceros...",
     "a": "Deben estar registrados ante la CNV.",
+    "inc": [
+      "Deben estar registrados ante el BCRA.",
+      "Solo necesitan estar registrados si son inversores calificados.",
+      "Están exentos de registro si operan menos de $1.000.000."
+    ],
     "w": 1
   },
   {
-    "q": "Una empresa necesita $ 100.000.000 para financiar un proyecto. Si la empresa me consulta sobre qué tipos de instrumentos puede emitir, que requieran autorización de la CNV, entonces le diré...",
+    "q": "Una empresa necesita $ 100.000.000 para financiar un proyecto. Si me consulta sobre qué tipos de instrumentos puede emitir, que requieran autorización de la CNV, entonces le diré...",
     "a": "Letras de cambio y obligaciones negociables.",
+    "inc": [
+      "Préstamos bancarios y acuerdos de cuenta corriente.",
+      "Financiación de proveedores y giros en descubierto.",
+      "Aportes de capital de socios existentes sin oferta pública."
+    ],
     "w": 1
   },
   {
     "q": "Un requisito para ser considerada PyME, según la normativa vigente de la CNV, es que la empresa debe...",
     "a": "Estar constituida en el país... aunque no necesariamente debe desarrollar actividades en Argentina.",
+    "inc": [
+      "Estar constituida en el país y desarrollar todas sus actividades en Argentina.",
+      "Estar constituida en el exterior pero desarrollar actividades en Argentina.",
+      "Tener al menos 50% de su capital social en manos del Estado."
+    ],
     "w": 1
   },
   {
-    "q": "El secreto de las operaciones dispuesto en art. 53 de la ley 26.831, se levanta por:",
-    "a": "Por decisión judicial dictada en cuestiones de familia y en procesos criminales vinculados a tales operaciones o a terceros relacionados con ellas.",
+    "q": "El secreto de las operaciones (art. 53 de la ley 26.831), se levanta por:",
+    "a": "Por decisión judicial dictada en cuestiones de familia y en procesos criminales vinculados.",
+    "inc": [
+      "Por decisión de un Mercado (BYMA, MAE, etc.) ante un incumplimiento.",
+      "A petición de cualquier accionista minoritario.",
+      "Automáticamente, si la operación supera los montos de la UIF."
+    ],
     "w": 1
   },
   {
-    "q": "El secreto de las operaciones dispuesto en art. 53 de la ley 26.831, se levanta por:",
-    "a": "Petición de la CNV, el BCRA, la UIF y la SSN en el marco de las investigaciones propias de sus funciones.",
+    "q": "El secreto de las operaciones (art. 53 de la ley 26.831), se levanta por:",
+    "a": "Petición de la CNV, el BCRA, la UIF y la SSN en el marco de sus funciones.",
+    "inc": [
+      "Petición de la AFIP, el BCRA y la UIF únicamente.",
+      "Petición de organismos internacionales como IOSCO o GAFI.",
+      "Petición del Agente de Liquidación y Compensación (ALyC)."
+    ],
     "w": 1
   },
   {
     "q": "Entre los derechos fundamentales de los accionistas, se debe amparar y facilitar el ejercicio del derecho a...",
     "a": "Obtener información relevante y sustantiva sobre la sociedad en forma puntual y periódica.",
+    "inc": [
+      "Tener un dividendo fijo garantizado por la sociedad.",
+      "Participar de las reuniones de directorio con voz y voto.",
+      "Vender sus acciones en cualquier momento sin costo."
+    ],
     "w": 1
   },
   {
     "q": "Casos de oferta pública irregular...",
     "a": "Papeleo en la calle, publicación en Internet sin autorización, publicación informal en redes sociales.",
+    "inc": [
+      "Una colocación privada dirigida solo a inversores calificados.",
+      "Una emisión de ON autorizada por CNV y comunicada por la AIF.",
+      "La suscripción de un FCI a través de la web de un banco."
+    ],
     "w": 1
   },
   {
     "q": "La ley del mercado de capitales por la que actúa la CNV es la número...",
     "a": "26.831.",
+    "inc": [
+      "25.246 (Ley de Lavado de Activos)",
+      "24.083 (Ley de Fondos Comunes de Inversión)",
+      "19.550 (Ley de Sociedades Comerciales)"
+    ],
     "w": 1
   },
   {
-    "q": "Una sociedad con patrimonio neto negativo me consulta si la CNV le otorgará la autorización para el ingreso al régimen de oferta pública para emitir acciones. Yo debo responder:",
+    "q": "Una sociedad con patrimonio neto negativo consulta si la CNV le otorgará autorización para emitir acciones. Yo debo responder:",
     "a": "La CNV no autoriza el ingreso a la oferta pública a aquellas sociedades con patrimonio neto negativo.",
+    "inc": [
+      "Sí, siempre que presente garantías de una SGR.",
+      "Sí, pero solo podrá emitir Valores de Deuda (ONs).",
+      "Sí, si la emisión está destinada solo a inversores calificados."
+    ],
     "w": 1
   },
   {
-    "q": "Las sociedades que se encuentran en el régimen de oferta pública de acciones, en caso de aumento de capital social, deben:",
-    "a": "Obtener autorización de oferta pública de acciones de la CNV y la inscripción del aumento del capital en el Registro Público.",
+    "q": "Las sociedades en régimen de oferta pública de acciones, en caso de aumento de capital social, deben:",
+    "a": "Obtener autorización de oferta pública de acciones de la CNV y la inscripción del aumento en el Registro Público.",
+    "inc": [
+      "Solo inscribir el aumento en el Registro Público, sin autorización de la CNV.",
+      "Solo obtener autorización de la CNV, sin inscribir en el Registro Público.",
+      "Obtener autorización del BCRA y de la CNV."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué aspectos debe abarcar la confección de un Código de Protección al Inversor o Código de Conducta?",
     "a": "Normativa aplicable relacionada con la transparencia en el ámbito de la oferta pública.",
+    "inc": [
+      "La política de remuneraciones del directorio.",
+      "La estrategia de inversión de la compañía.",
+      "Los procedimientos de reporte de operaciones a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "¿Ante quién denunciar las conductas incorrectas y contrarias a la transparencia del mercado?",
     "a": "Ante la CNV.",
+    "inc": [
+      "Ante el Mercado de Valores (BYMA) únicamente.",
+      "Ante la Unidad de Información Financiera (UIF).",
+      "Ante el Agente de Depósito Colectivo (Caja de Valores)."
+    ],
     "w": 1
   },
   {
-    "q": "¿Quiénes son las personas obligadas a establecer sistemas que garanticen el cumplimiento de las obligaciones impuestas en la prevención y represión de las conductas contrarias a la transparencia en el ámbito de la oferta pública?",
+    "q": "¿Quiénes son las personas obligadas a establecer sistemas que garanticen el cumplimiento de las conductas contrarias a la transparencia?",
     "a": "Personas humanas y jurídicas.",
+    "inc": [
+      "Solamente las personas jurídicas (empresas).",
+      "Solamente los agentes registrados.",
+      "Solamente los inversores calificados."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando de la investigación previa, surja la posible comisión de las infracciones... el directorio de la CNV podrá disponer... la aplicación del PSA... Sin embargo, en ningún caso resultará tal aplicación cuando se den estas situaciones:",
-    "a": "El infractor haya obtenido presuntamente algún beneficio económico en base a la conducta irregular.",
+    "q": "En ningún caso resultará la aplicación del Procedimiento Sumarial Abreviado (PSA) cuando...",
+    "a": "El infractor haya obtenido presuntamente algún beneficio económico.",
+    "inc": [
+      "El infractor sea un Agente de Negociación (AN).",
+      "La infracción haya sido comunicada por un cliente.",
+      "El infractor no posea antecedentes."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando de la investigación previa, surja la posible comisión de las infracciones... el directorio de la CNV podrá disponer... la aplicación del PSA... Sin embargo, en ningún caso resultará tal aplicación cuando se den estas situaciones:",
+    "q": "En ningún caso resultará la aplicación del Procedimiento Sumarial Abreviado (PSA) cuando...",
     "a": "Existan elementos que indiquen que se haya causado perjuicio económico a los inversores.",
+    "inc": [
+      "La infracción corresponda a una sola conducta.",
+      "El infractor sea una persona humana.",
+      "La investigación se haya iniciado de oficio por la CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando de la investigación previa, surja la posible comisión de las infracciones... el directorio de la CNV podrá disponer... la aplicación del PSA... Sin embargo, en ningún caso resultará tal aplicación cuando se den estas situaciones:",
-    "a": "La sociedad sumariada posea antecedentes de sanciones firmes por conductas infractoras, dentro de 2 años previos a la fecha donde hayan ocurrido las infracciones del nuevo sumario.",
+    "q": "En ningún caso resultará la aplicación del Procedimiento Sumarial Abreviado (PSA) cuando...",
+    "a": "La sociedad sumariada posea antecedentes de sanciones firmes por conductas infractoras, dentro de 2 años previos.",
+    "inc": [
+      "La sociedad sumariada no posea antecedentes.",
+      "La sociedad sumariada tenga antecedentes de más de 5 años.",
+      "La sociedad sumariada sea una PyME CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando de la investigación previa, surja la posible comisión de las infracciones... el directorio de la CNV podrá disponer... la aplicación del PSA... Sin embargo, en ningún caso resultará tal aplicación cuando se den estas situaciones:",
-    "a": "Los cargos formulados que motivan el sumario correspondan a más de siete conductas infractoras.",
+    "q": "En ningún caso resultará la aplicación del Procedimiento Sumarial Abreviado (PSA) cuando...",
+    "a": "Los cargos formulados correspondan a más de siete conductas infractoras.",
+    "inc": [
+      "Los cargos formulados correspondan a menos de tres conductas infractoras.",
+      "Los cargos formulados sean solo administrativos.",
+      "El infractor reconozca la conducta."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando de la investigación previa, surja la posible comisión de las infracciones... el directorio de la CNV podrá disponer... la aplicación del PSA... Sin embargo, en ningún caso resultará tal aplicación cuando se den estas situaciones:",
-    "a": "Se tenga conocimiento de la existencia de causas judiciales en trámite en sede penal, las cuales estén relacionadas con hechos que son objeto de investigación.",
+    "q": "En ningún caso resultará la aplicación del Procedimiento Sumarial Abreviado (PSA) cuando...",
+    "a": "Se tenga conocimiento de la existencia de causas judiciales en trámite en sede penal.",
+    "inc": [
+      "Se tenga conocimiento de causas judiciales en trámite en sede civil.",
+      "No existan causas judiciales relacionadas.",
+      "El infractor sea un directivo de la CNV."
+    ],
     "w": 1
   },
   {
     "q": "El artículo 45 de la ley 26.831 trata sobre...",
     "a": "Fondo de garantía para los mercados.",
+    "inc": [
+      "El régimen de oferta pública de acciones.",
+      "Las sanciones por abuso de información privilegiada.",
+      "La creación y funciones de la CNV."
+    ],
     "w": 1
   },
   {
     "q": "Los valores negociables del régimen PyME CNV...",
     "a": "Solo podrán ser comprados por inversores calificados.",
+    "inc": [
+      "Podrán ser comprados por cualquier inversor (público general).",
+      "Solo podrán ser comprados por el Estado Nacional.",
+      "Solo podrán ser comprados por otras PyMEs."
+    ],
     "w": 1
   },
   {
     "q": "Las diferencias en la emisión de ONs bajo los regímenes PyME CNV y PYME CNV Garantizada radican en:",
-    "a": "La ausencia o presencia de una garantía adicional para respaldar las emisiones, lo cual implica diferentes niveles de riesgo.",
+    "a": "La ausencia o presencia de una garantía adicional para respaldar las emisiones.",
+    "inc": [
+      "El plazo de emisión, que es mayor en el régimen garantizado.",
+      "El tipo de inversor, el garantizado es solo para inversores extranjeros.",
+      "No hay diferencias, son el mismo régimen."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuándo debe el emisor frecuente informar la intención de efectuar una emisión de sus valores negociables?",
-    "a": "Cuando tenga autorizado y actualizado su registro y 5 días antes de publicar el aviso de suscripción, mediante la presentación de una nota.",
+    "a": "Cuando tenga autorizado y actualizado su registro y 5 días antes de publicar el aviso de suscripción.",
+    "inc": [
+      "30 días antes de publicar el aviso de suscripción.",
+      "El mismo día de la publicación del aviso de suscripción.",
+      "No necesita informar, solo debe publicar el aviso."
+    ],
     "w": 1
   },
   {
     "q": "Los valores negociables emitidos en el marco de Productos de Inversión Colectiva para el Desarrollo de Infraestructura...",
-    "a": "Solo podrán ser adquiridos por los inversores calificados, definidos en la Sección I del Capítulo VI del Título II de las Normas CNV.",
+    "a": "Solo podrán ser adquiridos por los inversores calificados.",
+    "inc": [
+      "Podrán ser adquiridos por cualquier inversor.",
+      "Están destinados exclusivamente a Fondos Comunes de Inversión.",
+      "Solo pueden ser adquiridos por el Estado Nacional."
+    ],
     "w": 1
   },
   {
-    "q": "Respecto a los saldos de valores negociables, instrumentos o fondo en custodia en el Agente Depositario Central de Valores Negociables (ADCVN), ante la disconformidad del tenedor titular, este último podrá...",
+    "q": "Ante la disconformidad del tenedor titular con los saldos en custodia en el ADCVN, este último podrá...",
     "a": "Realizar el reclamo ante el ADCVN, su agente y la CNV.",
+    "inc": [
+      "Realizar el reclamo únicamente ante su agente (ALyC).",
+      "Realizar el reclamo únicamente ante la CNV.",
+      "Realizar el reclamo únicamente ante el BCRA."
+    ],
     "w": 1
   },
   {
     "q": "En el caso de una oferta pública de adquisición (OPA), hay que comunicar a...",
     "a": "Todos los accionistas, con o sin derecho a voto.",
+    "inc": [
+      "Solo a los accionistas con derecho a voto.",
+      "Solo a los accionistas que posean más del 5% del capital.",
+      "Solo a los accionistas minoritarios."
+    ],
     "w": 1
   },
   {
-    "q": "En el marco de las obligaciones de los participantes en el ámbito de la oferta pública, ¿quiénes deben guardar reserva acerca de información no divulgada públicamente...?",
-    "a": "Directores, administradores, gerentes, síndicos, miembros del consejo de vigilancia, accionistas controlantes y profesionales intervinientes de cualquier entidad autoriza a la oferta pública, incluidos los mercados.",
+    "q": "¿Quiénes deben guardar reserva sobre información no divulgada públicamente? (Seleccione una)",
+    "a": "Directores, administradores, gerentes, síndicos... y profesionales intervinientes de cualquier entidad autorizada.",
+    "inc": [
+      "Únicamente los directores y síndicos.",
+      "Solo los funcionarios de la CNV.",
+      "Cualquier inversor que opere en el mercado."
+    ],
     "w": 1
   },
   {
-    "q": "En el marco de las obligaciones de los participantes en el ámbito de la oferta pública, ¿quiénes deben guardar reserva acerca de información no divulgada públicamente...?",
-    "a": "Cualquier persona que realice una OPA o canje de valores respecto a una entidad autorizada a la oferta pública.",
+    "q": "¿Quiénes deben guardar reserva sobre información no divulgada públicamente? (Seleccione una)",
+    "a": "Cualquier persona que realice una OPA o canje de valores.",
+    "inc": [
+      "Únicamente los directores y síndicos.",
+      "Solo los funcionarios de la CNV.",
+      "Cualquier inversor que opere en el mercado."
+    ],
     "w": 1
   },
   {
-    "q": "En el marco de las obligaciones de los participantes en el ámbito de la oferta pública, ¿quiénes deben guardar reserva acerca de información no divulgada públicamente...?",
+    "q": "¿Quiénes deben guardar reserva sobre información no divulgada públicamente? (Seleccione una)",
     "a": "Directivos, funcionarios, empleados de los agentes de calificación de riesgos.",
+    "inc": [
+      "Únicamente los directores y síndicos.",
+      "Solo los funcionarios de la CNV.",
+      "Cualquier inversor que opere en el mercado."
+    ],
     "w": 1
   },
   {
-    "q": "En el marco de las obligaciones de los participantes en el ámbito de la oferta pública, ¿quiénes deben guardar reserva acerca de información no divulgada públicamente...?",
+    "q": "¿Quiénes deben guardar reserva sobre información no divulgada públicamente? (Seleccione una)",
     "a": "Funcionarios, directivos y empleados de organismos de control públicos o privados, incluida la CNV.",
+    "inc": [
+      "Únicamente los directores y síndicos.",
+      "Solo los accionistas controlantes.",
+      "Cualquier inversor que opere en el mercado."
+    ],
     "w": 1
   },
   {
     "q": "En una OPA, el oferente debe contar con una garantía emitida por:",
-    "a": "Entidades financieras locales o extranjeras (con sucursal en Argentina), compañías de seguro del país (fiscalizadas por SSN), de reconocida trayectoria y solvencia, previa autorización de la CNV.",
+    "a": "Entidades financieras locales o extranjeras (con sucursal en Argentina) o compañías de seguro del país.",
+    "inc": [
+      "Únicamente por el BCRA.",
+      "Únicamente por la CNV.",
+      "Por cualquier Sociedad de Garantía Recíproca (SGR)."
+    ],
     "w": 1
   },
   {
     "q": "No serán consideradas PyMEs CNV aquellas empresas que...",
-    "a": "Sean entidades bancarias o de servicios financieros, sean mercados autorizados a funcionar por esta comisión, o sean entidades que brindan servicios públicos, o sean empresas aseguradoras.",
+    "a": "Sean entidades bancarias o de servicios financieros, mercados, o empresas aseguradoras.",
+    "inc": [
+      "Tengan menos de 10 empleados.",
+      "Exporten más del 50% de su producción.",
+      "Tengan domicilio en el exterior."
+    ],
     "w": 1
   },
   {
     "q": "El expediente de una investigación resulta secreto en...",
     "a": "Toda la información contenida.",
+    "inc": [
+      "Solo la identidad del denunciante.",
+      "Solo las conclusiones finales.",
+      "No es secreto, es de acceso público para los inversores."
+    ],
     "w": 1
   },
   {
     "q": "Una colocación de emisión de obligaciones negociables (ON) puede ser por...",
-    "a": "Formación de libros, subasta o licitación pública.",
+    "a": "Formación de libros (Book Building), subasta o licitación pública.",
+    "inc": [
+      "Únicamente por subasta o licitación pública.",
+      "Únicamente por Formación de libros (Book Building).",
+      "Únicamente por colocación directa a inversores calificados."
+    ],
     "w": 1
   },
   {
     "q": "En una colocación de ON PyME garantizada...",
     "a": "Solo será admisible el mecanismo de colocación primaria de subasta o licitación pública.",
+    "inc": [
+      "Solo será admisible el mecanismo de 'Book Building'.",
+      "Se admiten tanto 'Book Building' como subasta.",
+      "No requiere un mecanismo de colocación específico."
+    ],
     "w": 1
   },
   {
     "q": "La CNV ejerce el control societario sobre...",
     "a": "Personas jurídicas privadas.",
+    "inc": [
+      "Personas jurídicas públicas (Estado Nacional, Provincias, etc.).",
+      "Personas humanas y jurídicas, públicas y privadas.",
+      "Únicamente sobre Sociedades Anónimas."
+    ],
     "w": 1
   },
   {
     "q": "El secreto de la investigación puede levantarse...",
     "a": "A pedido de un fiscal en el marco de una investigación penal.",
+    "inc": [
+      "A pedido del denunciante.",
+      "A pedido de un medio de prensa.",
+      "Nunca puede levantarse."
+    ],
     "w": 1
   },
   {
     "q": "Quien por su cargo tenga información sensible acerca de un hecho no público, deberá guardar reserva hasta...",
     "a": "Que la información sea pública.",
+    "inc": [
+      "Que el directorio lo autorice a divulgarla.",
+      "30 días después de conocer el hecho.",
+      "El cierre del ejercicio contable."
+    ],
     "w": 1
   },
   {
-    "q": "En una sociedad anónima con acciones cotizantes, los contratos que aquella celebre con una parte relacionada ¿deben cumplir con algún procedimiento específico?",
-    "a": "Sí, cuando se supere un monto estipulado por la ley 26.831 del mercado de capitales.",
+    "q": "En una sociedad anónima con acciones cotizantes, los contratos que celebre con una parte relacionada ¿deben cumplir con algún procedimiento específico?",
+    "a": "Sí, cuando se supere un monto estipulado por la ley 26.831.",
+    "inc": [
+      "No, rigen las mismas normas que para cualquier contrato.",
+      "Sí, todos los contratos sin importar el monto.",
+      "No, están prohibidos los contratos con partes relacionadas."
+    ],
     "w": 1
   },
   {
     "q": "El registro de accionistas de una sociedad emisora está a cargo de:",
     "a": "La propia emisora, bancos o Caja de Valores.",
+    "inc": [
+      "Únicamente de la CNV.",
+      "Únicamente de la Caja de Valores (ADCVN).",
+      "Únicamente del Mercado (BYMA)."
+    ],
     "w": 1
   },
   {
-    "q": "Las sociedades de responsabilidad limitada que califican como PyMEs CNV pueden emitir ONs si...",
+    "q": "Las sociedades de responsabilidad limitada (SRL) que califican como PyMEs CNV pueden emitir ONs si...",
     "a": "Respetan el tope estipulado por CNV.",
+    "inc": [
+      "No, las SRL tienen prohibido emitir ONs.",
+      "Sí, sin ningún tope de monto.",
+      "Sí, pero solo si están garantizadas por una SGR."
+    ],
     "w": 1
   },
   {
     "q": "Una empresa quiere emitir valores representativos de su próxima producción para financiarse. ¿En qué caso está haciendo una oferta pública irregular?",
     "a": "Utilizando medios de difusión masiva.",
+    "inc": [
+      "Ofreciéndolos a un grupo cerrado de inversores calificados.",
+      "Registrando la emisión en la CNV.",
+      "Realizando una colocación privada sin publicidad."
+    ],
     "w": 1
   },
   {
     "q": "Se considera que hay oferta pública cuando...",
-    "a": "Se invita a personas en general para la compra de acciones del emisor, utilizando entrega de volantes en la vía pública, mailing y publicidad en diarios.",
-    "w": 1
-  },
-  {
-    "q": "Se considera que hay oferta pública cuando...",
-    "a": "Se invita a grupos selectos para la compra de acciones, utilizando medios especializados de comunicación, además de TV, telemarketing, etc.",
+    "a": "Se invita a personas en general... utilizando entrega de volantes en la vía pública, mailing y publicidad en diarios.",
+    "inc": [
+      "Se invita a un socio a suscribir un aumento de capital.",
+      "Un banco ofrece un préstamo prendario.",
+      "Se negocia privadamente la venta de un paquete accionario."
+    ],
     "w": 1
   },
   {
     "q": "Se considera abuso de información privilegiada como agravante si la conducta irregular es realizada por...",
     "a": "El accionista mayoritario.",
+    "inc": [
+      "Un inversor minoritario.",
+      "Un periodista financiero.",
+      "Un familiar no directo de un director."
+    ],
     "w": 1
   },
   {
     "q": "El rol del Comité de Auditoría es...",
     "a": "Controlar las tareas del directorio.",
+    "inc": [
+      "Aprobar la estrategia de negocios de la empresa.",
+      "Definir la política de dividendos.",
+      "Reportar operaciones sospechosas a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "Si la CNV declara irregular a los actos administrativos sometidos a control, significa...",
     "a": "La nulidad del acto irregular y, por lo tanto, la suspensión de sus efectos.",
+    "inc": [
+      "Una multa para el directorio, pero el acto sigue vigente.",
+      "La suspensión temporal del acto por 30 días.",
+      "Una advertencia pública sin consecuencias legales."
+    ],
     "w": 1
   },
   {
     "q": "La competencia de la CNV recae sobre...",
     "a": "Mercados, agentes y demás personas físicas no jurídicas que realicen actividades vinculadas al mercado de capitales.",
+    "inc": [
+      "Únicamente sobre los Mercados y Agentes.",
+      "Únicamente sobre las Emisoras.",
+      "Únicamente sobre el BCRA y la UIF."
+    ],
     "w": 1
   },
   {
-    "q": "La existencia de causas ante la justicia con competencia en lo criminal, respecto a conductas descritas en la ley del mercado de capitales...",
+    "q": "La existencia de causas ante la justicia penal, respecto a conductas de la ley del mercado de capitales...",
     "a": "No obstará a la prosecución y conclusión del trámite de los sumarios respectivos en la CNV.",
+    "inc": [
+      "Suspende automáticamente el sumario en la CNV hasta que haya sentencia penal.",
+      "Anula el sumario en la CNV, que solo puede actuar si no hay causa penal.",
+      "Obliga a la CNV a fallar en el mismo sentido que la justicia penal."
+    ],
     "w": 1
   },
   {
-    "q": "En oportunidad de determinarse la realización de una verificación del procedimiento sobre un sujeto administrado por la CNV, la persona bajo dicho procedimiento de investigación...",
+    "q": "En oportunidad de una verificación de procedimiento de la CNV, la persona bajo investigación...",
     "a": "Deberá colaborar con el organismo, sin excepciones.",
+    "inc": [
+      "Puede negarse a colaborar si no hay un juez presente.",
+      "Puede colaborar o no, según su criterio.",
+      "Debe colaborar solo si es una persona jurídica."
+    ],
     "w": 1
   },
   {
-    "q": "El directorio debe poner a disposición de los accionistas toda la información relevante concerniente a la celebración de la asamblea...",
+    "q": "El directorio debe poner a disposición de los accionistas la información relevante de la asamblea...",
     "a": "Verdadero, previo a la celebración de la asamblea.",
+    "inc": [
+      "Falso, la información se entrega durante la asamblea.",
+      "Falso, solo se entrega a los accionistas con más del 5%.",
+      "Verdadero, pero solo si la asamblea es extraordinaria."
+    ],
     "w": 1
   },
   {
     "q": "Se define «información privilegiada» a...",
-    "a": "Información concreta sobre valores negociables no publicada y que, de hacerse, podría influir de forma significativa el precio de colocación o negociación de los títulos.",
+    "a": "Información concreta sobre valores negociables no publicada y que, de hacerse, podría influir de forma significativa el precio.",
+    "inc": [
+      "Cualquier información de la empresa, aunque sea pública.",
+      "Información pública que solo conocen los inversores calificados.",
+      "Información no publicada que no tiene capacidad de influir en el precio."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando se hace una oferta pública de adquisición, el precio de la misma podrá estar determinado por:",
-    "a": "La ponderación de distintos criterios como valor patrimonial, valor por flujo de fondos, promedio de precios durante el último semestre.",
+    "q": "Cuando se hace una oferta pública de adquisición (OPA), el precio de la misma podrá estar determinado por:",
+    "a": "La ponderación de distintos criterios como valor patrimonial, valor por flujo de fondos, promedio de precios del último semestre.",
+    "inc": [
+      "El valor nominal de la acción únicamente.",
+      "El precio de cierre del día anterior a la OPA únicamente.",
+      "El valor que fije la CNV sin ponderar criterios técnicos."
+    ],
     "w": 1
   },
   {
     "q": "Los principales objetivos establecidos por IOSCO son:",
     "a": "Proteger al inversor, garantizar mercados justos y transparentes y reducir el riesgo sistemático.",
+    "inc": [
+      "Maximizar la rentabilidad de los mercados.",
+      "Establecer las tasas de interés globales.",
+      "Regular el sistema bancario internacional."
+    ],
     "w": 1
   },
   {
-    "q": "Empresa que emite ONs para aplicar a la adquisición de activos intangibles en el país. ¿El destino de la empresa cumple con los destinos admitidos por la ley de obligaciones negociables para gozar de los beneficios impositivos?",
+    "q": "Empresa emite ONs para adquirir activos intangibles en el país. ¿Cumple con los destinos para gozar de beneficios impositivos?",
     "a": "No, porque no se cumple con los destinos admitidos por la ley de ONs.",
+    "inc": [
+      "Sí, la adquisición de activos intangibles está admitida.",
+      "Sí, siempre que los activos estén en el país.",
+      "No, porque los beneficios son solo para activos físicos."
+    ],
     "w": 1
   },
   {
-    "q": "Una sociedad, que se encuentra bajo del régimen de oferta pública, pretende emitir ONs cuyos fondos serán destinados a un proyecto de Bonos Verdes (ambientales). ¿La emisión cumple con los requisitos previstos por CNV?",
-    "a": "Sí, si cumple con los Lineamientos para la emisión de valores negociables temáticos en Argentina y está admitida por un mercado.",
+    "q": "Una sociedad emite ONs destinadas a un proyecto de Bonos Verdes. ¿Cumple con los requisitos de CNV?",
+    "a": "Sí, si cumple con los Lineamientos para la emisión de valores negociables temáticos en Argentina.",
+    "inc": [
+      "No, la CNV no regula la emisión de Bonos Verdes.",
+      "Sí, siempre que los fondos se usen para cualquier proyecto ambiental, sin lineamientos.",
+      "No, las ONs solo pueden destinarse a capital de trabajo o refinanciación."
+    ],
     "w": 1
   },
   {
-    "q": "Tech World es sociedad extranjera que solicita el ingreso al régimen de la oferta pública para emitir acciones. Su único accionista con más de 5% del capital social es SkyNet LP... ¿Se debe acompañar documentación de SkyNet LP y SkyNet2 LP?",
-    "a": "Sí. Si la sociedad extranjera... tiene un único accionista con más de 5% de su capital social, entonces la CNV exigirá una mayor transparencia sobre tal accionista...",
+    "q": "Sociedad extranjera solicita ingreso a oferta pública. Su único accionista con más de 5% es SkyNet LP... ¿Se debe acompañar documentación de SkyNet LP?",
+    "a": "Sí, la CNV exigirá una mayor transparencia sobre tal accionista.",
+    "inc": [
+      "No, la CNV solo requiere documentación de la sociedad que solicita el ingreso.",
+      "No, la CNV solo pide datos de accionistas con más del 50%.",
+      "Sí, pero solo si SkyNet LP también cotiza en bolsa."
+    ],
     "w": 1
   },
   {
-    "q": "Mountain Ventures Inc. es un holding de capital extranjero y tiene listadas sus acciones en Toronto... solicita el ingreso a la oferta pública y, al consultarme sobre los factores de riesgo principales, yo debo responder:",
-    "a": "El holding depende de los resultados de sus subsidiarias para cumplir con sus obligaciones contractuales y pagar dividendos a sus accionistas.",
+    "q": "Mountain Ventures Inc. es un holding extranjero... sin activos en su país... posee concesiones en Argentina... ¿Cuál es un factor de riesgo principal?",
+    "a": "El holding depende de los resultados de sus subsidiarias para cumplir sus obligaciones.",
+    "inc": [
+      "El riesgo de que sus acciones coticen en Toronto.",
+      "El riesgo de tener activos de gas y petróleo.",
+      "El holding tiene demasiados activos en su lugar de constitución."
+    ],
     "w": 1
   },
   {
-    "q": "Mountain Ventures Inc. es un holding de capital extranjero... al consultarme sobre los factores de riesgo principales, yo debo responder:",
+    "q": "Mountain Ventures Inc. es un holding extranjero... sin activos en su país... ¿Cuál es un factor de riesgo principal?",
     "a": "Falta de activos de la sociedad holding en el lugar de constitución.",
+    "inc": [
+      "El holding depende de los resultados de sus subsidiarias.",
+      "El riesgo de que sus acciones coticen en Toronto.",
+      "El riesgo de tener activos de gas y petróleo."
+    ],
     "w": 1
   },
   {
-    "q": "Una empresa necesita 100.000.000 USD para financiar un proyecto de inversión. ¿Para la emisión de cuál instrumento requiere la autorización de oferta pública ante la CNV?",
+    "q": "Una empresa necesita 100M USD... ¿Para cuál instrumento requiere autorización de oferta pública ante la CNV?",
     "a": "Emisión primaria de acciones a ser ofrecidas y colocadas en el país y en el exterior.",
+    "inc": [
+      "Un préstamo bancario de 100M USD.",
+      "Una emisión de acciones privada solo para los socios actuales.",
+      "Un acuerdo de cuenta corriente con un banco."
+    ],
     "w": 1
   },
   {
-    "q": "Un comitente A, monotributista, deposita $ 24.000.000... emite una orden de compra de un bono local... emite una orden de transferencia de fondos a la cuenta de un tercero, cuyo titular es su cónyuge. En este contexto, ¿cuándo debería reportarse la operación?",
-    "a": "Cuando los bonos sean vendidos inmediatamente por su cónyuge a un precio menor, respecto a las cotizaciones vigentes del mercado, al momento de concertarse la operación.",
-    "w": 1
-  },
-  {
-    "q": "Un comitente A, monotributista, deposita $ 24.000.000... ¿cuándo debería reportarse la operación?",
-    "a": "Cuando los bonos vuelvan a ser transferidos a otra cuenta de un tercero, sin justificación aparente.",
+    "q": "Un monotributista deposita $24M, transfiere a cuenta comitente, compra bono y transfiere fondos a su cónyuge. ¿Cuándo debería reportarse?",
+    "a": "Cuando los bonos sean vendidos inmediatamente por su cónyuge a un precio menor al de mercado.",
+    "inc": [
+      "En el momento en que deposita los $24.000.000 en su cuenta bancaria.",
+      "Al transferir los fondos de su cuenta bancaria a su cuenta comitente.",
+      "Al realizar la transferencia de fondos a la cuenta de su cónyuge."
+    ],
     "w": 1
   },
   {
     "q": "Para saber cuál es el capital social de una sociedad emisora, debo consultar:",
     "a": "El estatuto social, los estados contables y los libros contables.",
+    "inc": [
+      "Únicamente el sitio web de la CNV.",
+      "Únicamente los estados contables.",
+      "Únicamente el estatuto social."
+    ],
     "w": 1
   },
   {
-    "q": "Una sociedad emisora de acciones constituida en el extranjero... decide retirarse del régimen argentino de oferta pública. Me consultan si debe realizar una OPA...",
-    "a": "Y yo responderé que no es obligatorio si las acciones listan en otro mercado, si tienen igual o superior liquidez respecto al mercado local y si se garantiza mantener las tenencias y/o proceder a la venta en los mercados donde continúen listando.",
+    "q": "Sociedad extranjera... decide retirarse del régimen argentino de OP. ¿Debe realizar una OPA?",
+    "a": "No es obligatorio si las acciones listan en otro mercado con igual o superior liquidez y se garantiza la tenencia.",
+    "inc": [
+      "Sí, siempre es obligatorio realizar una OPA para retirarse.",
+      "No, las sociedades extranjeras nunca realizan OPA.",
+      "Sí, pero solo si sus acciones no tienen liquidez en el exterior."
+    ],
     "w": 1
   },
   {
-    "q": "Una sociedad admitida al régimen de la oferta pública para emitir acciones, quiere ingresar al régimen de emisor frecuente de ONs. Como asesor, opino:",
+    "q": "Una sociedad admitida... para emitir acciones, quiere ingresar al régimen de emisor frecuente de ONs. Como asesor, opino:",
     "a": "Es posible, dado que es un emisor de acciones, siempre y cuando cumpla con los requisitos de frecuencia previstos por CNV.",
+    "inc": [
+      "No es posible, debe elegir ser emisor frecuente de acciones o de ONs.",
+      "Es posible, y no necesita cumplir ningún requisito de frecuencia.",
+      "No es posible, el régimen de emisor frecuente es solo para PyMEs."
+    ],
     "w": 1
   },
   {
     "q": "Los responsables por la información contenida en el prospecto son:",
-    "a": "Los emisores y oferentes de valores negociables, las personas que firmen el prospecto y expertos que lo califiquen.",
+    "a": "Los emisores y oferentes, las personas que firmen el prospecto y expertos que lo califiquen.",
+    "inc": [
+      "Únicamente los emisores.",
+      "Únicamente los agentes colocadores.",
+      "Únicamente la CNV que lo autoriza."
+    ],
     "w": 1
   },
   {
     "q": "Los valores emitidos bajo el régimen PyME CNV solo podrán ser adquiridos por inversores calificados, entre los que se encuentran...",
     "a": "Personas jurídicas constituidas en el exterior y personas físicas con domicilio fuera del país.",
+    "inc": [
+      "Inversores minoristas con domicilio en Argentina.",
+      "Únicamente el Estado Nacional y Provincial.",
+      "Otras PyMEs CNV exclusivamente."
+    ],
     "w": 1
   },
   {
     "q": "Si una compañía de seguros es autorizada a efectuar oferta pública de sus valores negociables, entonces...",
-    "a": "Puede aplicar las normas y plazos de presentación de información contable en la SSN.",
+    "a": "Puede aplicar las normas y plazos de presentación de información contable de la SSN.",
+    "inc": [
+      "Debe aplicar las normas y plazos de la CNV, que reemplazan a las de la SSN.",
+      "Debe aplicar las normas del BCRA.",
+      "Queda exenta de presentar información contable."
+    ],
     "w": 1
   },
   {
     "q": "El precio de una OPA obligatoria como consecuencia de la adquisición de una participación significativa...",
     "a": "Puede estar determinado por el oferente, pero teniendo en cuenta ciertos límites.",
+    "inc": [
+      "Es fijado libremente por el oferente sin ningún límite.",
+      "Es fijado estrictamente por la CNV.",
+      "Debe ser igual al valor nominal de la acción."
+    ],
     "w": 1
   },
   {
-    "q": "La sociedad A, controlante de la empresa B (la cual está con oferta pública), informa que recibió por parte de un accionista minoritario de B... una petición para que A realice una oferta de compra por la totalidad de las acciones B, por haber alcanzado más del 95% de las mismas. ¿Qué debe hacer la empresa A?",
+    "q": "Sociedad A (controlante de B) es peticionada por un minoritario de B para que A lance una OPA por B, por haber alcanzado A más del 95% de B. ¿Qué debe hacer A?",
     "a": "La sociedad A debe lanzar una OPA.",
+    "inc": [
+      "La sociedad A puede ignorar la petición por ser de un minoritario.",
+      "La sociedad A debe solicitar el retiro de la oferta pública de B.",
+      "La sociedad A debe esperar la autorización del BCRA."
+    ],
     "w": 1
   },
   {
     "q": "La CNV tiene la función de:",
     "a": "Declarar la irregularidad e ineficacia sin sumario previo a los efectos administrativos.",
+    "inc": [
+      "Declarar la irregularidad solo después de un sumario previo.",
+      "Garantizar la rentabilidad de las inversiones.",
+      "Fijar las tasas de interés del mercado."
+    ],
     "w": 1
   },
   {
     "q": "Según la ley 26.831, el poder disciplinario sobre los agentes le corresponde a:",
     "a": "La CNV.",
+    "inc": [
+      "Al Mercado donde opera el agente (BYMA, MAV, etc.).",
+      "Al BCRA.",
+      "A la UIF."
+    ],
     "w": 1
   },
   {
     "q": "Después de que la sociedad haya sido autorizada a hacer oferta pública de sus acciones...",
     "a": "No puede emitirse acciones de voto privilegiado ni con preferencia patrimonial.",
+    "inc": [
+      "Puede emitir acciones de voto privilegiado libremente.",
+      "Puede emitir acciones de voto privilegiado con autorización de la CNV.",
+      "Solo puede emitir acciones de voto privilegiado."
+    ],
     "w": 1
   },
   {
     "q": "Nunca serán consideradas PyMEs las entidades bancarias.",
     "a": "Verdadero.",
+    "inc": [
+      "Falso.",
+      "Verdadero, salvo que su facturación sea muy baja.",
+      "Falso, si están autorizadas por el BCRA pueden ser PyME CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Una empresa cotizante es notificada... sobre una demanda... que le reclama exceso de facturación de 5%... La empresa inicial, ¿debe comunicar el hecho como relevante?",
+    "q": "Una empresa cotizante es notificada... sobre una demanda... por exceso de facturación de 5%... La empresa, ¿debe comunicar el hecho como relevante?",
     "a": "No debe hacerlo, por no ser un hecho relevante.",
+    "inc": [
+      "Sí, debe informarlo inmediatamente como hecho relevante.",
+      "Sí, pero solo si la demanda supera el 10% de la facturación.",
+      "No, porque la demanda aún no tiene sentencia firme."
+    ],
     "w": 1
   },
   {
     "q": "Los agentes de calificación de riesgo...",
-    "a": "No podrán prestar servicios de auditoría, consultoría ni asesoramiento a las entidades contratantes o pertenecientes a su grupo de control.",
+    "a": "No podrán prestar servicios de auditoría, consultoría ni asesoramiento a las entidades contratantes.",
+    "inc": [
+      "Pueden prestar servicios de auditoría si la CNV lo autoriza.",
+      "Deben prestar servicios de consultoría para complementar la calificación.",
+      "Pueden prestar servicios de auditoría, pero no de consultoría."
+    ],
     "w": 1
   },
   {
-    "q": "Toda negociación de instrumentos que, a criterio de la CNV, comprenda características semejantes a la oferta pública... se considerará como tal y se someterá a las normas de la BCBA.",
+    "q": "Toda negociación... semejante a la oferta pública... se considerará como tal y se someterá a las normas de la BCBA.",
     "a": "Falso.",
+    "inc": [
+      "Verdadero.",
+      "Verdadero, solo si se negocia en la Bolsa de Comercio de Bs As.",
+      "Falso, se someterá a las normas del BCRA."
+    ],
     "w": 1
   },
   {
     "q": "Se entiende que se halla bajo control casi total a...",
-    "a": "Toda sociedad anónima respecto de la cual, otra persona humana o jurídica, ya sea en forma directa o a través de otra sociedad a su vez controlada por ella, sea titular del 95% o más del capital suscrito.",
+    "a": "Toda sociedad anónima... sea titular del 95% o más del capital suscrito.",
+    "inc": [
+      "Toda sociedad anónima... sea titular del 51% o más del capital suscrito.",
+      "Toda sociedad anónima... sea titular del 75% o más del capital suscrito.",
+      "Toda sociedad anónima... sea titular del 100% del capital suscrito."
+    ],
     "w": 1
   },
   {
     "q": "Son personas jurídicas públicas...",
-    "a": "El Estado nacional, las provincias, la Ciudad Autónoma de Buenos Aires, los municipios, las entidades autárquicas y demás organizaciones constituidas en la República a las que el ordenamiento jurídico atribuya ese carácter.",
-    "w": 1
-  },
-  {
-    "q": "Son personas jurídicas públicas...",
-    "a": "Los Estados extranjeros, las organizaciones a las que el derecho internacional público reconozca personalidad jurídica y toda otra persona jurídica constituida en el extranjero cuyo carácter público resulte de su derecho aplicable.",
-    "w": 1
-  },
-  {
-    "q": "Son personas jurídicas públicas...",
-    "a": "La Iglesia Católica",
+    "a": "El Estado nacional, las provincias, la CABA, los municipios, las entidades autárquicas...",
+    "inc": [
+      "Las sociedades anónimas con oferta pública.",
+      "Los Fondos Comunes de Inversión.",
+      "Las Sociedades de Garantía Recíproca (SGR)."
+    ],
     "w": 1
   },
   {
     "q": "Se considera conductas contrarias a la transparencia a:",
     "a": "El abuso de información privilegiada, manipulación y engaño en el mercado.",
+    "inc": [
+      "La compra de acciones por parte de un director.",
+      "La publicación de un hecho relevante.",
+      "La alta volatilidad de un activo."
+    ],
     "w": 1
   },
   {
     "q": "Las denuncias ante la CNV pueden ser presentadas a través de los siguientes medios:",
     "a": "Formulario web de la CNV, correo electrónico o personalmente en mesa de entradas.",
+    "inc": [
+      "Únicamente de forma personal en mesa de entradas.",
+      "Únicamente a través del formulario web.",
+      "A través de una carta documento al presidente de la CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Las emisoras, los agentes de negociación, los inversores y cualquier interviniente de los mercados... deberán:",
-    "a": "Abstenerse de realizar prácticas o conductas que tiendan a la manipulación de precios o volumen de los valores negociables listados en el mercado.",
+    "q": "Las emisoras, agentes, inversores y cualquier interviniente... deberán:",
+    "a": "Abstenerse de realizar prácticas o conductas que tiendan a la manipulación de precios o volumen.",
+    "inc": [
+      "Abstenerse de operar en mercados del exterior.",
+      "Garantizar una rentabilidad mínima a sus clientes.",
+      "Reportar todas sus operaciones a la UIF."
+    ],
     "w": 1
   },
   {
-    "q": "La calificación de riesgo en el marco de la solicitud de oferta pública de ONs y otros valores de deuda tiene el carácter de:",
-    "a": "Optativa respecto del monto máximo autorizado para cada clase o serie.",
+    "q": "La calificación de riesgo en la solicitud de oferta pública de ONs tiene el carácter de:",
+    "a": "Optativa.",
+    "inc": [
+      "Obligatoria.",
+      "Obligatoria solo para PyMEs.",
+      "Obligatoria solo si el monto supera los $100.000.000."
+    ],
     "w": 1
   },
   {
-    "q": "La obligación de los sujetos obligados, para informar a través de la AIF (Autopista de Información Financiera) aquellos hechos relevantes... se considera cumplida si:",
+    "q": "La obligación de informar hechos relevantes a través de la AIF se considera cumplida si:",
     "a": "Se informa tan pronto como se toma conocimiento del hecho. Es decir, inmediatamente.",
+    "inc": [
+      "Se informa dentro de las 72 horas hábiles de conocido el hecho.",
+      "Se informa junto con los estados contables trimestrales.",
+      "Se informa 5 días antes de que ocurra el hecho."
+    ],
     "w": 1
   },
   {
-    "q": "Se presenta un cliente que posee acciones de una emisora autorizada y desea consultar los prospectos de emisión. ¿Dónde puede encontrar dicha información pública?",
-    "a": "En la AIF, link de la emisora correspondiente.",
+    "q": "Un cliente que posee acciones de una emisora desea consultar los prospectos de emisión. ¿Dónde puede encontrar dicha información pública?",
+    "a": "En la AIF (Autopista de Información Financiera), link de la emisora.",
+    "inc": [
+      "En el BCRA, sección de 'Central de Balances'.",
+      "Debe solicitarla por escrito al Comité de Auditoría de la emisora.",
+      "En la UIF, sección de 'Reportes Públicos'."
+    ],
     "w": 1
   },
   {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
+    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)? (Seleccione uno)",
     "a": "Entidades financieras.",
+    "inc": [
+      "La PROCELAC.",
+      "El GAFI.",
+      "Inversores individuales."
+    ],
     "w": 1
   },
   {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Entidades relacionadas en la compra/venta de divisas mediante cheques, tarjetas de crédito, transmisión de fondo fuera del territorio nacional.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
+    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)? (Seleccione uno)",
     "a": "Casinos y casas de apuestas.",
+    "inc": [
+      "La PROCELAC.",
+      "El GAFI.",
+      "Inversores individuales."
+    ],
     "w": 1
   },
   {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Personas físicas y jurídicas relacionadas a la compra/venta de artes, antigüedades, bienes suntuarios; dedicadas a la inversión filatélica y numismática y a la negociación de joyas y metales preciosos.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
+    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)? (Seleccione uno)",
     "a": "Agentes y sociedades de bolsa.",
+    "inc": [
+      "La PROCELAC.",
+      "El GAFI.",
+      "Inversores individuales."
+    ],
     "w": 1
   },
   {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Agentes intermediarios en mercados de futuros y opciones.",
+    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)? (Seleccione uno)",
+    "a": "Escribanos públicos y profesionales matriculados en CPCE.",
+    "inc": [
+      "La PROCELAC.",
+      "El GAFI.",
+      "Inversores individuales."
+    ],
     "w": 1
   },
   {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Registro Automotor, Registro de Propiedad del Inmueble, Registro Prendario, Registros Públicos de Comercio.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Empresas aseguradoras y productores de seguros, empresas emisoras de cheques de viajero, operadoras de tarjeta de crédito, prestatarias y concesionarias de servicios postales y empresas de transporte de caudales.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Escribanos públicos y profesionales matriculados cuyas actividades estén reguladas por los CPCE.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Organismos públicos de regulación, supervisión y control como el BCRA, la SSN, la CNV, ARCA y la Inspección General de Justicia.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Personas jurídicas que reciban donaciones o aportes de terceros.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Entidades comprendidas en el art. 9 de la ley 22.315.",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)?",
-    "a": "Personas físicas y jurídicas inscritas en los registros establecidos por el art. 23 del Código Aduanero.",
+    "q": "Según el art. 20 de la ley 25.246, ¿quiénes son sujetos obligados (SO)? (Seleccione uno)",
+    "a": "Organismos públicos de regulación... como el BCRA, la SSN, la CNV.",
+    "inc": [
+      "La PROCELAC.",
+      "El GAFI.",
+      "Inversores individuales."
+    ],
     "w": 1
   },
   {
     "q": "La falta de publicación ante la AIF de un hecho relevante por parte de un sujeto obligado (SO) atenta contra el principio de:",
     "a": "Transparencia en el mercado.",
+    "inc": [
+      "Prevención de Lavado de Activos.",
+      "Protección de datos personales.",
+      "Solvencia del mercado."
+    ],
     "w": 1
   },
   {
-    "q": "Según el régimen informativo para no residentes, cuando un inversor extranjero... realiza operaciones con volumen superior a $ 5.000.000, debe remitir por medio de la AIF el saldo de las inversiones... Esto aplica para...",
+    "q": "Según el régimen informativo para no residentes, cuando un inversor extranjero... opera más de $5.000.000, debe remitir el saldo de inversiones... Esto aplica para...",
     "a": "Agentes de negociación (AN) y agentes de liquidación y compensación (ALyC).",
+    "inc": [
+      "Agentes de Calificación de Riesgo (ACR) únicamente.",
+      "El propio inversor extranjero.",
+      "El Agente de Depósito Colectivo (Caja de Valores)."
+    ],
     "w": 1
   },
   {
     "q": "El Código de Gobierno Societario es...",
     "a": "Un conjunto de principios que regulan la integración y funcionamiento de la entidad, sus accionistas y órganos sociales.",
+    "inc": [
+      "Una ley nacional de cumplimiento obligatorio para todas las empresas.",
+      "El estatuto social de la empresa.",
+      "El manual de prevención de lavado de activos (PLAFT)."
+    ],
     "w": 1
   },
   {
     "q": "Los inversores tenedores de acciones, ¿deben informar su posición a la CNV?",
-    "a": "No deben hacerlo.",
+    "a": "No deben hacerlo (salvo que superen el 5% o la CNV lo requiera).",
+    "inc": [
+      "Sí, deben informar todas sus tenencias mensualmente.",
+      "Sí, pero solo si son inversores calificados.",
+      "No, la CNV tiene prohibido solicitar esa información."
+    ],
     "w": 1
   },
   {
     "q": "Al principio del buen gobierno, ¿qué ley la regula?",
-    "a": "La ley de mercado.",
+    "a": "La ley de mercado (26.831).",
+    "inc": [
+      "La ley de sociedades comerciales (19.550).",
+      "La ley de lavado de activos (25.246).",
+      "No está regulado por ley, es una práctica voluntaria."
+    ],
     "w": 1
   },
   {
-    "q": "Se presenta un cliente que posee ONs de una emisora autorizada y quiere consultar los prospectos de emisión. ¿Dónde se puede encontrar tal información pública?",
-    "a": "En la sección de información financiera, dentro de la CNV.",
+    "q": "Un cliente que posee ONs de una emisora desea consultar los prospectos de emisión. ¿Dónde se puede encontrar tal información pública?",
+    "a": "En la sección de información financiera (AIF), dentro de la CNV.",
+    "inc": [
+      "En el BCRA, sección 'Central de Deudores'.",
+      "Debe solicitarla al Agente de Calificación de Riesgo.",
+      "Solo está disponible para inversores calificados."
+    ],
     "w": 1
   },
   {
-    "q": "En el caso de emisoras que revisten calidad de mercado, ¿deben informar sus cambios en la tenencia accionaria?",
-    "a": "Sí, enviando información a CNV a través de la Autopista de Información Financiera (AIF).",
+    "q": "En el caso de emisoras que revisten calidad de mercado (ej: BYMA), ¿deben informar sus cambios en la tenencia accionaria?",
+    "a": "Sí, enviando información a CNV a través de la AIF.",
+    "inc": [
+      "No, por ser mercados están exentos de informar.",
+      "No, al menos que sea requerido por CNV.",
+      "Sí, pero solo informan si un accionista supera el 50%."
+    ],
     "w": 1
   },
   {
-    "q": "¿Cuál de las siguientes opciones NO es uno de los pilares del Programa de Prevención de Lavado de Activos y Financiamiento del Terrorismo (PLAFT), para un agente?",
-    "a": "La recomendación de los activos en los que puede operar el cliente, conforme al riesgo asumido.",
+    "q": "¿Cuál NO es uno de los pilares del Programa PLAFT para un agente?",
+    "a": "La recomendación de los activos en los que puede operar el cliente.",
+    "inc": [
+      "La debida diligencia del cliente.",
+      "El monitoreo y reporte de operaciones sospechosas.",
+      "La existencia de un Manual de Procedimientos."
+    ],
     "w": 1
   },
   {
-    "q": "Según la resolución 3/2014, si un sujeto obligado posee como cliente a otro SO, entonces debe:",
+    "q": "Según la resolución 3/2014, si un SO posee como cliente a otro SO, debe:",
     "a": "Solicitar declaración jurada sobre el cumplimiento de las disposiciones vigentes en materia de PLAFT.",
+    "inc": [
+      "Aplicar una debida diligencia simplificada, ya que es SO.",
+      "Rechazarlo como cliente, está prohibido.",
+      "Reportarlo sistemáticamente a la UIF como operación sospechosa."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál de las siguientes opciones es incorrecta?",
     "a": "Los fondos utilizados en el lavado de activos pueden provenir tanto de actividades lícitas como ilícitas.",
+    "inc": [
+      "El Lavado de Activos (LA) solo proviene de actividades ilícitas.",
+      "El Financiamiento del Terrorismo (FT) puede provenir de actividades lícitas o ilícitas.",
+      "El LA busca dar apariencia lícita a fondos de origen delictivo."
+    ],
     "w": 1
   },
   {
     "q": "En caso de detectarse operaciones inusuales, se deberá como primera medida...",
-    "a": "Profundizar en el análisis con el fin de obtener información que corrobore o revierta las inusualidades detectadas.",
+    "a": "Profundizar en el análisis con el fin de obtener información que corrobore o revierta las inusualidades.",
+    "inc": [
+      "Reportarla inmediatamente a la UIF como sospechosa.",
+      "Rechazar la operación y cerrar la cuenta del cliente.",
+      "Informar al cliente que su operación está siendo analizada."
+    ],
     "w": 1
   },
   {
-    "q": "Si un cliente extranjero se declara como Persona Expuesta Públicamente, entonces el agente debe...",
+    "q": "Si un cliente extranjero se declara como Persona Expuesta Públicamente (PEP), el agente debe...",
     "a": "Segmentarlo como alto riesgo.",
+    "inc": [
+      "Segmentarlo como riesgo bajo, ya que es una figura pública.",
+      "Rechazarlo como cliente.",
+      "Aceptar sus operaciones sin solicitar justificación de fondos."
+    ],
     "w": 1
   },
   {
     "q": "En caso de tener un cliente que se declare como PEP, el agente debe:",
-    "a": "Reforzar todas las medidas necesarias tendientes a determinar cuál es el origen de los fondos involucrados en sus operaciones.",
+    "a": "Reforzar todas las medidas necesarias tendientes a determinar cuál es el origen de los fondos.",
+    "inc": [
+      "Aplicar una debida diligencia simplificada.",
+      "Informar a la CNV antes de aceptar cualquier operación.",
+      "Limitar su operatoria solo a títulos públicos."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles son las etapas del proceso de lavado de activos?",
     "a": "Colocación, estratificación (decantación), integración.",
+    "inc": [
+      "Colocación, inversión y reporte.",
+      "Detección, análisis e integración.",
+      "Estratificación, ocultamiento y blanqueo."
+    ],
     "w": 1
   },
   {
     "q": "La colocación es:",
-    "a": "Es la introducción del dinero sucio dentro de la economía, a través de instituciones financieras, casinos, casas de cambio y otros negocios, con la finalidad de hacer circular el dinero y dificultar su seguimiento.",
+    "a": "La introducción del dinero sucio dentro de la economía.",
+    "inc": [
+      "La movilización de fondos dentro del sistema financiero para dificultar su seguimiento.",
+      "La etapa final donde el dinero se introduce legítimamente en la economía.",
+      "El reporte de la operación a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "La estratificación es:",
-    "a": "La movilización de fondos (provenientes de un ilícito) dentro del sistema financiero utilizando diferentes activos, como cheques, transferencia o efectivo.",
+    "a": "La movilización de fondos (provenientes de un ilícito) dentro del sistema financiero para dificultar su seguimiento.",
+    "inc": [
+      "La introducción inicial del dinero sucio dentro de la economía.",
+      "La etapa final donde el dinero se introduce legítimamente en la economía.",
+      "El reporte de la operación a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "La integración es:",
-    "a": "La etapa final del proceso de lavar dinero, logrando introducirlo legítimamente dentro de la economía, a través de otras actividades legales como la compra de propiedades o proyectos comerciales.",
+    "a": "La etapa final del proceso de lavar dinero, logrando introducirlo legítimamente dentro de la economía.",
+    "inc": [
+      "La introducción inicial del dinero sucio dentro de la economía.",
+      "La movilización de fondos dentro del sistema financiero para dificultar su seguimiento.",
+      "El reporte de la operación a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "La UIF tiene jurisdicción para actuar en:",
     "a": "Toda la República Argentina.",
+    "inc": [
+      "Solo en la Ciudad Autónoma de Buenos Aires.",
+      "Solo en operaciones internacionales.",
+      "Únicamente sobre entidades financieras."
+    ],
     "w": 1
   },
   {
-    "q": "La ley que rige para la CNV en el marco regulatorio ante el lavado de activos y financiamiento del terrorismo es la número:",
+    "q": "La ley que rige para la CNV en el marco regulatorio ante el LA/FT es la número:",
     "a": "25.246.",
+    "inc": [
+      "26.831 (Ley de Mercado de Capitales)",
+      "19.550 (Ley de Sociedades)",
+      "24.083 (Ley de FCI)"
+    ],
     "w": 1
   },
   {
     "q": "¿A quién debe informar el agente en caso de registrar una operación sospechosa?",
-    "a": "UIF.",
+    "a": "A la UIF.",
+    "inc": [
+      "A la CNV.",
+      "Al BCRA.",
+      "A la AFIP."
+    ],
     "w": 1
   },
   {
     "q": "El sistema antilavado de activos y contra financiación del terrorismo (ALA/CFT) se encuentra...",
     "a": "Centralizado en la UIF.",
+    "inc": [
+      "Centralizado en la CNV.",
+      "Centralizado en el BCRA.",
+      "Descentralizado en cada agente."
+    ],
     "w": 1
   },
   {
-    "q": "En caso de una operación sospechosa de financiamiento del terrorismo, cuando el dinero o bienes involucrados... se encuentren designados por el Consejo de Seguridad de las Naciones Unidas... ¿se debe comunicar a la UIF?",
-    "a": "Sí, sin demora alguna, de acuerdo a la Resolución UIF 29/2013.",
+    "q": "En caso de una operación sospechosa de FT... designados por el Consejo de Seguridad de las Naciones Unidas... ¿se debe comunicar a la UIF?",
+    "a": "Sí, sin demora alguna.",
+    "inc": [
+      "No, solo se debe congelar los fondos.",
+      "Sí, dentro de los 90 días.",
+      "No, se debe comunicar al Consejo de Seguridad de la ONU."
+    ],
     "w": 1
   },
   {
-    "q": "Los sujetos obligados que operan en el mercado de capitales, ¿tienen la obligación de informar a la UIF las operaciones efectuadas con monedas virtuales?",
+    "q": "Los sujetos obligados... ¿tienen la obligación de informar a la UIF las operaciones efectuadas con monedas virtuales?",
     "a": "Sí, deben hacerlo.",
+    "inc": [
+      "No, las monedas virtuales no están reguladas.",
+      "Solo si la operación supera los $10.000.000.",
+      "No, solo deben informar operaciones con moneda de curso legal."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué es un oficial de cumplimiento ante la UIF?",
-    "a": "Es el responsable ante el organismo del cumplimiento de las obligaciones establecidas en la ley 25.246 (prevención de lavado de activos) y sus modificatorias.",
+    "a": "Es el responsable ante el organismo del cumplimiento de las obligaciones establecidas en la ley 25.246.",
+    "inc": [
+      "Es un funcionario de la UIF asignado a la entidad.",
+      "Es el auditor externo de la sociedad.",
+      "Es el presidente del directorio."
+    ],
     "w": 1
   },
   {
-    "q": "Algunas de las obligaciones del oficial de cumplimiento son:",
-    "a": "Hacer cumplir la normativa de PLAFT y diseñar políticas para su implementación.",
-    "w": 1
-  },
-  {
-    "q": "Algunas de las obligaciones del oficial de cumplimiento son:",
-    "a": "Evaluar y verificar la aplicación de procedimientos PLAFT, incluyendo el monitoreo de operaciones, la detección oportuna y el Reporte de Operaciones Sospechosas (ROS).",
+    "q": "Una de las obligaciones del oficial de cumplimiento es:",
+    "a": "Diseñar políticas para la implementación del PLAFT.",
+    "inc": [
+      "Aprobar las operaciones de los clientes.",
+      "Definir la estrategia comercial del agente.",
+      "Firmar los estados contables."
+    ],
     "w": 1
   },
   {
     "q": "La recomendación 1 del GAFI se refiere al enfoque que deben tomar los países en materia PLAFT. Tal enfoque debe basarse en...",
     "a": "El riesgo.",
+    "inc": [
+      "Las reglas (cumplimiento estricto).",
+      "El monto de las operaciones.",
+      "El tipo de cliente."
+    ],
     "w": 1
   },
   {
     "q": "Según la ley 25.246, ¿cuánto es el plazo para reportar operaciones sospechosas de financiamiento de terrorismo?",
     "a": "24 horas, como máximo, a partir de que la operación fue tentada.",
+    "inc": [
+      "90 días corridos.",
+      "150 días corridos.",
+      "No hay plazo, debe ser 'sin demora'."
+    ],
     "w": 1
   },
+
   {
     "q": "¿Existe un plazo máximo para reportar operaciones sospechosas de lavado de dinero, desde que las mismas fueron realizadas o tentadas?",
     "a": "Sí, 90 días.",
+    "inc": [
+      "Sí, 24 horas (plazo de FT).",
+      "Sí, 150 días (plazo total máximo desde la operación).",
+      "No, no existe plazo máximo."
+    ],
     "w": 1
   },
   {
     "q": "El sujeto obligado, ante una potencial operación inusual, tiene la obligación de:",
     "a": "Abstenerse de revelarla al cliente o terceros.",
+    "inc": [
+      "Informar al cliente para solicitarle una justificación.",
+      "Reportarla inmediatamente a la UIF.",
+      "Comunicarla al Responsable de Relaciones con el Público."
+    ],
     "w": 1
   },
   {
     "q": "Según la Resolución 229/11 las auditorías deben ser al menos...",
     "a": "Anualmente.",
+    "inc": [
+      "Cada 2 años.",
+      "Cada 5 años.",
+      "Mensualmente."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles documentos NO deben estar incluidos en el legajo de un cliente?",
     "a": "Situación en el BCRA y situación fiscal.",
+    "inc": [
+      "Documentos que prueben fehacientemente su identidad.",
+      "Declaración jurada sobre el origen de los fondos.",
+      "Perfil de riesgo transaccional."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué sector corresponde al oficial de cumplimiento?",
     "a": "Dirección/Órgano de administración.",
+    "inc": [
+      "Gerencia de Legales.",
+      "Auditoría Interna.",
+      "Gerencia de Cumplimiento (Compliance) como empleado."
+    ],
     "w": 1
   },
   {
     "q": "¿Cada cuánto hay que actualizar el perfil del cliente para Auditoría Interna?",
     "a": "Cada año.",
+    "inc": [
+      "Cada 2 años (Riesgo Medio).",
+      "Cada 5 años (Riesgo Bajo).",
+      "Solo cuando el cliente lo solicite."
+    ],
     "w": 1
   },
   {
     "q": "Se considera que el auditor externo cumple con el requisito de independencia cuando:",
-    "a": "Es una persona ajena a la empresa, designada por la asamblea de accionistas y cuyo desempeño y conducta profesional le permiten emitir una opinión íntegra, veraz y objetiva...",
+    "a": "Es una persona ajena a la empresa, designada por la asamblea de accionistas y cuyo desempeño le permite emitir una opinión íntegra, veraz y objetiva.",
+    "inc": [
+      "Es propietario, director o gerente del ente cuyos estados financieros certifica.",
+      "Presta servicios de consultoría o asesoramiento a la entidad.",
+      "Es designado directamente por el Directorio y no por la Asamblea."
+    ],
     "w": 1
   },
   {
     "q": "Documentación obligatoria para dar el alta a un cliente.",
     "a": "Comprobar que no esté en listado de terrorismo.",
+    "inc": [
+      "Solicitar su situación fiscal (constancia de AFIP).",
+      "Solicitar su situación crediticia en el BCRA.",
+      "Pedir una carta de recomendación de otro cliente."
+    ],
     "w": 1
   },
   {
     "q": "Se define como Persona Políticamente Expuesta (PEP) a:",
     "a": "Funcionario o empleado con categoría o función no inferior a la de director general o nacional, que preste servicio en la Administración Pública Nacional.",
+    "inc": [
+      "Cualquier empleado de la Administración Pública, sin importar su categoría.",
+      "Un accionista que posea más del 10% de una empresa pública.",
+      "El cónyuge de un director de una empresa privada."
+    ],
     "w": 1
   },
   {
     "q": "Según la ley 25.246, art. 21, inc. A y B, las principales obligaciones del sujeto obligado son:",
     "a": "Recabar de sus clientes... documentos que prueben fehacientemente su identidad, personalidad jurídica, domicilio y demás datos...",
+    "inc": [
+      "Reportar todas las operaciones de sus clientes, sin excepción, a la UIF.",
+      "Garantizar la rentabilidad de las inversiones del cliente.",
+      "Asesorar al cliente sobre cómo optimizar su situación fiscal."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué sector integra el oficial de cumplimiento?",
     "a": "Dirección/Administración.",
+    "inc": [
+      "Recursos Humanos.",
+      "Auditoría Externa.",
+      "Área Comercial."
+    ],
     "w": 1
   },
   {
     "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Evaluar y verificar la aplicación de las políticas y procedimientos implementados en el sistema PLAFT...",
-    "w": 1
-  },
-  {
-    "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Velar por el cumplimiento de las normas regulatorias.",
-    "w": 1
-  },
-  {
-    "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Asesorar y reportar a la alta dirección y a la CNV.",
-    "w": 1
-  },
-  {
-    "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Asegurar el cumplimiento de la normativa de información privilegiada.",
-    "w": 1
-  },
-  {
-    "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Capacitar y educar a los empleados sobre el cumplimiento normativo.",
-    "w": 1
-  },
-  {
-    "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Gestionar conflictos de interés.",
-    "w": 1
-  },
-  {
-    "q": "Algunas obligaciones y/o funciones del oficial de cumplimiento son...",
-    "a": "Facilitar las auditorías y los informes regulatorios.",
+    "a": "Evaluar y verificar la aplicación de las políticas y procedimientos implementados en el sistema PLAFT.",
+    "inc": [
+      "Definir la política de comisiones y aranceles del agente.",
+      "Aprobar el ingreso de nuevos empleados al área comercial.",
+      "Firmar los estados contables anuales de la sociedad."
+    ],
     "w": 1
   },
   {
     "q": "Una operación inusual es:",
     "a": "Aquella que no tiene relación con el perfil económico y financiero del cliente. No es necesario reportarla.",
+    "inc": [
+      "Aquella que no tiene relación con el perfil y debe reportarse inmediatamente a la UIF.",
+      "Aquella que, tras el análisis, no encuentra justificación económica o legal.",
+      "Cualquier operación realizada por una Persona Expuesta Públicamente (PEP)."
+    ],
     "w": 1
   },
   {
     "q": "Según la Resolución UIF Nº 112/2021, la definición de «beneficiario final» es:",
-    "a": "Persona física que tenga, como mínimo, el 10% del capital o de los derechos de voto de una persona jurídica... o bien, persona humana que, por otros medios, ejerza el control final.",
+    "a": "Persona física que tenga, como mínimo, el 10% del capital o de los derechos de voto... o... ejerza el control final.",
+    "inc": [
+      "Persona física que tenga, como mínimo, el 5% del capital o de los derechos de voto.",
+      "Persona física que tenga, como mínimo, el 20% del capital o de los derechos de voto.",
+      "Persona física que tenga, como mínimo, el 51% del capital o de los derechos de voto."
+    ],
     "w": 1
   },
   {
     "q": "El manual PLAFT debe...",
     "a": "Estar físicamente en el domicilio operativo de la sociedad y ser de conocimiento de todo el personal.",
+    "inc": [
+      "Estar únicamente en poder del Oficial de Cumplimiento y ser confidencial.",
+      "Ser enviado anualmente a todos los clientes de la entidad.",
+      "Estar publicado en la página web de la CNV para consulta pública."
+    ],
     "w": 1
   },
   {
     "q": "Según la Resolución UIF Nº 229/2011 la responsabilidad en el funcionamiento de las obligaciones...",
     "a": "No podrá ser delegada en terceras personas ajenas al sujeto obligado.",
+    "inc": [
+      "Podrá ser delegada en el auditor externo de la sociedad.",
+      "Podrá ser delegada en un estudio de abogados especializado.",
+      "Podrá ser delegada en el Gerente General, eximiendo al directorio."
+    ],
     "w": 1
   },
   {
     "q": "¿De dónde surge el listado de los países que son considerados como cooperantes a los fines de la transparencia final?",
     "a": "De un decreto de AFIP (ARCA).",
+    "inc": [
+      "De un listado publicado por el GAFI.",
+      "De un listado publicado por la UIF.",
+      "De un listado publicado por la CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Según el artículo 4 de la Resolución 29/2013, si un agente es notificado sobre el congelamiento de bienes o dinero, entonces debe informar el resultado de su aplicación en un lapso de...",
+    "q": "Según el artículo 4 de la Resolución 29/2013, si un agente es notificado sobre el congelamiento de bienes o dinero, debe informar el resultado de su aplicación en un lapso de...",
     "a": "24 horas.",
+    "inc": [
+      "48 horas.",
+      "10 días hábiles.",
+      "90 días."
+    ],
     "w": 1
   },
   {
     "q": "Según la Resolución UIF Nº 229/2011 el legajo del cliente se debe confeccionar para:",
     "a": "Clientes ocasionales y/o habituales.",
+    "inc": [
+      "Solo clientes habituales.",
+      "Solo clientes ocasionales.",
+      "Solo clientes calificados."
+    ],
     "w": 1
   },
   {
     "q": "Los activos involucrados en el proceso de lavado de activos...",
     "a": "Pueden provenir de cualquier delito.",
+    "inc": [
+      "Provienen solo de actividades lícitas.",
+      "Provienen únicamente del narcotráfico.",
+      "Provienen únicamente de la evasión fiscal."
+    ],
     "w": 1
   },
   {
     "q": "Una señal de alerta para la prevención del lavado de activos es:",
     "a": "Operaciones que exceden los ingresos declarados.",
+    "inc": [
+      "Operaciones acordes al perfil económico del cliente.",
+      "Inversiones en títulos públicos a largo plazo.",
+      "Transferencias bancarias entre cuentas del mismo titular."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué se hace al armar el perfil del cliente?",
     "a": "Ver sus ingresos.",
+    "inc": [
+      "Definir las comisiones que se le cobrarán.",
+      "Recomendarle una cartera de inversión inicial.",
+      "Reportarlo preventivamente a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué define la Resolución 229 de la UIF?",
     "a": "Operaciones inusuales.",
+    "inc": [
+      "Operaciones sospechosas.",
+      "El régimen de Inversores Calificados.",
+      "Las funciones de la CNV."
+    ],
     "w": 1
   },
   {
     "q": "Según la Resolución UIF Nº 21/2018, el legajo del cliente se debe confeccionar para:",
     "a": "Todos los clientes.",
+    "inc": [
+      "Solo clientes habituales.",
+      "Solo clientes que hayan realizado operaciones sospechosas.",
+      "Solo clientes calificados y PEP."
+    ],
     "w": 1
   },
   {
     "q": "Según la Resolución UIF Nº 21/2018, la revisión externa independiente se efectúa...",
     "a": "Cada año.",
+    "inc": [
+      "Cada 2 años.",
+      "Cada 6 meses.",
+      "Solo cuando lo solicita la UIF."
+    ],
     "w": 1
   },
   {
     "q": "El auditor externo debe mantener permanente una actitud y conducta profesional acordes con:",
-    "a": "Los principios de ética e independencia, lo cual significa actuar con objetividad, evitar conflictos de interés, ser honesto e imparcial...",
+    "a": "Los principios de ética e independencia.",
+    "inc": [
+      "Los objetivos comerciales de la empresa.",
+      "Las directivas del Oficial de Cumplimiento.",
+      "La maximización de la rentabilidad del cliente."
+    ],
     "w": 1
   },
   {
     "q": "Según el art. 2 de la Resolución UIF 78/2023, un «cliente es:",
-    "a": "Toda persona humana o jurídica, estructura jurídica (nacional o extranjera) con la que se establece, ocasional o permanentemente, una relación contractual de carácter financiero, económico o comercial.",
+    "a": "Toda persona... con la que se establece, ocasional o permanentemente, una relación contractual de carácter financiero, económico o comercial.",
+    "inc": [
+      "Toda persona... con la que se establece una relación permanente (más de 1 año).",
+      "Únicamente las personas humanas con cuenta comitente.",
+      "Únicamente las personas jurídicas que operan en bolsa."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál es la definición de «lavado de dinero»?",
     "a": "Proceso donde una persona obtiene dinero proveniente de un delito y lo incorpora en la economía formal con apariencia lícita.",
+    "inc": [
+      "Proceso de financiar actividades terroristas utilizando fondos de origen lícito.",
+      "Proceso de no declarar ganancias obtenidas lícitamente (evasión fiscal).",
+      "Proceso de invertir en activos de alto riesgo para generar ganancias rápidas."
+    ],
     "w": 1
   },
   {
     "q": "Según la Res. 229/2011, ¿hay límite de tiempo posterior para definir como cliente a aquellas personas que hayan realizado operaciones con el SO?",
     "a": "No lo hay.",
+    "inc": [
+      "Sí, 1 año.",
+      "Sí, 5 años.",
+      "Sí, 10 años."
+    ],
     "w": 1
   },
   {
     "q": "Los sujetos obligados que operan en el mercado de capitales, deberán realizar el reporte de operación sospechosa (ROS) ante:",
     "a": "La UIF.",
+    "inc": [
+      "La CNV.",
+      "El BCRA.",
+      "El Mercado (BYMA, MAV, etc.)."
+    ],
     "w": 1
   },
   {
     "q": "De acuerdo a la normativa, un Agente de Negociación (AN), ¿puede recibir dinero en efectivo por parte de un cliente?",
     "a": "No debe recibirlo.",
+    "inc": [
+      "Sí, hasta el monto establecido por la ley 25.345.",
+      "Sí, si es un cliente calificado.",
+      "Sí, pero debe reportarlo inmediatamente a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuándo se da de baja a alguien del registro de idóneos?",
     "a": "Cuando permanece fuera del mercado por un tiempo superior a dos años.",
+    "inc": [
+      "Cuando permanece fuera del mercado por un tiempo superior a 6 meses.",
+      "Cuando permanece fuera del mercado por un tiempo superior a 1 año.",
+      "Cuando permanece fuera del mercado por un tiempo superior a 5 años."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué muestra incompatibilidad entre un (AP) y un ALyC?",
     "a": "Mismo domicilio.",
+    "inc": [
+      "Pertenecer al mismo grupo económico.",
+      "Tener un convenio de derivación de clientes.",
+      "Compartir el mismo auditor externo."
+    ],
     "w": 1
   },
   {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Brindar información adecuada en lenguaje apropiado, que permita al inversor conocer los riesgos que asume al invertir, como así también los costos y comisiones.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Deber de lealtad y transparencia.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Cumplir con la normativa legal y regulatoria.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "No manipular mercados.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Mantener la confidencialidad de la información de los clientes.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Cumplir con normativas PLAFT.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Manejar responsablemente los fondos de los clientes.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Formarse y actualizarse profesionalmente.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "Deber de cumplimiento con normas contractuales y legales.",
-    "w": 1
-  },
-  {
-    "q": "Normas de conducta que debe cumplir un AP:",
-    "a": "No aceptar instrucciones ilegales.",
+    "q": "Normas de conducta que debe cumplir un AP: (Seleccione una)",
+    "a": "Brindar información adecuada en lenguaje apropiado, que permita al inversor conocer los riesgos.",
+    "inc": [
+      "Custodiar los fondos y valores negociables del cliente.",
+      "Registrar las órdenes en el libro de Registro de Órdenes.",
+      "Liquidar y compensar las operaciones del cliente."
+    ],
     "w": 1
   },
   {
     "q": "¿Un AN puede custodia de su propia cartera?",
     "a": "No.",
+    "inc": [
+      "Sí.",
+      "Sí, pero solo si también es un ALyC Propio.",
+      "Sí, con autorización expresa de la CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando exista convenio entre un ALyC y un AN...",
-    "a": "El primero no podrá dirigir acciones promocionales hacia los clientes del AN con los que haya firmado convenio, para ofrecer sus propios servicios.",
+    "q": "Cuando exista convenio entre un ALyC y un AN... (Pregunta 146)",
+    "a": "El primero (ALyC) no podrá dirigir acciones promocionales hacia los clientes del AN.",
+    "inc": [
+      "El primero (ALyC) podrá dirigir acciones promocionales libremente a los clientes del AN.",
+      "El AN podrá custodiar los fondos de los clientes del ALyC.",
+      "El ALyC pasa a ser responsable disciplinario del AN ante la CNV."
+    ],
     "w": 1
   },
   {
     "q": "Las funciones del Responsable de Relaciones con el Público, ante el reclamo de un inversor, son:",
     "a": "Recibir y dar tratamiento a los reclamos de los inversores y remitir la información a la CNV.",
+    "inc": [
+      "Reportar la operación a la UIF como inusual.",
+      "Evaluar nuevamente el perfil de riesgo del inversor.",
+      "Ejecutar la orden de operación si el inversor la reitera."
+    ],
     "w": 1
   },
   {
     "q": "Limitaciones de un mercado:",
-    "a": "Ningún accionista puede tener más del 20% del capital social de la empresa y toda tenencia superior a 2% debe informarse a CNV.",
+    "a": "Ningún accionista puede tener más del 20% del capital social y toda tenencia superior a 2% debe informarse a CNV.",
+    "inc": [
+      "Ningún accionista puede tener más del 51% del capital social.",
+      "Ningún accionista puede tener más del 10% del capital social.",
+      "Ningún accionista puede tener más del 5% del capital social."
+    ],
     "w": 1
   },
   {
-    "q": "Funciones de un agente de negociación:",
-    "a": "Actuar en la colocación primaria y en la negociación secundaria a través de los sistemas informáticos de negociación de los mercados autorizados por CNV.",
+    "q": "Funciones de un agente de negociación (AN):",
+    "a": "Actuar en la colocación primaria y en la negociación secundaria a través de los sistemas informáticos de los mercados.",
+    "inc": [
+      "Custodiar los valores negociables de sus clientes.",
+      "Liquidar y compensar las operaciones propias y de terceros.",
+      "Calificar el riesgo de las emisiones de ONs."
+    ],
     "w": 1
   },
   {
     "q": "Las subcategorías de un ALyC son:",
     "a": "Propio e Integral.",
+    "inc": [
+      "Pleno y Registrado.",
+      "Local e Internacional.",
+      "Miembro y No Miembro."
+    ],
     "w": 1
   },
   {
     "q": "¿Para qué sirven las contragarantías líquidas que exige la CNV a los agentes?",
     "a": "Para responder ante los mercados en caso de haber una contingencia.",
+    "inc": [
+      "Para pagar los salarios de los empleados y directores.",
+      "Para cubrir los gastos operativos del agente (alquiler, servicios).",
+      "Para garantizar una rentabilidad mínima a los clientes."
+    ],
     "w": 1
   },
   {
     "q": "¿Quiénes deben estar inscritos en el Registro de Idoneidad?",
     "a": "Quienes tengan contacto con el público inversor.",
+    "inc": [
+      "Únicamente los directores y síndicos del ALyC.",
+      "El personal de back-office y sistemas.",
+      "El Oficial de Cumplimiento únicamente."
+    ],
     "w": 1
   },
   {
     "q": "Una persona se considera idónea luego de...",
     "a": "Quedar matriculada ante la CNV.",
+    "inc": [
+      "Aprobar el examen de idoneidad (es un requisito previo).",
+      "Ser contratada por un agente registrado.",
+      "Tener un título universitario en finanzas."
+    ],
     "w": 1
   },
   {
-    "q": "En las operaciones de préstamos de valores, los agentes deben requerir:",
+    "q": "En las operaciones de préstamos de valores, los agentes deben requerir: (Seleccione una)",
     "a": "Conformidad escrita del cliente prestamista para su realización.",
+    "inc": [
+      "Autorización previa de la CNV para cada operación.",
+      "Un margen de garantía por parte del cliente prestamista.",
+      "Un reporte de la UIF sobre el cliente tomador."
+    ],
     "w": 1
   },
   {
-    "q": "En las operaciones de préstamos de valores, los agentes deben requerir:",
+    "q": "En las operaciones de préstamos de valores, los agentes deben requerir: (Seleccione una)",
     "a": "Autorización suscrita por el cliente tomador a favor de su agente.",
+    "inc": [
+      "Autorización previa de la CNV para cada operación.",
+      "Un margen de garantía por parte del cliente prestamista.",
+      "Un reporte de la UIF sobre el cliente tomador."
+    ],
     "w": 1
   },
   {
     "q": "Responsables ante incumplimiento de las normas:",
     "a": "Agente e idóneo.",
+    "inc": [
+      "Solo el idóneo.",
+      "Solo el agente.",
+      "Solo el cliente."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál es una incompatibilidad general en los agentes de mercados de capitales?",
     "a": "Delegar en terceros, total o parcialmente, la ejecución de los servicios que constituyan el objeto de la actuación.",
+    "inc": [
+      "Contratar personal idóneo para atender al público.",
+      "Abrir sucursales en otras provincias.",
+      "Operar en mercados del exterior con autorización."
+    ],
     "w": 1
   },
   {
     "q": "¿Dónde se puede verificar que el asesor idóneo esté debidamente registrado?",
     "a": "En la página web de la CNV.",
+    "inc": [
+      "En la página web de la UIF.",
+      "En la página web del BCRA.",
+      "En el sitio web del agente para el que trabaja únicamente."
+    ],
     "w": 1
   },
   {
-    "q": "Un inversor tiene dudas sobre la tenencia de los títulos de activos que informa su ALyC o AN. ¿Qué puede hacer?",
+    "q": "Un inversor tiene dudas sobre la tenencia de los títulos que informa su ALyC o AN. ¿Qué puede hacer?",
     "a": "Consultar al Agente de Depósito Colectivo (ADC), como Caja de Valores S. A.",
+    "inc": [
+      "Consultar a la Unidad de Información Financiera (UIF).",
+      "Consultar al Banco Central (BCRA).",
+      "Iniciar un sumario administrativo en la CNV."
+    ],
     "w": 1
   },
   {
     "q": "En la negociación de cheques de pago diferido (CDP), los agentes deberán:",
-    "a": "Notificar fehacientemente... a los clientes que intervengan en las distintas modalidades disponibles de negociación de CPD, sus características distintivas y los esquemas de garantía...",
-    "w": 1
-  },
-  {
-    "q": "En la negociación de cheques de pago diferido (CDP), los agentes deberán:",
-    "a": "Notificar fehacientemente... a los clientes acerca de los eventuales riesgos de distintas modalidades ante el no pago del cheque... y el procedimiento aplicable...",
+    "a": "Notificar fehacientemente... a los clientes... sus características distintivas y los esquemas de garantía.",
+    "inc": [
+      "Garantizar personalmente el pago del cheque ante la falta de fondos.",
+      "Calificar el riesgo crediticio del librador del cheque.",
+      "Informar a la UIF cada cheque negociado, sin importar el monto."
+    ],
     "w": 1
   },
   {
     "q": "Se presenta un inversor para recibir asesoría. ¿Qué es lo primero que debe hacer un idóneo?",
     "a": "Calcular el perfil de riesgo de la persona, midiendo su nivel de aversión al riesgo.",
+    "inc": [
+      "Recomendarle la inversión con mayor rendimiento del día.",
+      "Abrirle la cuenta comitente inmediatamente.",
+      "Informarle detalladamente las comisiones del agente."
+    ],
     "w": 1
   },
   {
-    "q": "¿Cuánto tiempo debe mantener la información un agente, luego de finalizar la relación con el cliente?",
-    "a": "5 años (Documentos de operaciones, clientes, debida diligencia desde desvinculación).",
-    "w": 1
-  },
-  {
-    "q": "¿Cuánto tiempo debe mantener la información un agente, luego de finalizar la relación con el cliente?",
-    "a": "10 años (Cuando la documentación se encuentra vinculada a operaciones inusuales o sospechosas).",
-    "w": 1
-  },
-  {
-    "q": "Los sujetos obligados deberán conservar la documentación (identificación, conocimiento y operaciones) del cliente durante un periodo mínimo de:",
+    "q": "Los sujetos obligados deberán conservar la documentación (identificación, operaciones, etc.) del cliente durante un periodo mínimo de:",
     "a": "10 años desde la finalización de la relación con el cliente.",
+    "inc": [
+      "5 años desde la finalización de la relación.",
+      "2 años desde la finalización de la relación.",
+      "1 año desde la finalización de la relación."
+    ],
     "w": 1
   },
   {
     "q": "Si un idóneo que trabaja para un ALyC no puede resolver un problema con un cliente, ¿qué debe hacer?",
     "a": "Contactar al responsable de relaciones con el público.",
+    "inc": [
+      "Contactar al Oficial de Cumplimiento.",
+      "Derivar al cliente a la CNV.",
+      "Solicitar al cliente que cierre la cuenta."
+    ],
     "w": 1
   },
   {
-    "q": "Si un ADC detecta que el comitente no accedió durante tres meses consecutivos con su clave a sus saldos... entonces...",
-    "a": "Debe remitir notificación al titular de la cuenta depositante, solicitando que comunique al titular de la subcuenta que denuncie nuevo domicilio...",
+    "q": "Si un ADC detecta que el comitente no accedió por 3 meses a sus saldos y los resúmenes son devueltos, entonces...",
+    "a": "Debe notificar al agente (depositante) para que el cliente ratifique domicilio, si no hay respuesta, se bloquea la cuenta.",
+    "inc": [
+      "Debe bloquear la cuenta del cliente inmediatamente.",
+      "Debe informar la situación a la UIF como operación inusual.",
+      "Debe liquidar los activos del comitente y cerrar la cuenta."
+    ],
     "w": 1
   },
   {
     "q": "Para el AN, ¿qué registro es obligatorio?",
     "a": "El libro Registro de Órdenes con clientes.",
+    "inc": [
+      "El manual PLAFT.",
+      "El Código de Gobierno Societario.",
+      "El registro de accionistas de la sociedad."
+    ],
     "w": 1
   },
   {
     "q": "¿Puede un AN custodiar su propia cartera?",
     "a": "No.",
+    "inc": [
+      "Sí.",
+      "Sí, si es ALyC Propio.",
+      "Sí, si es ALyC Integral."
+    ],
     "w": 1
   },
   {
     "q": "Los agentes asesores (AA) del mercado de capitales pueden:",
     "a": "Prestar asesoramiento al público inversor.",
+    "inc": [
+      "Custodiar fondos de clientes.",
+      "Liquidar y compensar operaciones.",
+      "Calificar el riesgo de emisiones."
+    ],
     "w": 1
   },
   {
     "q": "Un agente asesor es...",
-    "a": "Toda persona física o jurídica que desarrolla todo asesoramiento en el ámbito del mercado de capitales y que implica contacto con el público inversor.",
+    "a": "Toda persona física o jurídica que desarrolla todo asesoramiento... y que implica contacto con el público inversor.",
+    "inc": [
+      "Toda persona jurídica que liquida y compensa operaciones.",
+      "Toda persona física o jurídica que capta clientes para un ALyC.",
+      "Toda persona jurídica que custodia valores en depósito colectivo."
+    ],
     "w": 1
   },
   {
     "q": "Los agentes calificadores de riesgo pueden...",
     "a": "Realizar actividades afines, con la previa autorización de la CNV.",
+    "inc": [
+      "Prestar servicios de auditoría a las entidades que califican.",
+      "Prestar servicios de consultoría a las entidades que califican.",
+      "Ser accionistas de las entidades que califican."
+    ],
     "w": 1
   },
   {
-    "q": "Afirmaciones correctas acerca del asesor idóneo:",
+    "q": "Afirmación correcta acerca del asesor idóneo:",
     "a": "Es necesario ser dado de alta en el Registro Público de Idóneos de la CNV por un agente matriculado.",
-    "w": 1
-  },
-  {
-    "q": "Afirmaciones correctas acerca del asesor idóneo:",
-    "a": "El idóneo deberá actuar con honestidad, imparcialidad, profesionalidad, diligencia y lealtad con los inversores...",
-    "w": 1
-  },
-  {
-    "q": "Afirmaciones correctas acerca del asesor idóneo:",
-    "a": "Ante el incumplimiento de la normativa vigente a su actividad, el idóneo será pasible de la eventual aplicación de las sanciones previstas en el art. 132 de la ley 26.831...",
+    "inc": [
+      "El idóneo se registra por su cuenta, sin necesidad de un agente.",
+      "El registro es voluntario para quienes asesoran.",
+      "El registro se realiza ante el BCRA."
+    ],
     "w": 1
   },
   {
     "q": "Para los clientes de los agentes autorizados a operar con acceso directo al mercado (DMA)...",
-    "a": "La redistribución de la información de mercado (Market data) en tiempo real, por parte de los agentes a dichos clientes, está sujeta a los aranceles fijados por el mercado en cuestión.",
+    "a": "La redistribución de la información de mercado (Market data) en tiempo real... está sujeta a los aranceles fijados por el mercado.",
+    "inc": [
+      "La información de mercado (Market data) en tiempo real es siempre gratuita.",
+      "La información de mercado está prohibida para clientes DMA.",
+      "El arancel de Market data lo fija la CNV, no el mercado."
+    ],
     "w": 1
   },
   {
-    "q": "Según la normativa vigente, ¿qué debe ocurrir para que un idóneo inactivo sea dado de bajo en el Registro de Idóneos y deba cumplir nuevamente con los requisitos para obtener la idoneidad?",
+    "q": "Según la normativa, ¿qué debe ocurrir para que un idóneo inactivo sea dado de baja en el Registro?",
     "a": "Permanecer inactivo durante dos años o no cumplir con los cursos de actualización requeridos.",
-    "w": 1
-  },
-  {
-    "q": "Respecto a la negociación de Factura de Crédito Electrónica (FCE) en moneda extranjera...",
-    "a": "La FCE es un instrumento electrónico creado y autorizado por CNV.",
-    "w": 1
-  },
-  {
-    "q": "Respecto a la negociación de Factura de Crédito Electrónica (FCE) en moneda extranjera...",
-    "a": "La negociación de FCE en moneda extranjera es el proceso por el cual las empresas que tienen una, pueden transferirla o cederla a terceros...",
+    "inc": [
+      "Permanecer inactivo durante 6 meses.",
+      "Permanecer inactivo durante 1 año.",
+      "Permanecer inactivo durante 5 años."
+    ],
     "w": 1
   },
   {
     "q": "Respecto a la negociación de Factura de Crédito Electrónica (FCE) en moneda extranjera...",
     "a": "El pago de la deuda se realiza en la misma moneda en que fue emitida la factura.",
+    "inc": [
+      "El pago de la deuda se realiza siempre en pesos al tipo de cambio oficial.",
+      "El pago de la deuda se realiza en pesos al tipo de cambio MEP.",
+      "Está prohibida la negociación de FCE en moneda extranjera."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles agentes tienen compatibilidad?",
     "a": "ALyC y AN.",
+    "inc": [
+      "ALyC y ADC (Agente de Depósito Colectivo).",
+      "ACR (Calificador de Riesgo) y Auditor Externo de la misma entidad.",
+      "AP y ALyC (si tienen el mismo domicilio)."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles agentes tienen incompatibilidad?",
     "a": "ALyC y ADC.",
+    "inc": [
+      "ALyC y AN.",
+      "AN y AP.",
+      "ALyC y AP (con distinto domicilio)."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué muestra incompatibilidad entre un AP y un ALYC?",
     "a": "Mismo domicilio.",
+    "inc": [
+      "Pertenecer al mismo grupo económico.",
+      "Tener un convenio de derivación de clientes.",
+      "Compartir el mismo auditor externo."
+    ],
     "w": 1
   },
   {
-    "q": "En la documentación de respaldo que extiendan a sus clientes por las operaciones realizadas (boletos), los agentes deben:",
+    "q": "En la documentación de respaldo (boletos) que extiendan a sus clientes, los agentes deben:",
     "a": "Explicitar las comisiones y todo costo de intermediación.",
+    "inc": [
+      "Ocultar las comisiones para ser más competitivo (práctica no transparente).",
+      "Incluir una recomendación de 'comprar' o 'vender'.",
+      "Incluir el perfil de riesgo actualizado del cliente."
+    ],
     "w": 1
   },
   {
-    "q": "Régimen informativo para no residentes. Si un inversor extranjero no residente en Argentina, realiza operaciones superiores a $ 5.000.000, se deberá remitir por medio de la AIF el saldo de las inversiones... a través de:",
+    "q": "Régimen informativo para no residentes. Si un inversor extranjero... realiza operaciones superiores a $ 5.000.000, se deberá remitir... el saldo... a través de:",
     "a": "AN, ALYC y AA FCI.",
+    "inc": [
+      "Solo AN (Agente de Negociación).",
+      "Solo ALyC (Agente de Liq. y Comp.).",
+      "Solo AA FCI (Agente Asesor de FCI)."
+    ],
     "w": 1
   },
   {
     "q": "La responsabilidad ante un incumplimiento normativo del idóneo es del:",
     "a": "Agente y sus integrantes.",
+    "inc": [
+      "Solo del idóneo.",
+      "Solo del agente.",
+      "Del cliente que dio la orden."
+    ],
     "w": 1
   },
   {
-    "q": "Un empleado de dos agentes compatibles del mismo grupo económico cuando compartan el domicilio o el mismo medio de atención al público inversor. Puede ser idóneo del mercado de capitales...",
+    "q": "Un empleado de dos agentes compatibles del mismo grupo económico cuando compartan el domicilio... Puede ser idóneo del mercado de capitales...",
     "a": "Verdadero.",
+    "inc": [
+      "Falso.",
+      "Falso, es incompatible compartir domicilio.",
+      "Falso, no puede ser empleado de dos agentes a la vez."
+    ],
     "w": 1
   },
   {
     "q": "La contrapartida líquida representa:",
     "a": "Un porcentaje del patrimonio neto que establece la CNV por categoría de agente.",
+    "inc": [
+      "El fondo de garantía que administra el mercado.",
+      "El 100% del patrimonio neto del agente.",
+      "El dinero en efectivo depositado por los clientes."
+    ],
     "w": 1
   },
   {
     "q": "Función principal de un Agente de Calificación de Riesgo de Universidades Públicas (ACR UP):",
     "a": "Calificar cualquier valor negociable, sujeto o no al régimen de oferta pública.",
+    "inc": [
+      "Calificar únicamente títulos públicos.",
+      "Calificar únicamente activos de PyMEs.",
+      "Calificar únicamente Fondos Comunes de Inversión."
+    ],
     "w": 1
   },
   {
     "q": "Los agentes deben guardar secreto:",
     "a": "De las operaciones que realicen para terceros y propias.",
+    "inc": [
+      "Solo de las operaciones que realicen para terceros.",
+      "Solo de las operaciones propias (cartera propia).",
+      "No están obligados a guardar secreto (se levanta por defecto)."
+    ],
     "w": 1
   },
   {
     "q": "Se define «instrucción específica» en una operación cuando...",
-    "a": "Por cada operación se debe indicar especie/instrumento, cantidad, precio, incluida la referencia a \"precio de mercado\"... La instrucción... tendrá validez diaria.",
+    "a": "Por cada operación se debe indicar especie/instrumento, cantidad, precio... y tendrá validez diaria.",
+    "inc": [
+      "El cliente otorga un mandato de administración discrecional de cartera.",
+      "El cliente autoriza al agente a operar por él durante todo el mes.",
+      "El cliente solo indica la especie, y el agente decide el precio y cantidad."
+    ],
     "w": 1
   },
   {
     "q": "Las operaciones de cartera propia son:",
-    "a": "Aquellas realizadas por las entidades (bancos, fondos de inversión, etc.) con capital propio con el fin de obtener beneficios.",
+    "a": "Aquellas realizadas por las entidades (bancos, fondos, etc.) con capital propio con el fin de obtener beneficios.",
+    "inc": [
+      "Todas las operaciones realizadas para clientes minoristas.",
+      "Las operaciones personales del Oficial de Cumplimiento.",
+      "Las operaciones realizadas para clientes PEP."
+    ],
     "w": 1
   },
   {
-    "q": "De acuerdo las Normas CNV, Título XI, los sujetos obligados solo podrán recibir por cliente y fondos diarios en efectivo por un monto que no exceda:",
-    "a": "El monto en pesos o su equivalente en moneda extranjera que no exceda al monto establecido en el art. 1 de la ley 25.345.",
+    "q": "De acuerdo las Normas CNV... los sujetos obligados solo podrán recibir por cliente y fondos diarios en efectivo por un monto que no exceda:",
+    "a": "El monto establecido en el art. 1 de la ley 25.345 (o su equivalente).",
+    "inc": [
+      "Un salario mínimo, vital y móvil.",
+      "$10.000 (Diez mil pesos).",
+      "No hay límite, siempre que se reporte a la UIF."
+    ],
     "w": 1
   },
   {
     "q": "Limitaciones de un agente productor (AP):",
     "a": "Custodia de fondos.",
+    "inc": [
+      "Captar clientes para un ALyC.",
+      "Brindar asesoramiento vinculado a un ALyC.",
+      "Cobrar comisiones por derivar clientes."
+    ],
     "w": 1
   },
   {
     "q": "Un agente productor puede...",
     "a": "Administrar carteras y brindar asesoramiento vinculado a un ALyC.",
+    "inc": [
+      "Custodiar fondos de clientes.",
+      "Liquidar y compensar operaciones.",
+      "Calificar el riesgo de un Fondo Común de Inversión."
+    ],
     "w": 1
   },
   {
     "q": "¿Puede un AP captar clientes para los AN, ALYC y AAGI?",
     "a": "Sí puede.",
+    "inc": [
+      "No puede.",
+      "Solo puede captar clientes para AN.",
+      "Solo puede captar clientes para ALyC."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando exista convenio entre un ALyC y un AN...",
-    "a": "El primero podrá dirigir acciones promocionales hacia los clientes del segundo, con los que haya firmado convenio para ofrecerles sus propios servicios.",
+    "q": "Cuando exista convenio entre un ALyC y un AN... (Pregunta 190)",
+    "a": "El primero (ALyC) podrá dirigir acciones promocionales hacia los clientes del segundo...",
+    "inc": [
+      "El primero (ALyC) NO podrá dirigir acciones promocionales (Respuesta Q146).",
+      "El AN deberá custodiar los fondos del ALyC.",
+      "El ALyC deberá absorber las pérdidas del AN."
+    ],
     "w": 1
   },
   {
     "q": "El AAGI no debe:",
     "a": "Ofrecer públicamente valores negociables que no cuenten con autorización de oferta pública en el país.",
+    "inc": [
+      "Realizar operaciones a través de intermediarios locales.",
+      "Administrar carteras de inversión.",
+      "Cobrar honorarios directamente a sus clientes."
+    ],
     "w": 1
   },
   {
     "q": "El AAGI no debe:",
     "a": "Ser cliente del AN con quien celebre convenio.",
+    "inc": [
+      "Realizar operaciones a través de intermediarios locales.",
+      "Administrar carteras de inversión.",
+      "Cobrar honorarios directamente a sus clientes."
+    ],
     "w": 1
   },
   {
     "q": "Los AAGI pueden:",
     "a": "Realizar operaciones a través de intermediarios locales y del exterior.",
+    "inc": [
+      "Custodiar los fondos de sus clientes.",
+      "Liquidar y compensar las operaciones que asesora.",
+      "Ser cliente del AN con quien celebra convenio."
+    ],
     "w": 1
   },
   {
-    "q": "En los segmentos de negociación bilateral, esta se lleva a cabo...",
+    "q": "En los segmentos de negociación bilateral (SENEBI), esta se lleva a cabo...",
     "a": "Entre agentes de su cartera propia y/o entre agentes e inversores/clientes calificados.",
+    "inc": [
+      "Bajo el sistema de prioridad precio-tiempo (PPT).",
+      "Con garantía obligatoria del mercado.",
+      "De forma anónima a través de pantallas de negociación."
+    ],
     "w": 1
   },
   {
-    "q": "En las operaciones de venta con liquidación en contado normal, en forma previa para dar curso a las órdenes de los clientes, los agentes podrán:",
-    "a": "Constatar la existencia de fondos suficientes en la cuenta del cliente.",
-    "w": 1
-  },
-  {
-    "q": "En las operaciones de venta con liquidación en contado normal, en forma previa para dar curso a las órdenes de los clientes, los agentes podrán:",
+    "q": "En las operaciones de venta con liquidación en contado normal, en forma previa para dar curso a las órdenes, los agentes podrán:",
     "a": "Constatar la previa acreditación de la titularidad de los valores negociables por parte del cliente.",
+    "inc": [
+      "Solicitar una calificación de riesgo actualizada del cliente.",
+      "Exigir un depósito de garantía adicional al cliente.",
+      "Reportar la operación preventivamente a la UIF."
+    ],
     "w": 1
   },
   {
-    "q": "En el caso de emisoras que revisten la calidad de mercado, ¿deben informar a la CNV sus tenencias accionarias?",
+    "q": "En el caso de emisoras que revisten la calidad de mercado, ¿deben informar a la CNV sus tenencias accionarias? (Según PDF Pregunta 195)",
     "a": "No, al menos que sea requerido por CNV.",
+    "inc": [
+      "Sí, enviando información a CNV a través de la AIF (Respuesta Q90).",
+      "Sí, si la tenencia supera el 2%.",
+      "Sí, pero solo al BCRA."
+    ],
     "w": 1
   },
   {
-    "q": "¿Un agente asesor puede firmar un acuerdo con un ALyC para derivar clientes a cambio de una comisión?",
+    "q": "¿Un agente asesor (AA) puede firmar un acuerdo con un ALyC para derivar clientes a cambio de una comisión?",
     "a": "No debe.",
+    "inc": [
+      "Sí, es su función principal (función del AP).",
+      "Sí, pero debe informar la comisión a la CNV.",
+      "Sí, pero solo si el ALyC es del mismo grupo económico."
+    ],
     "w": 1
   },
   {
     "q": "¿A quién puede recurrir un inversor para consultar su tenencia de valores negociables?",
-    "a": "Al agente de depósito colectivo, por lo medios que este habilite, debiendo el agente informar al comitente acerca de los mismos.",
+    "a": "Al agente de depósito colectivo (ADC), por lo medios que este habilite.",
+    "inc": [
+      "A la Unidad de Información Financiera (UIF).",
+      "Al Banco Central (BCRA).",
+      "Al Mercado (BYMA) donde operó."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando una persona jurídica es sujeto obligado, en los términos del artículo 20 de la ley 25.246, debe designar un Oficial de Cumplimiento. ¿Quién puede ser designado como tal?",
+    "q": "Cuando una persona jurídica es sujeto obligado... debe designar un Oficial de Cumplimiento. ¿Quién puede ser designado como tal?",
     "a": "Un miembro del órgano de administración.",
+    "inc": [
+      "El auditor externo de la sociedad.",
+      "El gerente de sistemas.",
+      "Un consultor externo especializado en PLAFT."
+    ],
     "w": 1
   },
   {
     "q": "Dentro de un agente, ¿cuál es la función de la persona responsable de relaciones con el público?",
-    "a": "Atender reclamos y denuncias de los clientes. Luego, informar al Órgano de Administración y remitir un informe mensual a la entidad acerca del estado de los reclamos.",
+    "a": "Atender reclamos y denuncias de los clientes.",
+    "inc": [
+      "Reportar operaciones sospechosas a la UIF.",
+      "Supervisar el cumplimiento normativo interno.",
+      "Captar nuevos clientes para el agente."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando al ADC bloquea una comitente, entonces...",
-    "a": "El titular de las subcuentas comitentes bloqueadas debe presentar ante el ADC su nuevo domicilio postal o correo electrónico para lograr desbloquear la cuenta.",
+    "q": "Cuando el ADC bloquea una comitente, entonces...",
+    "a": "El titular de las subcuentas debe presentar ante el ADC su nuevo domicilio... para lograr desbloquear la cuenta.",
+    "inc": [
+      "El agente (ALyC) debe pagar una multa para desbloquearla.",
+      "La cuenta se desbloquea automáticamente pasados 30 días.",
+      "Los activos de la cuenta son liquidados por el ADC."
+    ],
     "w": 1
   },
   {
     "q": "Vendo un put con strike $ 100 y, llegado el vencimiento, el subyacente cotiza a $ 110. ¿Qué pasará?",
     "a": "El comprador no ejercerá la opción.",
+    "inc": [
+      "El comprador ejercerá la opción (la ejerce si cotiza < 100).",
+      "Yo (vendedor) estoy obligado a comprar a $110.",
+      "Yo (vendedor) puedo decidir ejercer la opción."
+    ],
     "w": 1
   },
   {
     "q": "Una baja en la volatilidad de una acción afecta al precio de la prima...",
     "a": "Sí, porque la prima del call y del put disminuyen.",
+    "inc": [
+      "Sí, porque la prima del call sube y la del put baja.",
+      "Sí, porque la prima del call baja y la del put sube.",
+      "No, la volatilidad no afecta el precio de la prima."
+    ],
     "w": 1
   },
   {
-    "q": "Las acreencias de una caución y de una operación a pase, ¿a quiénes corresponden?",
+    "q": "Las acreencias (dividendos, rentas) de una caución y de una operación a pase, ¿a quiénes corresponden?",
     "a": "En la caución al tomador y en el pase, al colocador.",
+    "inc": [
+      "En la caución al colocador y en el pase, al tomador.",
+      "En ambas operaciones corresponden al tomador.",
+      "En ambas operaciones corresponden al colocador."
+    ],
     "w": 1
   },
   {
     "q": "El interés abierto es...",
-    "a": "El número total de posiciones en futuros que permanecen pendientes.",
+    "a": "El número total de posiciones en futuros que permanecen pendientes (abiertas).",
+    "inc": [
+      "El interés total pagado por los contratos al vencimiento.",
+      "El número total de contratos negociados en el día (volumen).",
+      "La tasa de interés implícita en el precio del futuro."
+    ],
     "w": 1
   },
   {
-    "q": "¿Cuáles se consideran operaciones de contado en instrumentos de renta fija y de renta variable?",
-    "a": "Contado inmediato y ¿48 horas o 24 horas?",
+    "q": "¿Cuáles se consideran operaciones de contado?",
+    "a": "Contado inmediato (T+0), 24 horas (T+1) y 48 horas (T+2).",
+    "inc": [
+      "Solo Contado Inmediato (T+0).",
+      "Solo Contado Normal (T+2).",
+      "Operaciones con liquidación a 7 días."
+    ],
     "w": 1
   },
   {
     "q": "¿A qué se asemeja el ingreso de fondos que puede obtener un inversor que realizó un lanzamiento cubierto con opciones?",
     "a": "A la venta de un put.",
+    "inc": [
+      "A la compra de un call.",
+      "A la compra de un put.",
+      "A la compra de la acción subyacente."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué caracteriza a los contratos de futuros?",
-    "a": "La existencia de una contraparte central.",
+    "a": "La existencia de una contraparte central (el mercado).",
+    "inc": [
+      "Se pactan a medida entre las partes (Forward).",
+      "El comprador paga una prima al vendedor (Opción).",
+      "El comprador tiene el derecho, pero no la obligación (Opción)."
+    ],
     "w": 1
   },
   {
-    "q": "¿Qué es un ADR?",
-    "a": "Título respaldatorio de acciones extranjeras en un banco estadounidense que cotizan en Estados Unidos.",
+    "q": "¿Qué es un ADR (American Depositary Receipt)?",
+    "a": "Título respaldatorio de acciones extranjeras (ej. argentinas) que cotiza en Estados Unidos.",
+    "inc": [
+      "Certificado de acciones extranjeras (ej. de EE.UU.) que cotiza en Argentina.",
+      "Un título de deuda pública de Estados Unidos.",
+      "Una acción de una empresa de EE.UU. que cotiza en Argentina."
+    ],
     "w": 1
   },
   {
     "q": "El pagaré con oferta pública avalado por una SGR tiene las siguientes características:",
-    "a": "6 USD, 180 días a 3 años contados desde la fecha de emisión.",
+    "a": "Plazo de 180 días a 3 años.",
+    "inc": [
+      "Plazo de 90 días a 1 año.",
+      "Plazo de 1 año a 5 años.",
+      "Plazo de 30 días a 180 días."
+    ],
     "w": 1
   },
   {
     "q": "Una diferencia entre un pase y una caución es que...",
     "a": "El titular no pierde la propiedad de los títulos en una caución, pero en el pase, sí la pierde.",
+    "inc": [
+      "El titular no pierde la propiedad en un pase, pero sí en una caución.",
+      "El pase es garantizado por el mercado y la caución es bilateral.",
+      "La caución es solo para tomar fondos y el pase es solo para colocar fondos."
+    ],
     "w": 1
   },
   {
     "q": "Una ON PYME puede ser suscrita por:",
-    "a": "Inversores calificados y, si está avalada por alguna SGR, no calificados.",
+    "a": "Inversores calificados y, si está avalada por alguna SGR, también no calificados.",
+    "inc": [
+      "Solo inversores calificados, sin excepción.",
+      "Solo inversores no calificados.",
+      "Solo por otras PyMEs y SGRs."
+    ],
     "w": 1
   },
   {
     "q": "Un CEDEAR es:",
     "a": "Certificado de acciones extranjeras que cotiza en Argentina.",
+    "inc": [
+      "Título de acciones argentinas que cotiza en EE.UU. (ADR).",
+      "Un título de deuda de una empresa extranjera que cotiza en Argentina.",
+      "Un Fondo Común de Inversión de acciones extranjeras."
+    ],
     "w": 1
   },
   {
     "q": "Diferencia entre una opción europea y una opción americana.",
     "a": "La europea solo puede ser ejercida en el día del vencimiento. La americana puede ser ejercida antes y/o en el mismo día del vencimiento.",
+    "inc": [
+      "La americana solo puede ser ejercida en el vencimiento. La europea en cualquier momento.",
+      "La europea no tiene prima, la americana sí.",
+      "La europea es sobre acciones de Europa, la americana sobre acciones de EE.UU."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál es la finalidad de márgenes de garantía de futuros?",
     "a": "Sirven como garantía de cumplimiento ante el mercado.",
+    "inc": [
+      "Es el pago de la prima al vendedor (Opciones).",
+      "Es el costo total del contrato que se paga por adelantado.",
+      "Es la comisión que cobra el agente (ALyC)."
+    ],
     "w": 1
   },
   {
     "q": "Los contratos de futuros agrícolas son:",
     "a": "Contratos estandarizados para recibir la mercadería en un lugar y fecha específicos.",
+    "inc": [
+      "Contratos a medida (Forward) pactados directamente entre las partes.",
+      "Contratos que otorgan el derecho, pero no la obligación, de comprar la mercadería (Opción).",
+      "Contratos que solo permiten la liquidación en dinero (Cash Settlement)."
+    ],
     "w": 1
   },
   {
     "q": "Si el precio del subyacente sube, entonces ¿qué sucede con la prima de las opciones?",
     "a": "Sube el call y baja el put.",
+    "inc": [
+      "Sube el put y baja el call.",
+      "Suben ambas (call y put).",
+      "Bajan ambas (call y put)."
+    ],
     "w": 1
   },
+
   {
     "q": "Los especuladores...",
     "a": "Asumen riesgos para obtener ganancias, pero también aportan liquidez al mercado para sincerar precios.",
+    "inc": [
+      "Solo buscan cobertura y no asumen riesgos (Hedgers).",
+      "Realizan arbitrajes sin riesgo y sin inversión.",
+      "Están prohibidos por la CNV por manipular el mercado."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuándo se paga los intereses de una caución tomadora?",
     "a": "Al inicio de la operación.",
+    "inc": [
+      "Al vencimiento de la operación.",
+      "Diariamente, junto con las diferencias diarias.",
+      "Mensualmente, sin importar el plazo."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué instrumentos no se puede utilizar en operaciones de pase y caución?",
     "a": "Cheques de pago diferido, letras de cambio, pagarés, certificados de depósito, warrants y certificados de depósito a plazo fijo.",
+    "inc": [
+      "Acciones ordinarias y preferidas.",
+      "Títulos públicos (Bonos).",
+      "Obligaciones Negociables (ONs)."
+    ],
     "w": 1
   },
   {
     "q": "¿Se puede cancelar anticipadamente las operaciones a plazo?",
     "a": "Sí puede hacerlo el deudor, pagando el interés pactado del plazo.",
+    "inc": [
+      "No, deben cumplirse hasta el vencimiento.",
+      "Sí, y solo paga los intereses corridos hasta la fecha de cancelación.",
+      "Solo puede hacerlo el acreedor (colocador), no el deudor (tomador)."
+    ],
     "w": 1
   },
   {
     "q": "Un activo es:",
-    "a": "El conjunto de bienes y derechos que posee una sociedad, lo cual incluye bienes tangibles (propiedades, maquinaria, inventarios) y otros recursos (como cuentas por cobrar o inversiones).",
+    "a": "El conjunto de bienes y derechos que posee una sociedad (propiedades, maquinaria, cuentas por cobrar, inversiones).",
+    "inc": [
+      "El conjunto de deudas y obligaciones que posee una sociedad (Pasivo).",
+      "El capital aportado por los socios (Patrimonio Neto).",
+      "El resultado del ejercicio (Ganancia o Pérdida)."
+    ],
     "w": 1
   },
   {
-    "q": "Un importador debe pagar 1.000.000 USD en 60 días por una mercadería recién recibida. Las condiciones del país son devaluatorias. ¿Qué decisión tomaría?",
+    "q": "Un importador debe pagar 1.000.000 USD en 60 días. Las condiciones del país son devaluatorias. ¿Qué decisión tomaría?",
     "a": "Comprar dólar futuro a 60 días.",
+    "inc": [
+      "Vender dólar futuro a 60 días.",
+      "Comprar un PUT (opción de venta) de dólar.",
+      "Vender un CALL (opción de compra) de dólar."
+    ],
     "w": 1
   },
   {
-    "q": "Tengo una posición de compra a 280 USD/ton en contrato de futuro de soja por 30 toneladas. Si el precio bajara a 270 USD/ton, entonces...",
-    "a": "Yo debería pagar diferencia diaria de $10 USD/ton, por cada contrato.",
+    "q": "Tengo una posición de compra a 280 USD/ton en contrato de futuro de soja. Si el precio bajara a 270 USD/ton, entonces...",
+    "a": "Yo debería pagar diferencia diaria de $10 USD/ton.",
+    "inc": [
+      "Yo recibiría una ganancia de $10 USD/ton.",
+      "No pasa nada hasta el vencimiento.",
+      "Yo debería pagar la prima de la opción."
+    ],
     "w": 1
   },
   {
     "q": "Calcular el precio de un bono cupón cero, de valor nominal $ 100 a 10 años, con tasa 8%.",
     "a": "$46,32.",
+    "inc": [
+      "$92,59 (Valor Actual de $100 a 1 año al 8%)",
+      "$108,00 (Valor Futuro)",
+      "$45,00 (Cálculo incorrecto)"
+    ],
     "w": 1
   },
   {
     "q": "Dada una duración modificada de 5,21 y un incremento de la tasa de interés de 1,21%, ¿cuál variación de precios de un bono es la correcta?",
     "a": "-6,3%",
+    "inc": [
+      "+6,3%",
+      "-5,21%",
+      "+1,21%"
+    ],
     "w": 1
   },
   {
     "q": "A largo plazo, cualquier bono converge a su...",
-    "a": "Valor par.",
+    "a": "Valor par (100).",
+    "inc": [
+      "Valor técnico.",
+      "Valor de mercado inicial.",
+      "Valor residual."
+    ],
     "w": 1
   },
   {
     "q": "La cobertura NO significa:",
     "a": "Posicionarse en futuros a largo plazo ni a corto plazo, ni operar siempre vendido.",
+    "inc": [
+      "Mitigar los efectos de movimientos adversos en los precios.",
+      "Tomar una posición opuesta a la que se tiene en el mercado físico.",
+      "Gestionar riesgos específicos asociados al subyacente."
+    ],
     "w": 1
   },
   {
     "q": "Si el tenedor del call, lo vende, entonces...",
     "a": "Tendrá una ganancia o pérdida en función de los precios compra y de venta de la prima.",
+    "inc": [
+      "Cierra su obligación (el comprador no tiene obligación).",
+      "Recibe la prima original más intereses.",
+      "Debe depositar márgenes de garantía."
+    ],
     "w": 1
   },
   {
     "q": "La liquidez corriente de una empresa se refiere a:",
     "a": "Su capacidad para saldar sus deudas en el corto plazo.",
+    "inc": [
+      "Su capacidad para saldar sus deudas en el largo plazo (Solvencia).",
+      "Su capacidad de generar ganancias (Rentabilidad).",
+      "El porcentaje de su capital que cotiza en bolsa (Free Float)."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué relaciona el índice de solvencia?",
     "a": "Activo total / Pasivo total.",
+    "inc": [
+      "Activo corriente / Pasivo corriente (Liquidez).",
+      "Pasivo total / Patrimonio neto (Endeudamiento).",
+      "Resultado neto / Patrimonio neto (ROE)."
+    ],
     "w": 1
   },
   {
-    "q": "Los cheques de pago diferido (CDP) son garantizados por:",
+    "q": "Los cheques de pago diferido (CDP) del segmento 'Avalado' son garantizados por:",
     "a": "Una Sociedad de Garantía Recíproca (SGR).",
+    "inc": [
+      "El Mercado (BYMA o MAV).",
+      "La empresa libradora (Segmento Patrocinado).",
+      "El Agente de Depósito Colectivo (Caja de Valores)."
+    ],
     "w": 1
   },
   {
-    "q": "El valor libro del patrimonio neto es igual a...",
+    "q": "El valor libro (o valor contable) del patrimonio neto es igual a...",
     "a": "Los activos menos los pasivos.",
+    "inc": [
+      "Los activos corrientes menos los pasivos corrientes.",
+      "El precio de la acción por la cantidad de acciones.",
+      "El resultado neto del ejercicio."
+    ],
     "w": 1
   },
   {
     "q": "El aumento del precio de una opción (call y put) americana puede deberse a:",
     "a": "Un aumento en la volatilidad.",
+    "inc": [
+      "Una disminución de la volatilidad.",
+      "La cercanía a la fecha de vencimiento (reduce valor tiempo).",
+      "Una baja en la tasa de interés."
+    ],
     "w": 1
   },
   {
     "q": "Si el subyacente de un put con strike a $ 85 cotiza en $ 88, entonces:",
     "a": "La opción está out-the-money (OTM).",
+    "inc": [
+      "La opción está in-the-money (ITM).",
+      "La opción está at-the-money (ATM).",
+      "La opción está vencida."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles son operaciones a plazo en el mercado de capitales?",
     "a": "Operaciones a plazo del tipo pase y del tipo caución de valores negociables.",
+    "inc": [
+      "Operaciones de contado inmediato (T+0).",
+      "Operaciones de contado 48hs (T+2).",
+      "La suscripción primaria de acciones."
+    ],
     "w": 1
   },
   {
-    "q": "A mayor precio de ejercicio...",
+    "q": "A mayor precio de ejercicio (strike)...",
     "a": "Mayor será el precio de la prima de una opción put.",
+    "inc": [
+      "Menor será el precio de la prima de una opción put.",
+      "Mayor será el precio de la prima de una opción call.",
+      "No afecta el precio de la prima del put."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué afirmación es incorrecta?",
     "a": "El comprador del call tiene beneficios limitados y pérdidas ilimitadas.",
+    "inc": [
+      "El comprador del call tiene beneficios ilimitados y pérdidas limitadas (la prima).",
+      "El vendedor del call tiene beneficios limitados (la prima) y pérdidas ilimitadas.",
+      "El comprador del put tiene beneficios (casi) ilimitados y pérdidas limitadas (la prima)."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál característica NO es propia de los contratos de futuro?",
     "a": "Requiere liquidación cada 48 hs. de ganancias y pérdidas.",
+    "inc": [
+      "Son contratos estandarizados.",
+      "Existe una contraparte central que garantiza la operación.",
+      "Se liquidan diferencias diariamente."
+    ],
     "w": 1
   },
   {
-    "q": "Precio spot soja 350 USD, costo mensual de depósito de soja a $ 10, TEM USD 3%, precio futuro 370 USD a 30 días. ¿Hay desarbitraje?",
-    "a": "Sí, pues 370,5 USD > $ 370 USD.",
+    "q": "Precio spot soja 350 USD, costo mensual depósito $ 10, TEM USD 3%, precio futuro 370 USD a 30 días. ¿Hay desarbitraje?",
+    "a": "Sí, pues 370,5 USD (Valor Teórico) > $ 370 USD (Valor Mercado).",
+    "inc": [
+      "No, el precio de mercado es justo.",
+      "Sí, pues 370,5 USD (Valor Teórico) < $ 370 USD (Valor Mercado).",
+      "No se puede saber sin conocer la volatilidad."
+    ],
     "w": 1
   },
   {
     "q": "Si la TNA vencida para 182 días es 48%, entonces ¿cuál es la tasa efectiva anual adelantada equivalente?",
     "a": "34,96%.",
+    "inc": [
+      "53,76% (Es la TEA vencida).",
+      "48,00% (Es la TNA vencida).",
+      "24,00% (Es la tasa semestral)."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué representa el índice de rentabilidad?",
-    "a": "Relaciona el resultado del ejercicio con el capital invertido.",
+    "a": "Relaciona el resultado del ejercicio con el capital invertido (ej. ROE, ROA).",
+    "inc": [
+      "Relaciona el activo corriente con el pasivo corriente (Liquidez).",
+      "Relaciona el pasivo total con el patrimonio neto (Endeudamiento).",
+      "Mide la eficiencia en la utilización de los activos (Actividad)."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué es el índice de inmovilización del capital?",
     "a": "Es el cociente entre el activo no corriente y el activo total.",
+    "inc": [
+      "Es el cociente entre el activo corriente y el activo total.",
+      "Es el cociente entre el pasivo no corriente y el pasivo total.",
+      "Es el cociente entre el patrimonio neto y el activo total."
+    ],
     "w": 1
   },
   {
     "q": "Si la beta de una acción sube, entonces...",
     "a": "Su volatilidad sube respecto al índice.",
+    "inc": [
+      "Su volatilidad baja respecto al índice.",
+      "Su rentabilidad por dividendo sube.",
+      "Su riesgo específico (no sistemático) baja."
+    ],
     "w": 1
   },
   {
     "q": "La diferencia fundamental entre un futuro y un forward es...",
-    "a": "El futuro tiene contraparte, pero el forward no.",
+    "a": "El futuro tiene contraparte central (es estandarizado) y el forward no (es OTC).",
+    "inc": [
+      "El futuro es un contrato bilateral (OTC) y el forward es estandarizado.",
+      "El futuro paga prima y el forward no.",
+      "El futuro es una opción de compra y el forward una de venta."
+    ],
     "w": 1
   },
   {
-    "q": "El CPD goza de autorización de oferta pública en los términos de la ley 26.831 y podrá ser negociado en mercado bajo competencia de la CNV.",
+    "q": "El CPD (Cheque de Pago Diferido) goza de autorización de oferta pública en los términos de la ley 26.831...",
     "a": "Verdadero.",
+    "inc": [
+      "Falso.",
+      "Falso, se rige solo por la ley de cheques.",
+      "Falso, solo los pagarés tienen oferta pública."
+    ],
     "w": 1
   },
   {
-    "q": "El vendedor de una opción de venta americana...",
-    "a": "Está obligado a comprar al precio de ejercicio en cualquier fecha hasta el vencimiento, en caso de que la opción sea ejercida por el tenedor del put.",
+    "q": "El vendedor de una opción de venta (PUT) americana...",
+    "a": "Está obligado a comprar al precio de ejercicio en cualquier fecha hasta el vencimiento, si el tenedor ejerce.",
+    "inc": [
+      "Está obligado a vender al precio de ejercicio (Vendedor de CALL).",
+      "Tiene el derecho de comprar al precio de ejercicio (Comprador de PUT).",
+      "Tiene el derecho de vender al precio de ejercicio (Comprador de PUT)."
+    ],
     "w": 1
   },
   {
     "q": "En el mercado secundario, ¿cómo se expresa la cotización de un bono?",
-    "a": "En valor nominal.",
+    "a": "En valor nominal (precio por cada 100 de VN).",
+    "inc": [
+      "En su valor técnico.",
+      "En su valor residual.",
+      "En su valor de paridad."
+    ],
     "w": 1
   },
   {
-    "q": "En una operación de caución, el comprador a plazo firme puede:",
-    "a": "Cancelar anticipadamente la operación, abonando el importe pautado al vencimiento original.",
+    "q": "En una operación de caución, el comprador a plazo firme (error en pregunta, debería ser 'tomador') puede:",
+    "a": "Cancelar anticipadamente la operación, abonando el importe pautado (interés total).",
+    "inc": [
+      "Cancelar anticipadamente pagando solo el interés corrido.",
+      "No puede cancelar anticipadamente.",
+      "Cancelar anticipadamente sin pagar intereses."
+    ],
     "w": 1
   },
   {
     "q": "En las opciones, ¿quién asume mayor riesgo?",
-    "a": "El vendedor.",
+    "a": "El vendedor (lanzador).",
+    "inc": [
+      "El comprador (tenedor).",
+      "Ambos asumen el mismo riesgo.",
+      "Ninguno asume riesgo, lo asume el mercado."
+    ],
     "w": 1
   },
   {
     "q": "Las operaciones realizadas en el mercado pueden ser:",
-    "a": "Operaciones de contado.",
+    "a": "Operaciones de contado (T+0, T+1, T+2) y operaciones a plazo.",
+    "inc": [
+      "Solo operaciones de contado (T+2).",
+      "Solo operaciones a plazo (futuros y opciones).",
+      "Solo operaciones de contado inmediato (T+0)."
+    ],
     "w": 1
   },
   {
     "q": "Al vencimiento de una caución, el tomador paga...",
     "a": "El valor aforado de la garantía más los gastos.",
+    "inc": [
+      "El valor aforado menos los intereses (los pagó al inicio).",
+      "El capital más los intereses (los paga al final).",
+      "Solo los gastos, el capital e interés se netean."
+    ],
     "w": 1
   },
   {
     "q": "¿Cómo se valoriza la garantía de los valores puestos en garantía en una caución?",
-    "a": "Al último precio de cierre de liquidar en contado normal.",
+    "a": "Al último precio de cierre de liquidar en contado normal (T+2).",
+    "inc": [
+      "Al precio de contado inmediato (T+0).",
+      "Al valor nominal del título.",
+      "Al valor técnico del título."
+    ],
     "w": 1
   },
   {
     "q": "¿A qué está asociado principalmente el riesgo de los derivados?",
     "a": "A las características del subyacente.",
+    "inc": [
+      "Al riesgo de la contraparte central.",
+      "Al riesgo de liquidez del mercado.",
+      "Al riesgo de la prima pagada."
+    ],
     "w": 1
   },
   {
     "q": "La negociación de cheques de pago diferido sí está comprendida en la ley 26.831.",
     "a": "Verdadero.",
+    "inc": [
+      "Falso.",
+      "Falso, solo se rige por la Ley de Cheques 24.452.",
+      "Falso, está comprendida en la Ley de Sociedades 19.550."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué cobra el colocador de una caución al final de la operación?",
-    "a": "Aforo más intereses.",
+    "a": "El capital (valor aforado) más los intereses.",
+    "inc": [
+      "Solo el capital (los intereses los cobró al inicio).",
+      "El capital más los intereses, menos los gastos.",
+      "El capital más la garantía."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué variable aumenta el precio de un put?",
-    "a": "Aumento del precio de ejercicio.",
+    "a": "Aumento del precio de ejercicio (strike).",
+    "inc": [
+      "Aumento del precio del subyacente.",
+      "Disminución de la volatilidad.",
+      "Cercanía a la fecha de vencimiento."
+    ],
     "w": 1
   },
   {
     "q": "Los derivados sirven para...",
-    "a": "Gestionar riesgos específicos.",
+    "a": "Gestionar riesgos específicos (cobertura).",
+    "inc": [
+      "Invertir sin riesgo.",
+      "Obtener financiamiento de largo plazo (ONs).",
+      "Tomar participación en empresas (Acciones)."
+    ],
     "w": 1
   },
   {
     "q": "Si el strike de un call es $ 2 y el precio del subyacente es $ 4, entonces:",
-    "a": "La opción se lanzó in-the-money (ITM).",
+    "a": "La opción está in-the-money (ITM).",
+    "inc": [
+      "La opción está out-the-money (OTM).",
+      "La opción está at-the-money (ATM).",
+      "La opción no tiene valor intrínseco."
+    ],
     "w": 1
   },
   {
     "q": "Los márgenes de garantía en la negociación de futuros...",
     "a": "Sirven como garantía de cumplimiento.",
+    "inc": [
+      "Son el precio de compra del contrato (Prima).",
+      "Solo los deposita el comprador.",
+      "Solo los deposita el vendedor."
+    ],
     "w": 1
   },
   {
     "q": "Compra de un put con strike $ 18 y spot $ 15. La opción se encuentra...",
     "a": "In-the-money (ITM).",
+    "inc": [
+      "Out-the-money (OTM).",
+      "At-the-money (ATM).",
+      "Sin valor intrínseco."
+    ],
     "w": 1
   },
   {
-    "q": "Se suscribe una acción por cada 3 acciones de tenencia. El valor de la prima de suscripción es $ 2 y el precio de la acción antes de la operación es $ 4. Por lo tanto, el valor de paridad será:",
-    "a": "$3,33.",
+    "q": "Se suscribe 1 acción nueva por cada 3 de tenencia. Prima $ 2. Precio anterior $ 4. El valor de paridad será:",
+    "a": "$3,50 (Cálculo: (3 * $4 + (1 * $2)) / 4 acciones totales)",
+    "inc": [
+      "$3,33 (Cálculo incorrecto)",
+      "$3,00 (Cálculo incorrecto)",
+      "$4,00 (Precio anterior)"
+    ],
     "w": 1
   },
   {
-    "q": "En un aumento de capital por suscripción a razón de 0,5 acciones nuevas por cada una de tenencia actual, la prima es $ 0,45. Si el último precio antes del inicio del periodo de suscripción es de $ 1,5, entonces el precio del derecho de suscripción será:",
-    "a": "$ 0,0333.",
+    "q": "Aumento de capital 0,5 acciones nuevas por cada 1 antigua. Prima $ 0,45. Precio anterior $ 1,5. El precio del derecho de suscripción será:",
+    "a": "$ 0,0333 (Cálculo complejo, Px = 1.4; Derecho = 0.05 / 1.5 = 0.0333)",
+    "inc": [
+      "$ 0,10",
+      "$ 0,45",
+      "$ 1,05"
+    ],
     "w": 1
   },
   {
-    "q": "En una suscripción de acciones por subasta, con precio de corte a $ 2,10, corresponde asignar 300 acciones a ese valor. Se recibió tres ofertas a ese precio: A, 300 acciones; B, 50 acciones; C, 250 acciones. La asignación final para los tres inversores... debe ser:",
-    "a": "A, 150 acciones; B, 25 acciones; C, 125 acciones.",
+    "q": "Suscripción por subasta, precio de corte $ 2,10, se asignan 300 acciones. Ofertas: A=300, B=50, C=250 (Total 600). La asignación final es:",
+    "a": "A: 150 acciones; B: 25 acciones; C: 125 acciones (Prorrateo 50%).",
+    "inc": [
+      "A: 300 acciones; B: 0 acciones; C: 0 acciones (Prioridad por tiempo).",
+      "A: 100 acciones; B: 100 acciones; C: 100 acciones (Partes iguales).",
+      "A: 300 acciones; B: 50 acciones; C: 250 acciones (Asignación total)."
+    ],
     "w": 1
   },
   {
-    "q": "Se realiza una operación de caución con 1.000 acciones de valor nominal $ 10, aforo 50%. El valor contado normal es $ 10; el contado inmediato es $ 10,30; y el último cierre de contado normal es $ 10,20. Por lo tanto, el tomador recibirá:",
-    "a": "$ 5.100 menos intereses.",
+    "q": "Operación de caución con 1.000 acciones, aforo 50%. Cierre contado normal $ 10,20. El tomador recibirá:",
+    "a": "$ 5.100 menos intereses (1.000 * 10,20 * 50% = 5.100)",
+    "inc": [
+      "$ 10.200 menos intereses (Valor total sin aforo).",
+      "$ 5.000 menos intereses (Usando VN $10).",
+      "$ 5.150 menos intereses (Usando CI $10,30)."
+    ],
     "w": 1
   },
   {
-    "q": "Si aumenta un 200% el capital y los accionistas habían suscrito sus acciones a $ 1,2 y hoy las mismas valen $ 1,8, entonces ¿cuánto deben abonar?",
-    "a": "$0,3.",
+    "q": "Bono con pago anual de cupones de $ 100, VN $ 1.000, vence en 4 años y TIR 12%. El rendimiento actual (current yield) es:",
+    "a": "10,65%. (Precio P=939.25; RC = 100 / 939.25)",
+    "inc": [
+      "10,00% (Tasa del Cupón).",
+      "12,00% (TIR).",
+      "8,00% (Tasa incorrecta)."
+    ],
     "w": 1
   },
   {
-    "q": "En un aumento del 100% por suscripción, con prima $ 2, el último precio antes del inicio de suscripción fue $ 4. Por lo tanto, la paridad será:",
-    "a": "$3.",
+    "q": "Activo Cte $12M, Pasivo Cte $15M, Patrimonio Neto $25M, Pasivo Total $22M. Calcular Liquidez:",
+    "a": "0,80 (Activo Cte / Pasivo Cte)",
+    "inc": [
+      "2,13 (Solvencia)",
+      "0,88 (Endeudamiento)",
+      "0,34 (ROE)"
+    ],
     "w": 1
   },
   {
-    "q": "Bono con pago anual de cupones de $ 100, con valor nominal $ 1.000, vencimiento 4 años y TIR 12%. El rendimiento actual (current yield) del bono es:",
-    "a": "10,65%.",
+    "q": "Activo Total $47M, Pasivo Total $22M. Calcular Solvencia:",
+    "a": "2,13 (Activo Total / Pasivo Total)",
+    "inc": [
+      "0,80 (Liquidez)",
+      "0,88 (Endeudamiento)",
+      "0,18 (ROA)"
+    ],
     "w": 1
   },
   {
-    "q": "Tenemos Activo corriente $ 12M... Pasivo corriente $ 15M... Calcular:",
-    "a": "Índice de endeudamiento = 0,88 (88%)",
+    "q": "Pasivo Total $22M, Patrimonio Neto $25M. Calcular Índice de Endeudamiento:",
+    "a": "0,88 (Pasivo Total / Patrimonio Neto)",
+    "inc": [
+      "0,80 (Liquidez)",
+      "2,13 (Solvencia)",
+      "3,33 (Valor Libro)"
+    ],
     "w": 1
   },
   {
-    "q": "Tenemos Activo corriente $ 12M... Pasivo corriente $ 15M... Calcular:",
-    "a": "Solvencia = 2,13636...",
+    "q": "Resultado Neto $8,5M, Patrimonio Neto $25M. Calcular ROE (Return on Equity):",
+    "a": "0,34 (34%) (Resultado Neto / Patrimonio Neto)",
+    "inc": [
+      "0,18 (18%) (ROA)",
+      "0,88 (Endeudamiento)",
+      "2,13 (Solvencia)"
+    ],
     "w": 1
   },
   {
-    "q": "Tenemos Activo corriente $ 12M... Pasivo corriente $ 15M... Calcular:",
-    "a": "Liquidez = 0,8 (80%)",
-    "w": 1
-  },
-  {
-    "q": "Tenemos Activo corriente $ 12M... Pasivo corriente $ 15M... Calcular:",
-    "a": "Valor libro = 3,333...",
-    "w": 1
-  },
-  {
-    "q": "Tenemos Activo corriente $ 12M... Pasivo corriente $ 15M... Calcular:",
-    "a": "ROE = 0,34 (34%)",
-    "w": 1
-  },
-  {
-    "q": "Tenemos Activo corriente $ 12M... Pasivo corriente $ 15M... Calcular:",
-    "a": "ROA = 0,1808 (18,08%)",
+    "q": "Resultado Neto $8,5M, Activo Total $47M. Calcular ROA (Return on Assets):",
+    "a": "0,18 (18%) (Resultado Neto / Activo Total)",
+    "inc": [
+      "0,34 (34%) (ROE)",
+      "0,80 (Liquidez)",
+      "3,33 (Valor Libro)"
+    ],
     "w": 1
   },
   {
     "q": "La denominación de un fondo común de inversión debe incluir:",
     "a": "Las siglas F.C.I.",
+    "inc": [
+      "El nombre de la Sociedad Gerente.",
+      "La calificación de riesgo.",
+      "La tasa de rendimiento esperada."
+    ],
     "w": 1
   },
   {
     "q": "Definición de FCI:",
-    "a": "Es un instrumento de inversión colectiva formado por aportes de un grupo de inversores con los mismos objetivos de inversión.",
+    "a": "Es un instrumento de inversión colectiva formado por aportes de un grupo de inversores con los mismos objetivos.",
+    "inc": [
+      "Es una sociedad anónima que cotiza en bolsa.",
+      "Es un patrimonio de afectación administrado por un fiduciario (Fideicomiso).",
+      "Es un título de deuda emitido por una empresa (ON)."
+    ],
     "w": 1
   },
   {
-    "q": "Indicar el monto de dinero que se obtiene de una operación de rescate si se rescata 8.512 cuotapartes el día 6 de enero. (Datos: VCP 6-ene: $ 10.643; Comisión rescate 2,9%)",
-    "a": "$87.966.012,74",
+    "q": "Se rescatan 8.512 cuotapartes el 6 de enero (Valor CP $ 10.643). Comisión de rescate 2,9%. ¿Monto neto a recibir?",
+    "a": "$87.966.012,74 (Cálculo: (8.512 * 10.643) * (1 - 0,029))",
+    "inc": [
+      "$90.593.216,00 (Monto bruto sin comisión).",
+      "$2.627.203,26 (Valor de la comisión).",
+      "$89.704.839,12 (Error de cálculo)."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál de estas funciones NO se encuentra a cargo de la Sociedad Depositaria de FCI?",
-    "a": "Confeccionar la contabilidad del fondo.",
+    "a": "Confeccionar la contabilidad del fondo (Función de la S. Gerente).",
+    "inc": [
+      "Custodiar los activos del fondo.",
+      "Liquidar las operaciones de compra-venta.",
+      "Llevar el registro de las cuotapartes."
+    ],
     "w": 1
   },
   {
-    "q": "Un FCI encuadrado bajo el inciso A del art. 4, especializado en activos de renta fija, mantiene en cartera la siguiente inversión, en la cual se ha excedido:",
+    "q": "Un FCI especializado en activos de renta fija, mantiene en cartera 25% de acciones emitidas en el país. ¿En cuál inversión se encuentra excedido?",
     "a": "25% de acciones emitidas en el país.",
+    "inc": [
+      "No está excedido, los fondos mixtos lo permiten.",
+      "No se puede saber sin conocer el % de liquidez.",
+      "No está excedido si el 75% restante es Renta Fija."
+    ],
     "w": 1
   },
   {
-    "q": "De acuerdo a la normativa, ¿cuál cartera cumple con las limitaciones estipuladas para un FCI abierto de renta fija?",
+    "q": "De acuerdo a la normativa, ¿cuál cartera cumple con las limitaciones para un FCI abierto de renta fija?",
     "a": "Mínimo, 80% en instrumentos de renta fija, pero no más de 10% en activos de un mismo emisor.",
+    "inc": [
+      "Mínimo, 50% en renta fija y 50% en renta variable.",
+      "100% invertido en un solo bono del Tesoro Nacional.",
+      "80% en renta fija y 20% en metales preciosos."
+    ],
     "w": 1
   },
   {
-    "q": "Un FCI cuya moneda es el dólar, emite dos clases de cuotaparte las cuales son en pesos y en dólares. Se podrá abonar rescates totales o parciales en...",
+    "q": "Un FCI cuya moneda es el dólar, emite cuotapartes en pesos y en dólares. Se podrá abonar rescates totales o parciales en...",
     "a": "En la misma moneda en que se realizó la suscripción.",
+    "inc": [
+      "Siempre en dólares, por ser la moneda del fondo.",
+      "Siempre en pesos, por ser la moneda de curso legal.",
+      "En la moneda que elija la Sociedad Gerente."
+    ],
     "w": 1
   },
   {
     "q": "Se considera FCI a...",
     "a": "Un patrimonio indiviso.",
+    "inc": [
+      "Una sociedad anónima.",
+      "Una sociedad de responsabilidad limitada.",
+      "Una entidad autárquica."
+    ],
     "w": 1
   },
   {
-    "q": "La moneda de un FCI establecida en el reglamento de gestión determina la moneda de los activos que pueden integrar la cartera de inversiones del mismo.",
+    "q": "La moneda de un FCI (establecida en el Reglamento) determina la moneda de los activos que pueden integrar la cartera.",
     "a": "Falso.",
+    "inc": [
+      "Verdadero.",
+      "Verdadero, un fondo en USD solo puede tener activos en USD.",
+      "Falso, pero debe mantener al menos 75% en la moneda del fondo."
+    ],
     "w": 1
   },
   {
-    "q": "En los FCI abiertos de impacto Ambiental, Social y de Gobernanza (FCI ASG), el plazo mínimo de conformación de cartera es de...",
-    "a": "180 días, según el art. 3 de la Resolución General 885/2021.",
+    "q": "En los FCI abiertos de impacto (FCI ASG), el plazo mínimo de conformación de cartera es de...",
+    "a": "180 días.",
+    "inc": [
+      "30 días.",
+      "90 días.",
+      "365 días."
+    ],
     "w": 1
   },
   {
-    "q": "Los FCI pueden operar instrumentos financieros derivados para fines de cobertura o inversión para gestionar la cartera.",
-    "a": "Es correcta la afirmación, siempre y cuando su exposición no supere el patrimonio del fondo.",
+    "q": "Los FCI pueden operar instrumentos financieros derivados...",
+    "a": "Es correcta la afirmación, para cobertura o inversión, siempre que su exposición no supere el patrimonio del fondo.",
+    "inc": [
+      "Falso, los FCI tienen prohibido operar derivados.",
+      "Verdadero, pero solo para fines de cobertura, no de inversión.",
+      "Verdadero, y pueden apalancarse sin límite de exposición."
+    ],
     "w": 1
   },
   {
     "q": "Respecto a los FCI cerrados...",
     "a": "Puede adquirirse cuotapartes de renta y/o condominio.",
+    "inc": [
+      "El número de cuotapartes es ilimitado (FCI Abierto).",
+      "Las cuotapartes pueden ser rescatadas en cualquier momento (FCI Abierto).",
+      "Solo pueden invertir en activos líquidos (FCI Abierto)."
+    ],
     "w": 1
   },
   {
     "q": "La composición de una cartera de un FCI, cuya suscripción es únicamente en pesos, puede contener:",
     "a": "Activos en monedas extranjera y local.",
+    "inc": [
+      "Únicamente activos en pesos.",
+      "Únicamente activos en moneda local, pero ajustables por CER/UVA.",
+      "Activos en moneda extranjera, pero no más del 10%."
+    ],
     "w": 1
   },
   {
-    "q": "¿Un FCI puede invertir en sus propios activos?",
+    "q": "¿Un FCI puede invertir en sus propios activos (emitidos por la S. Gerente)?",
     "a": "No, porque su cartera no debe tener valores negociables de la misma entidad.",
+    "inc": [
+      "Sí, sin restricciones.",
+      "Sí, hasta un 20% del patrimonio del fondo.",
+      "Sí, pero solo en colocaciones de mercado primario."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál activo NO debe ser incluido en un fondo de renta variable?",
     "a": "Pagaré bursátil al 50%.",
+    "inc": [
+      "Acciones ordinarias.",
+      "CEDEARs.",
+      "ADRs."
+    ],
     "w": 1
   },
   {
-    "q": "¿Cuál honorario NO está incluido en los resultados del fondo?",
+    "q": "¿Cuál honorario NO está incluido en los resultados (valor de cuotaparte) del fondo?",
     "a": "Gastos de suscripción.",
+    "inc": [
+      "Honorarios de la Sociedad Gerente.",
+      "Honorarios de la Sociedad Depositaria.",
+      "Gastos propios del fondo (auditoría, comisiones de ALyC)."
+    ],
     "w": 1
   },
   {
     "q": "Características posibles de un ETF:",
-    "a": "Conjunto de activos del exterior que cotiza en los mercados y se propone seguir un índice de referencia o commodity, bajo administración pasiva.",
+    "a": "Conjunto de activos... que cotiza en bolsa y se propone seguir un índice de referencia... bajo administración pasiva.",
+    "inc": [
+      "Se suscribe y rescata al valor de cierre del día (FCI Abierto).",
+      "Tiene administración activa para superar al benchmark.",
+      "No permite la venta en descubierto."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál FCI tiene mayor plazo para estar totalmente integrado?",
-    "a": "FCI para proyectos de infraestructura agrícola.",
+    "a": "FCI para proyectos productivos de economías regionales e infraestructura (365 días).",
+    "inc": [
+      "FCI PyME (180 días).",
+      "FCI de Renta Fija (plazo no especificado, usualmente rápido).",
+      "FCI de Mercado de Dinero (plazo no especificado, inmediato)."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál FCI tiene un periodo para la conformación definitiva?",
     "a": "FCI para proyectos productivos de economías regionales e infraestructura.",
+    "inc": [
+      "FCI de Renta Variable.",
+      "FCI de Mercado de Dinero.",
+      "Todos los FCI tienen el mismo plazo de 30 días."
+    ],
     "w": 1
   },
   {
-    "q": "¿En cuál de las siguientes categorías debe estar inscrita una sociedad para intervenir en la colocación de cuotapartes de un FCI cerrado?",
+    "q": "¿En cuál categoría debe estar inscrita una sociedad para intervenir en la colocación de cuotapartes de un FCI cerrado?",
     "a": "Agente de colocación y distribución integral de FCI.",
+    "inc": [
+      "Agente de Negociación (AN).",
+      "Agente de Calificación de Riesgo (ACR).",
+      "Agente de Depósito Colectivo (ADC)."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles funciones NO están a cargo de la Sociedad Depositaria en un FCI?",
     "a": "Llevar el registro de las cuotapartes y expedir constancias solicitadas por los cuotapartistas.",
+    "inc": [
+      "Custodiar los activos del FCI.",
+      "Liquidar las operaciones de compra-venta.",
+      "Cobrar rentas y dividendos de los activos."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles funciones NO están a cargo de la Sociedad Depositaria en un FCI?",
     "a": "Percibir importe de suscripciones y realizar el pago de los rescates.",
+    "inc": [
+      "Custodiar los activos del FCI.",
+      "Liquidar las operaciones de compra-venta.",
+      "Cobrar rentas y dividendos de los activos."
+    ],
     "w": 1
   },
   {
     "q": "¿Quién puede comercializar las cuotapartes de un FCI?",
-    "a": "La Sociedad Gerente, la Sociedad Depositaria, el Agente Colocador y el Agente Distribuidor (simple o integral).",
+    "a": "La Sociedad Gerente, la Sociedad Depositaria, el Agente Colocador y el Agente Distribuidor.",
+    "inc": [
+      "Únicamente la Sociedad Gerente.",
+      "Únicamente la Sociedad Depositaria.",
+      "Únicamente los Agentes de Colocación y Distribución."
+    ],
     "w": 1
   },
   {
-    "q": "En un FCI PyME, el patrimonio del fondo debe estar invertido en activos que permitan el financiamiento de las PyMEs en...",
+    "q": "En un FCI PyME, el patrimonio del fondo debe estar invertido en activos que permitan el financiamiento de PyMEs en...",
     "a": "Al menos, en un 75%. De aquí, el 40% debe destinarse a valores negociables emitidos por PyMEs.",
+    "inc": [
+      "Al menos, en un 50% del patrimonio.",
+      "Al menos, en un 100% del patrimonio.",
+      "Al menos, en un 25% del patrimonio."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuándo se hace referencia a activos locales en un fondo?",
     "a": "Cuando son emitidos en el Mercosur y/o Chile.",
+    "inc": [
+      "Únicamente cuando son emitidos en Argentina.",
+      "Cuando son emitidos en cualquier país de Latinoamérica.",
+      "Cuando son emitidos en Argentina y cotizan en EE.UU."
+    ],
     "w": 1
   },
   {
     "q": "Según la ley, un fondo de renta mixta NO puede tener:",
     "a": "Metales preciosos.",
+    "inc": [
+      "Acciones (Renta Variable).",
+      "Bonos (Renta Fija).",
+      "Plazos Fijos."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál afirmación es correcta?",
     "a": "Los FCI pueden pagar los rescates con valores de cartera en casos excepcionales con previa autorización de la CNV.",
+    "inc": [
+      "Los FCI tienen prohibido pagar rescates con valores de cartera.",
+      "Los FCI pueden pagar rescates con valores de cartera libremente.",
+      "Solo los FCI Cerrados pueden pagar rescates con valores de cartera."
+    ],
     "w": 1
   },
   {
-    "q": "En FCI de dinero, el valor de la cuotaparte varía por...",
-    "a": "La valuación del fondo.",
+    "q": "En FCI de dinero (Money Market), el valor de la cuotaparte varía por...",
+    "a": "La valuación del fondo (aunque se busca que crezca establemente).",
+    "inc": [
+      "Se mantiene fija en 1.0000 y ajusta la cantidad de cuotapartes.",
+      "Varía según el precio del dólar.",
+      "Varía según el índice Merval."
+    ],
     "w": 1
   },
   {
     "q": "¿Quiénes tienen derecho a la distribución de utilidades en un FCI?",
     "a": "Los cuotapartistas.",
+    "inc": [
+      "La Sociedad Gerente.",
+      "La Sociedad Depositaria.",
+      "La Sociedad Gerente y la Depositaria."
+    ],
     "w": 1
   },
   {
     "q": "El FCI NO tiene por obligación informar...",
     "a": "La tasa de rendimientos esperados.",
+    "inc": [
+      "La composición de la cartera.",
+      "El valor de la cuotaparte.",
+      "Las comisiones y honorarios."
+    ],
     "w": 1
   },
   {
     "q": "Un FCI especializado en renta mixta NO se encuentra habilitado a:",
     "a": "Integrar parcialmente la cartera con metales preciosos.",
+    "inc": [
+      "Integrar la cartera con acciones.",
+      "Integrar la cartera con bonos.",
+      "Integrar la cartera con plazos fijos."
+    ],
     "w": 1
   },
   {
     "q": "En el caso de un FCI de Mercado de Dinero, el margen de liquidez debe constituirse sobre...",
     "a": "La porción de activos que valúen a devengamiento.",
+    "inc": [
+      "El total del patrimonio del fondo.",
+      "La porción de activos que valúen a precio de mercado.",
+      "No se exige margen de liquidez."
+    ],
     "w": 1
   },
   {
-    "q": "En un FCI de renta variable, ¿cuál es el máximo porcentaje de disponibilidad habilitado por una política de inversión específica?",
+    "q": "En un FCI de renta variable, ¿cuál es el máximo porcentaje de disponibilidad (liquidez) habilitado por norma?",
     "a": "Hay un límite de 20%, establecido por norma.",
+    "inc": [
+      "10%",
+      "50%",
+      "No hay límite, puede ser 100%."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál función NO se encuentra a cargo de la Sociedad Gerente de un FCI?",
-    "a": "Desempeñar la custodia de los activos del fondo.",
+    "a": "Desempeñar la custodia de los activos del fondo (Función de S. Depositaria).",
+    "inc": [
+      "Administrar el patrimonio del fondo.",
+      "Llevar la contabilidad del fondo.",
+      "Calcular el valor de la cuotaparte."
+    ],
     "w": 1
   },
   {
     "q": "Una cuotaparte es...",
     "a": "Unidad de medida de la participación que tiene el inversor dentro del fondo.",
+    "inc": [
+      "La acción de la Sociedad Gerente.",
+      "El bono que emite el fondo para financiarse.",
+      "El certificado de depósito de los activos del fondo."
+    ],
     "w": 1
   },
   {
-    "q": "En el caso de un FCI de dinero, el margen de liquidez debe constituirse sobre la porción de activos de...",
-    "a": "Renta fija.",
-    "w": 1
-  },
-  {
-    "q": "Un FCI de mercado de dinero tiene 10% en plazos fijos no precancelables, 25% en acciones emitidas en el país y 10% en plazos fijos precancelables. ¿En cuál inversión se encuentra excedido?",
+    "q": "Un FCI de mercado de dinero tiene 10% en PF no precancelables, 25% en acciones y 10% en PF precancelables. ¿En cuál inversión se encuentra excedido?",
     "a": "25% en acciones emitidas en el país.",
+    "inc": [
+      "10% en plazos fijos no precancelables.",
+      "10% en plazos fijos precancelables.",
+      "No está excedido en ninguna."
+    ],
     "w": 1
   },
   {
     "q": "Una afirmación correcta referida a un FCI es:",
-    "a": "Poder invertir un máximo de 30% en títulos públicos.",
+    "a": "Poder invertir un máximo de 30% en títulos públicos (de un mismo emisor).",
+    "inc": [
+      "Poder invertir un máximo de 50% en títulos públicos.",
+      "Poder invertir un máximo de 10% en títulos públicos.",
+      "No tener límite para invertir en títulos públicos."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál afirmación es correcta?",
-    "a": "Se podrá mantener disponibilidades de cuentas en el exterior, solo en caso de depósitos y transacciones en moneda extranjera que sean necesarios para operaciones de FCI en mercados del exterior.",
+    "a": "Se podrá mantener disponibilidades en cuentas del exterior, solo si son necesarias para operaciones de FCI en mercados del exterior.",
+    "inc": [
+      "Está prohibido mantener disponibilidades en cuentas del exterior.",
+      "Se puede mantener libremente disponibilidades en el exterior sin límite.",
+      "Solo se puede mantener disponibilidades en el exterior si el fondo es de Renta Variable."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles fideicomisos recomendaría a un cliente averso al riesgo?",
-    "a": "Un fideicomiso financiero (FF) de consumo, por ser más estables, menos volátiles y por estar menos expuestos al riesgo crediticio (riesgo de impago).",
-    "w": 1
-  },
-  {
-    "q": "¿Cuáles fideicomisos recomendaría a un cliente averso al riesgo?",
-    "a": "Un FF con certificados de deuda, de baja volatilidad y bajo rendimiento.",
+    "a": "Un FF con certificados de deuda (VDF), de baja volatilidad y bajo rendimiento.",
+    "inc": [
+      "Un FF con certificados de participación (CP), de alta volatilidad.",
+      "Un FF de un proyecto inmobiliario 'desde el pozo'.",
+      "Un FF cuyo subyacente sean contratos de futuros."
+    ],
     "w": 1
   },
   {
     "q": "La subasta o licitación pública de valores fiduciarios NO debe efectuarse por:",
     "a": "Licitación ciega o cerrada en el tramo competitivo.",
-    "w": 1
-  },
-  {
-    "q": "La subasta o licitación pública de valores fiduciarios NO debe efectuarse por:",
-    "a": "Licitación abierta para el tramo no competitivo.",
+    "inc": [
+      "Licitación abierta para el tramo competitivo.",
+      "Licitación cerrada para el tramo no competitivo.",
+      "Sistemas informáticos de los mercados autorizados."
+    ],
     "w": 1
   },
   {
     "q": "En la administración de un FF, el fiduciario podrá delegar la ejecución de las funciones administrativas, en cuyo caso será responsable de:",
     "a": "La gestión de los subcontratantes frente a terceros.",
+    "inc": [
+      "Nada, la responsabilidad se transfiere al subcontratante.",
+      "Solo de la elección del subcontratante, no de su gestión.",
+      "Solo es responsable el fiduciante."
+    ],
     "w": 1
   },
   {
-    "q": "En los FF destinados al financiamiento de PyMEs... ¿cuál es el plazo que no podrá exceder el fiduciario para acreditar que, al menos, el 70% de los activos fideicomitidos hayan sido destinados a operaciones celebradas con sujetos que califiquen como PyMEs CNV?",
+    "q": "En los FF destinados al financiamiento de PyMEs... ¿cuál es el plazo que no podrá exceder el fiduciario para acreditar que, al menos, el 70% de los activos se destinaron a PyMEs CNV?",
     "a": "Seis meses desde la integración de los fondos.",
+    "inc": [
+      "Un mes desde la integración de los fondos.",
+      "Un año desde la integración de los fondos.",
+      "No hay plazo, debe cumplirse al vencimiento."
+    ],
     "w": 1
   },
   {
     "q": "Puede prescindirse de la Asamblea de Beneficiarios de un FF cuando así lo decida...",
-    "a": "La manifestación de voluntad de los beneficiarios, acreditada conforme al marco legal y contractual.",
+    "a": "La manifestación de voluntad de los beneficiarios, acreditada conforme al marco legal.",
+    "inc": [
+      "El fiduciario, de forma unilateral.",
+      "El fiduciante, de forma unilateral.",
+      "La CNV, a pedido del fiduciario."
+    ],
     "w": 1
   },
   {
     "q": "Un FF con oferta pública es aquel en el cual...",
-    "a": "El fiduciario es una entidad inscrita en el Registro de Fiduciarios Financieros de la CNV y los beneficiarios son los titulares de los valores fiduciarios.",
+    "a": "El fiduciario es una entidad inscrita en el Registro de Fiduciarios Financieros de la CNV.",
+    "inc": [
+      "Es un contrato privado entre partes (Fideicomiso Ordinario).",
+      "El fiduciario es siempre un banco público.",
+      "Los beneficiarios son designados por el fiduciante y no pueden vender su participación."
+    ],
     "w": 1
   },
   {
     "q": "Los valores de deuda fiduciaria (VDF) son emitidos por:",
     "a": "El fiduciante, el fiduciario o un tercero.",
+    "inc": [
+      "Únicamente el fiduciario.",
+      "Únicamente el fiduciante.",
+      "Únicamente los beneficiarios."
+    ],
     "w": 1
   },
   {
     "q": "En los fideicomisos, ¿qué documento se utiliza para hacer oferta pública?",
     "a": "Prospecto de emisión.",
+    "inc": [
+      "El contrato de fideicomiso (es complementario).",
+      "El balance del fiduciante.",
+      "El informe de calificación de riesgo."
+    ],
     "w": 1
   },
   {
     "q": "El proceso de colocación primaria de valores fiduciarios deberá ser llevado a cabo...",
-    "a": "A través de sistemas informáticos presentados por los mercados autorizador por CNV.",
+    "a": "A través de sistemas informáticos presentados por los mercados autorizados por CNV.",
+    "inc": [
+      "Directamente por el fiduciario en sus oficinas.",
+      "A través de una subasta de viva voz.",
+      "A través de la plataforma web de la CNV."
+    ],
     "w": 1
   },
   {
     "q": "El documento básico, a través del cual se realiza la oferta pública de valores fiduciarios, es:",
     "a": "El prospecto o el suplemento del prospecto.",
+    "inc": [
+      "El contrato de fideicomiso.",
+      "El informe del Agente de Control y Revisión.",
+      "Los estados contables del fiduciario."
+    ],
     "w": 1
   },
   {
-    "q": "Me consultan sobre la viabilidad de que el fiduciante, una empresa dedicada a la comercialización de electrodomésticos, sea el agente de custodia de los documentos que respaldan los bienes fideicomitidos. Yo debo responder que...",
+    "q": "Me consultan sobre la viabilidad de que el fiduciante... sea el agente de custodia de los documentos... Yo debo responder que...",
     "a": "El fiduciante no puede ser designado como agente de custodia.",
+    "inc": [
+      "Sí, el fiduciante puede ser agente de custodia.",
+      "Sí, pero solo si el fiduciario lo supervisa.",
+      "Sí, siempre que sea un Fideicomiso PyME."
+    ],
     "w": 1
   },
   {
-    "q": "El fideicomisario es la persona a quien se le transmite la propiedad fiduciaria al concluir el fideicomiso, por lo que podrá ser:",
+    "q": "El fideicomisario (destinatario final de los bienes remanentes) podrá ser:",
     "a": "El fiduciante, el beneficiario y/o un tercero.",
+    "inc": [
+      "Únicamente el fiduciante.",
+      "Únicamente el beneficiario.",
+      "Únicamente el fiduciario."
+    ],
     "w": 1
   },
   {
-    "q": "La administración de un FF ha sido delegada en el fiduciante, quien se encuentra incumpliendo con el depósito de las cobranzas... Debo iniciar el reclamo ante...",
+    "q": "La administración de un FF ha sido delegada en el fiduciante, quien incumple con el depósito de las cobranzas... Debo iniciar el reclamo ante...",
     "a": "La CNV.",
+    "inc": [
+      "El fiduciario (quien delegó y sigue siendo responsable).",
+      "La UIF.",
+      "El BCRA."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuál FF se considera que se encuentra destinado al financiamiento de PyMEs?",
     "a": "Un FF cuyos fiduciantes califican como PYME CNV.",
+    "inc": [
+      "Un FF cuyos beneficiarios son PyMEs.",
+      "Cualquier FF con un monto menor a $10M.",
+      "Un FF cuyo fiduciario es un banco PyME."
+    ],
     "w": 1
   },
   {
     "q": "A efectos de la constitución de un FF, las normas CNV prohíben:",
-    "a": "La constitución por acto unilateral. Es decir, FF donde fiduciantes y fiduciarios sean la misma persona.",
+    "a": "La constitución por acto unilateral (fiduciante y fiduciario sean la misma persona).",
+    "inc": [
+      "Que el fiduciante sea también beneficiario.",
+      "Que el beneficiario sea también fideicomisario.",
+      "Que el fiduciario sea una entidad financiera."
+    ],
     "w": 1
   },
   {
     "q": "La custodia de los bienes fideicomitidos corresponde al fiduciario. Sin embargo, este podrá delegar la ejecución de algunas funciones en...",
-    "a": "El administrador o un tercero.",
+    "a": "El administrador o un tercero (pero no en el Fiduciante).",
+    "inc": [
+      "El fiduciante.",
+      "El beneficiario.",
+      "El fideicomisario."
+    ],
     "w": 1
   },
   {
-    "q": "La administración de un fideicomiso... corresponde al fiduciario. Sin embargo, se podrá delegar la ejecución de las funciones administrativas, en cuyo caso será responsable por...",
+    "q": "La administración de un fideicomiso... corresponde al fiduciario. Podrá delegar... en cuyo caso será responsable por...",
     "a": "Todas las funciones, aunque estén delegadas.",
+    "inc": [
+      "Nada, la responsabilidad se transfiere al delegado.",
+      "Solo por la correcta elección del delegado.",
+      "Solo por los bienes, no por la gestión."
+    ],
     "w": 1
   },
   {
-    "q": "En el marco de un FF con oferta pública se emite valores fiduciarios, los cuales podrán ser representados de acuerdo a los derechos que otorguen como:",
-    "a": "Valores de deuda fiduciaria y/o certificados de participación.",
+    "q": "En un FF con oferta pública se emite valores fiduciarios, los cuales podrán ser:",
+    "a": "Valores de deuda fiduciaria (VDF) y/o certificados de participación (CP).",
+    "inc": [
+      "Únicamente Valores de deuda fiduciaria (VDF).",
+      "Únicamente Certificados de participación (CP).",
+      "Únicamente Acciones ordinarias."
+    ],
     "w": 1
   },
   {
     "q": "Los valores fiduciarios podrán ser emitidos por:",
     "a": "El fiduciante, el fiduciario o un tercero.",
+    "inc": [
+      "Únicamente el fiduciario.",
+      "Únicamente el fiduciante.",
+      "Únicamente los beneficiarios."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando el fiduciario delega la ejecución de funciones administrativas, el agente de cobro debe depositar en la cuenta del fideicomiso... los fondos provenientes de las cobranzas...",
-    "a": "En un plazo de 3 días hábiles.",
+    "q": "Cuando el fiduciario delega la ejecución de funciones, el agente de cobro debe depositar los fondos en la cuenta del fideicomiso en un plazo de:",
+    "a": "3 días hábiles.",
+    "inc": [
+      "24 horas.",
+      "5 días hábiles.",
+      "En el plazo fijado contractualmente (Q327)."
+    ],
     "w": 1
   },
   {
-    "q": "Cuando el fiduciario delega la ejecución de las funciones administrativas, el agente de cobro debe depositar en la cuenta del fideicomiso... los fondos provenientes de cobranzas:",
+    "q": "Cuando el fiduciario delega la ejecución de funciones, el agente de cobro debe depositar los fondos...:",
     "a": "En el plazo fijado contractualmente.",
+    "inc": [
+      "En un plazo de 3 días hábiles (Q326).",
+      "En un plazo de 24 horas.",
+      "En un plazo de 5 días hábiles."
+    ],
     "w": 1
   },
+
   {
     "q": "¿Cuántos estados contables deben presentar al año las empresas con oferta pública?",
     "a": "4 (un estado cada trimestre).",
+    "inc": [
+      "1 (solo el anual).",
+      "2 (uno semestral y el anual).",
+      "12 (uno por mes)."
+    ],
     "w": 1
   },
   {
-    "q": "Una empresa emitirá obligaciones negociables destinadas a la compra de intangibles en el país. ¿Se le brinda beneficios por norma?",
+    "q": "Una empresa emitirá ONs destinadas a la compra de intangibles en el país. ¿Se le brinda beneficios por norma?",
     "a": "No.",
+    "inc": [
+      "Sí, la compra de intangibles está beneficiada.",
+      "Sí, siempre que los intangibles estén en el país.",
+      "Sí, pero solo si es una PyME CNV."
+    ],
     "w": 1
   },
   {
     "q": "Las Normas Internacionales de Información Financiera (NIIF) deben ser aplicadas para confeccionar los estados financieros de:",
     "a": "Emisores de acciones y ONs.",
+    "inc": [
+      "PyMEs CNV (es optativo).",
+      "Compañías de seguro (excluidas).",
+      "Cooperativas y Asociaciones Civiles (excluidas)."
+    ],
     "w": 1
   },
   {
     "q": "Que los estados financieros estén confeccionados de acuerdo a las NIIF implica...",
     "a": "Que están confeccionados de acuerdo a todas las NIIF vigentes.",
+    "inc": [
+      "Que están confeccionados solo con las normas NIIF (y no las NIC).",
+      "Que están confeccionados con normas locales (NCP Argentinas).",
+      "Que la empresa adoptó NIIF para PyMEs (es un set de normas distinto)."
+    ],
     "w": 1
   },
   {
     "q": "Según las NIIF, la medición de los activos financieros destinados a la venta se valúa a:",
     "a": "Valor razonable.",
+    "inc": [
+      "Costo amortizado (es para 'mantener a vencimiento').",
+      "Costo histórico.",
+      "Valor neto realizable (es para inventarios)."
+    ],
     "w": 1
   },
   {
-    "q": "Si en una nueva NIIF o modificación de una ya existente, el IASB... permite la aplicación anticipada de la norma, entonces...",
-    "a": "La CNV podría permitirlo también, pero con base en sus regulaciones locales y, posiblemente, a condiciones y requisitos específicos.",
+    "q": "Si en una nueva NIIF... el IASB permite la aplicación anticipada..., entonces...",
+    "a": "La CNV podría permitirlo también, pero con base en sus regulaciones locales y condiciones específicas.",
+    "inc": [
+      "La CNV lo prohíbe hasta que entre en vigencia oficial.",
+      "Es de aplicación obligatoria inmediata para todas las emisoras.",
+      "Solo se permite si el auditor externo lo aprueba."
+    ],
     "w": 1
   },
   {
-    "q": "El procedimiento de ajuste por inflación, a los fines de exposición, requiere que se presente:",
+    "q": "El procedimiento de ajuste por inflación... requiere que se presente:",
     "a": "El ejercicio anterior ajustado y reexpresado y el ejercicio actual ajustado, para ofrecer comparabilidad.",
+    "inc": [
+      "Solo el ejercicio actual ajustado, el anterior se deja a valor histórico.",
+      "Solo los activos no corrientes ajustados.",
+      "Un anexo con el ajuste, sin modificar los estados principales."
+    ],
     "w": 1
   },
   {
     "q": "La moneda funcional es...",
-    "a": "Es la moneda del entorno económico principal en el que opera la entidad, normalmente, y donde se genera y se emplea el efectivo.",
+    "a": "Es la moneda del entorno económico principal en el que opera la entidad.",
+    "inc": [
+      "Siempre el Dólar Estadounidense.",
+      "Siempre el Peso Argentino (es la moneda de presentación).",
+      "La moneda en que se presentan los estados financieros (Moneda de Presentación)."
+    ],
     "w": 1
   },
   {
     "q": "Un pasivo financiero debe ser dado de baja cuando:",
     "a": "Se cancela la obligación o cuando se prescribe o condona el compromiso.",
+    "inc": [
+      "El activo financiero que lo respalda se vende.",
+      "La empresa entra en concurso preventivo.",
+      "El valor razonable del pasivo es cero."
+    ],
     "w": 1
   },
   {
-    "q": "Según las NIIF, el estado integral de resultados (en su segunda parte, conocida como «Otros resultados integrales») debe contener partidas tales como:",
+    "q": "Según las NIIF, el estado integral de resultados (en su segunda parte, «Otros resultados integrales») debe contener partidas como:",
     "a": "Ajustes y reservas no distribuibles.",
+    "inc": [
+      "Las ventas y el costo de ventas (es de la 1ra parte).",
+      "Los gastos de administración y comercialización (es de la 1ra parte).",
+      "El resultado neto del ejercicio (es de la 1ra parte)."
+    ],
     "w": 1
   },
   {
-    "q": "Según las NIIF, se define «valor razonable al:",
-    "a": "Precio que sería recibido por vender un activo o transferir un pasivo, ordenada entre participantes del mercado a una fecha de medición determinada.",
+    "q": "Según las NIIF, se define «valor razonable» al:",
+    "a": "Precio que sería recibido por vender un activo o transferir un pasivo, en una transacción ordenada entre participantes del mercado.",
+    "inc": [
+      "Valor de costo histórico ajustado por inflación.",
+      "Valor que la gerencia de la empresa considera justo.",
+      "El valor de liquidación de la compañía."
+    ],
     "w": 1
   },
   {
     "q": "¿Cómo son valuados, según las NIIF, los activos no corrientes mantenidos para la venta?",
     "a": "Importe en libros o su valor razonable menos los costos de venta. Se elige el menor de ellos.",
+    "inc": [
+      "Siempre a valor razonable.",
+      "Siempre a importe en libros (costo).",
+      "Al valor de liquidación total."
+    ],
     "w": 1
   },
   {
-    "q": "El principal objetivo es asegurar que los primeros estados financieros conforme a las NIIF, así como sus informes, contengan información de alta calidad que...",
-    "a": "Sea transparente para los usuarios y sea comparable, suministrando un punto de partida para la contabilización.",
+    "q": "El principal objetivo es asegurar que los primeros estados financieros conforme a las NIIF... contengan información de alta calidad que...",
+    "a": "Sea transparente para los usuarios y sea comparable, suministrando un punto de partida.",
+    "inc": [
+      "Permita a la empresa pagar menos impuestos.",
+      "Sea idéntica a la presentada ante el BCRA (pueden diferir).",
+      "Oculte las pérdidas operativas."
+    ],
     "w": 1
   },
   {
     "q": "Los estados contables básicos son:",
     "a": "Estado de situación financiera, estado de resultados, estado de cambios en el patrimonio, estado de flujos de efectivo.",
+    "inc": [
+      "Reseña informativa y Memoria (son complementarios).",
+      "Prospecto de emisión y Hechos Relevantes (son informativos).",
+      "Balance General y Anexos de gastos (terminología local)."
+    ],
     "w": 1
   },
   {
     "q": "¿Qué es la «memoria» de los estados contables?",
     "a": "Es un documento que detalla lo que ha pasado en la compañía en ejercicio, bajo análisis y qué se espera.",
+    "inc": [
+      "Es un informe breve y obligatorio para estados trimestrales (Reseña Informativa).",
+      "Es el dictamen del auditor externo.",
+      "Es el detalle de los activos fijos de la empresa."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles son las ventajas de los estados financieros NIIF?",
-    "a": "Mayor transparencia y comparabilidad de la información financiera; facilitación en el acceso a los mercados de capitales; lenguaje financiero común a nivel global.",
+    "a": "Mayor transparencia y comparabilidad; facilitación en el acceso a mercados de capitales; lenguaje financiero común.",
+    "inc": [
+      "Reducción obligatoria de la carga impositiva.",
+      "Simplificación de la contabilidad, eliminando anexos.",
+      "Permite ocultar información sensible a los competidores."
+    ],
     "w": 1
   },
   {
     "q": "¿Cuáles son los componentes de un estado de resultados integral?",
     "a": "Estado de resultados (distribuible) y Otro resultado integral (reservas no distribuibles).",
+    "inc": [
+      "Activo, Pasivo y Patrimonio Neto (Edo. Sit. Fin.).",
+      "Flujo de actividades operativas, de inversión y financiación (EFE).",
+      "Ventas y Costo de Ventas únicamente."
+    ],
     "w": 1
   },
   {
     "q": "Las NIIF deben ser aplicadas para confeccionar los estados contables de:",
     "a": "Emisores de acciones y ONs.",
+    "inc": [
+      "Cooperativas y Asociaciones Civiles (Están excluidas).",
+      "Compañías de Seguro (Están excluidas).",
+      "PyMEs CNV (Es optativo)."
+    ],
     "w": 1
   },
   {
     "q": "Las NIIF son optativas para las empresas emisores del régimen PyME CNV:",
     "a": "Verdadero.",
+    "inc": [
+      "Falso (son obligatorias).",
+      "Falso (tienen prohibido usar NIIF).",
+      "Verdadero (pero deben usar NIIF para PyMEs obligatoriamente)."
+    ],
     "w": 1
   },
   {
-    "q": "Según las NIIF, el estado integral de resultados (en su segunda parte, conocida como Otros resultados ) debe contener partidas tales como:",
-    "a": "Diferencias de cambios de saldos finales de créditos y débitos en moneda extranjera al cierre del periodo.",
+    "q": "Según las NIIF, el estado integral de resultados (en «Otros resultados») debe contener partidas como:",
+    "a": "Diferencias de cambios de saldos finales de créditos y débitos en moneda extranjera.",
+    "inc": [
+      "El resultado por venta de bienes de uso (Resultado ordinario).",
+      "El costo de la mercadería vendida (Resultado ordinario).",
+      "El impuesto a las ganancias (Resultado ordinario)."
+    ],
     "w": 1
   },
   {
-    "q": "Según el art. 135 de la ley 26.831, el plazo de la prescripción de las acciones que nacieran de las infracciones... se interrumpirá:",
-    "a": "Por la resolución del Directorio de la CNV que ordene la apertura del sumario administrativo y por los actos y diligencias de procedimiento inherentes a la sustanciación del sumario...",
-    "w": 1
-  },
-  {
-    "q": "Según el art. 135 de la ley 26.831, el plazo de la prescripción de las acciones que nacieran de las infracciones... se interrumpirá:",
-    "a": "Por la realización de actos procesales de impulsión dictados por la jurisdicción procesal.",
+    "q": "El plazo de la prescripción de las acciones... se interrumpirá:",
+    "a": "Por la resolución del Directorio de la CNV que ordene la apertura del sumario administrativo.",
+    "inc": [
+      "Únicamente por actos procesales de la justicia penal.",
+      "Por la denuncia de un inversor.",
+      "Nunca se interrumpe, es un plazo fijo."
+    ],
     "w": 1
   },
   {
     "q": "A fin de apelar una sanción aplicada por CNV, el recurso directo se interpone y se funda...",
-    "a": "Por escrito ante la CNV, dentro de 10 días hábiles de notificada la medida y se concede con efecto devolutivo, con excepción del recurso contra la imposición de multa que será con efecto suspensivo.",
+    "a": "Por escrito ante la CNV, dentro de 10 días hábiles... y se concede con efecto devolutivo (salvo multa, suspensivo).",
+    "inc": [
+      "Oralmente ante el Directorio de la CNV, en 24 horas.",
+      "Por escrito ante la Cámara de Apelaciones, en 30 días.",
+      "Por escrito ante la UIF, que revisa la actuación de la CNV."
+    ],
     "w": 1
   },
   {
-    "q": "Prohibiciones de los agentes productores.",
-    "a": "Recibir o custodiar fondos y/o valores negociables de clientes o en nombre de clientes.",
+    "q": "Prohibiciones de los agentes productores (AP).",
+    "a": "Recibir o custodiar fondos y/o valores negociables de clientes.",
+    "inc": [
+      "Prestar asesoramiento a los clientes (Sí puede).",
+      "Captar clientes para un ALyC (Es su función).",
+      "Tener convenio con más de 1 ALyC (Sí puede)."
+    ],
     "w": 1
   },
   {
-    "q": "Prohibiciones de los agentes productores.",
-    "a": "Utilizar como propia la denominación de los agentes con los que haya celebrado convenio, ni actuar como representante de ellos.",
-    "w": 1
-  },
-  {
-    "q": "Prohibiciones de los agentes productores.",
-    "a": "Actuar como agente de colocación y distribución de FCI.",
-    "w": 1
-  },
-  {
-    "q": "Prohibiciones de los agentes productores.",
-    "a": "Delegar en terceros, total o parcialmente, la ejecución de los servicios que constituyan el objeto del contrato...",
-    "w": 1
-  },
-  {
-    "q": "Prohibiciones de los agentes productores.",
-    "a": "Utilizar contraseñas o firmas electrónicas del cliente.",
-    "w": 1
-  },
-  {
-    "q": "Prohibiciones de los agentes productores.",
-    "a": "Gestionar órdenes o administrar carteras de clientes.",
-    "w": 1
-  },
-  {
-    "q": "El informe largo o KAM del auditor independiente tiene por objeto:",
-    "a": "Aumentar la transparencia y la comunicación entre auditores, la empresa auditada y los usuarios de los estados financieros, permitiendo mejorar la confianza en el proceso de auditoría.",
+    "q": "El informe largo o KAM (Key Audit Matters) del auditor independiente tiene por objeto:",
+    "a": "Aumentar la transparencia y la comunicación... sobre cuestiones relevantes halladas en la auditoría.",
+    "inc": [
+      "Reemplazar el dictamen de auditoría (es un complemento).",
+      "Detallar el 100% de los asientos contables revisados.",
+      "Calificar el riesgo de la empresa (función del ACR)."
+    ],
     "w": 1
   },
   {
     "q": "Se considera que el auditor externo no cumple con el requisito de independencia si...",
     "a": "Es propietario, director, gerente o administrador del ente cuyos estados financieros certifica.",
+    "inc": [
+      "Es designado por la Asamblea de Accionistas (Es un requisito).",
+      "Emite una opinión con salvedades.",
+      "Cobra honorarios por su trabajo de auditoría."
+    ],
     "w": 1
   },
   {
     "q": "Es causal de exclusión del Registro de Asociaciones de Profesionales de Auditores...",
     "a": "El incumplimiento de las normas CNV.",
+    "inc": [
+      "Que uno de sus socios haya sido excluido (debe ser 1/3 o más).",
+      "Que la asociación tenga menos de 10 años de antigüedad.",
+      "Que la asociación audite a más de 50 empresas."
+    ],
     "w": 1
   },
   {
-    "q": "Para realizar una tarea de auditoría sin prejuicios, libre de conflicto de intereses o de influencia indebida de terceros, el auditor debe:",
+    "q": "Para realizar una tarea de auditoría sin prejuicios, libre de conflicto de intereses... el auditor debe:",
     "a": "Mantener una actitud mental independiente e independencia aparente.",
+    "inc": [
+      "Seguir las instrucciones del Comité de Auditoría sobre el dictamen.",
+      "Priorizar los intereses del accionista controlante.",
+      "Informar los hallazgos solo al Directorio."
+    ],
     "w": 1
   },
   {
-    "q": "Son causales de cancelación de inscripción de un auditor externo en el Registro de Auditores Externos las siguientes opciones:",
-    "a": "Que el auditor no haya sido designado para desempeñarse como tal... durante los últimos 3 años.",
+    "q": "Son causales de cancelación de inscripción de un auditor externo en el Registro de Auditores Externos...",
+    "a": "Ser inhabilitado para ejercer la profesión en algún CPCE del país.",
+    "inc": [
+      "Que el auditor emita una opinión adversa o con salvedades.",
+      "Que el auditor no haya sido designado en el último año (Plazo es 3 años).",
+      "Que el auditor informe un cambio de domicilio."
+    ],
     "w": 1
   },
   {
-    "q": "Son causales de cancelación de inscripción de un auditor externo en el Registro de Auditores Externos las siguientes opciones:",
-    "a": "Ser inhabilitado para ejercer la profesión en algún CPCE del país, por el tiempo que dure la sanción.",
-    "w": 1
-  },
-  {
-    "q": "Son causales de cancelación de inscripción de un auditor externo en el Registro de Auditores ExternOS las siguientes opciones:",
-    "a": "No haber informado la actualización de datos registrales dentro de 10 días de producida la novedad.",
-    "w": 1
-  },
-  {
-    "q": "La Revisión Externa Independiente, en materia PLAFT para los sujetos obligados del mercado de capitales, debe realizarse al menos...",
-    "a": "Una vez al año, aunque deberá actualizarse antes del plazo previsto si se produce una modificación en el nivel de riesgo del sujeto obligado.",
+    "q": "La Revisión Externa Independiente (PLAFT) para los sujetos obligados del mercado de capitales, debe realizarse al menos...",
+    "a": "Una vez al año.",
+    "inc": [
+      "Cada dos años (Solo para AN y AAGI que no manejan fondos).",
+      "Cada 6 meses.",
+      "Solo cuando la UIF lo solicita."
+    ],
     "w": 1
   },
   {
     "q": "Se considera rotación excesiva de cartera a:",
-    "a": "Un comportamiento de compra/venta frecuente que podría perjudicar el rendimiento de la cartera, debido a los costos y riesgos adicionales que conlleva.",
+    "a": "Un comportamiento de compra/venta frecuente que podría perjudicar el rendimiento de la cartera.",
+    "inc": [
+      "Una estrategia de 'Market Making' aprobada por el mercado.",
+      "La reinversión automática de dividendos.",
+      "Una estrategia de cobertura con derivados."
+    ],
     "w": 1
   },
   {
     "q": "Ante el requerimiento de comparecencia de un investigado (no abogado) ante la CNV, aquel podrá...",
     "a": "Decidir si concurrirá o no con asistencia letrada.",
+    "inc": [
+      "Está obligado a concurrir con asistencia letrada (abogado).",
+      "Tiene prohibido concurrir con asistencia letrada.",
+      "Debe enviar a su abogado en su reemplazo."
+    ],
     "w": 1
   },
   {
     "q": "Se admite la presentación de una adenda al prospecto cuando se produce:",
-    "a": "Una modificación de términos y condiciones, aumento del monto del programa y/o prórroga de la vigencia del programa, sin que sea necesario actualizar el prospecto ni modificar otra información.",
+    "a": "Una modificación de términos y condiciones, aumento del monto del programa y/o prórroga de la vigencia.",
+    "inc": [
+      "Un cambio en el directorio de la sociedad (es un Hecho Relevante).",
+      "La publicación de un nuevo estado contable trimestral.",
+      "Un error de tipeo menor en el prospecto original."
+    ],
     "w": 1
   }
 ]
+
